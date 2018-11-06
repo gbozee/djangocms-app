@@ -2,6 +2,12 @@ from django.shortcuts import render
 from django.conf.urls import include, url
 
 # Create your views here.
+
+
+def about(request):
+    return render(request, "design/about.html", {})
+
+
 def home(request):
     nav_links = [
         {
@@ -60,5 +66,5 @@ def home(request):
     return render(request, "design/index.html", {"nav_links": nav_links})
 
 
-urlpatterns = [url(r"^$", home, name="home")]
+urlpatterns = [url(r"^$", home, name="home"), url(r"^about$", about, name="about")]
 

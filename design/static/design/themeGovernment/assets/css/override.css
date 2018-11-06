@@ -1,0 +1,12 @@
+@media screen and (min-width: 1200px) {
+    nav>.nav.navbar-nav>li>a.donate_link {
+        padding-top: 8px;
+        padding-bottom: 5px;
+        border-bottom: none;
+    }
+    nav>.nav.navbar-nav>li>a>button {
+        padding: 10px 45px;
+        /* border-bottom: 2px solid #bdbbac; */
+        cursor: pointer;
+    }
+}

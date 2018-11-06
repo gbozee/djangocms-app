@@ -11,7 +11,14 @@
         {% show_menu from_level to_level extra_inactive extra_active template "" "" child %}
     </ul>
     {% else %}
-    <a href="{{ child.get_absolute_url }}"><span>{{ child.get_menu_title }}</span></a>
+    <a class="{% if child.get_menu_title == 'Donate' %}donate_link{% endif %}" href="{{ child.get_absolute_url }}">
+        {% if child.get_menu_title == 'Donate' %}
+        <button class="btn btn-darkened pull-left">{{child.get_menu_title}}
+        </button>
+        {% else %}
+        <span>{{ child.get_menu_title }}</span>
+        {% endif %}
+    </a>
     {% endif %}
 </li>
 {% if class and forloop.last and not forloop.parentloop %}{% endif %}
