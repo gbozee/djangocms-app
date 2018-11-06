@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>News</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <base href="" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="">
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <link rel="dns-prefetch" href="http://code.jquery.com" />
+  <link rel="dns-prefetch" href="http://fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="http://www.google-analytics.com" />
+  <link rel="icon" href="images/themegovrnmnt-favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="images/themegovrnmnt-favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/min/style.min.css">
+  <link rel="stylesheet" href="js/jquery/plugins/slick/slick.css">
+  <link rel="stylesheet" href="css/color/sandybay-color.min.css">
+  <link rel="stylesheet" href="css/color/skyline-color.min.css">
+  <link rel="stylesheet" href="css/color/raspberry-color.min.css">
+  <!--[if lt IE 9]>
+            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+  <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="body">
+  <div>
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1 navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="home-btn">Home</div>
+            <a href="index.html" class="navbar-brand">
+              <img src="images/logo.png" alt="">
+            </a>
+            <div class="line"></div>
+          </div>
+          <div class="col-lg-7 col-lg-offset-1 navbar-collapse collapse">
+            <nav role="navigation">
+              <ul id="navigation" class="nav navbar-nav navbar-right dl-menu">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Projects <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="projects.html">Projects</a>
+                    </li>
+                    <li><a href="projects-view.html">Project view</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Events <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="events.html">Events</a>
+                    </li>
+                    <li><a href="events-view.html">Events view</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">News <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li class="active"><span>News</span>
+                    </li>
+                    <li><a href="news-no-image.html">News view (no image)</a>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a href="news-view.html" class="dropdown-toggle" role="button" aria-expanded="false">News view <i>›</i></a>
+                      <ul class="dropdown-menu dl-submenu" role="menu">
+                        <li><a href="#">News view 3 level</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li>
+                  <a href="stuff.html">Stuff</a>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">About <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="about.html">About page</a>
+                    </li>
+                    <li><a href="404.html">404 page</a>
+                    </li>
+                    <li><a href="buttons.html">Design elements</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li>
+                  <a href="contacts.html">Contacts</a>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown colors">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">
+                    <span class="fa fa-cog"></span><i>›</i>
+                  </a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li class="active">
+                      <span>
+													<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+													<path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0"/>
+													<rect fill="#012267" width="14" height="14"/>
+													<rect x="14" fill="#9A0000" width="14" height="14"/>
+													</svg>
+													Government
+												</span>
+                    </li>
+                    <li>
+                      <a href="index-sandybay.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#01478e" width="14" height="14" />
+                          <rect x="14" fill="#ab6a0f" width="14" height="14" />
+                        </svg>
+                        SANDYBAY
+                      </a>
+                    </li>
+                    <li>
+                      <a href="index-skyline.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#232323" width="14" height="14" />
+                          <rect x="14" fill="#006b8e" width="14" height="14" />
+                        </svg>
+                        SKYLINE
+                      </a>
+                    </li>
+                    <li>
+                      <a href="index-raspberry.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#900021" width="14" height="14" />
+                          <rect x="14" fill="#242424" width="14" height="14" />
+                        </svg>
+                        Raspberry</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                      <a href="main-bordered.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#F8F8F8" width="28" height="14" />
+                          <rect x="5.906" fill="#E9E8DC" width="16.156" height="14" />
+                          <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="22.0625" y1="7" x2="28" y2="7">
+                            <stop offset="0" style="stop-color:#000000" />
+                            <stop offset="1" style="stop-color:#FFFFFF" />
+                          </linearGradient>
+                          <rect x="22.063" opacity="0.41" fill="url(#SVGID_1_)" width="5.938" height="14" />
+                          <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="0" y1="7" x2="5.9375" y2="7">
+                            <stop offset="0" style="stop-color:#FFFFFF" />
+                            <stop offset="1" style="stop-color:#000000" />
+                          </linearGradient>
+                          <rect opacity="0.41" fill="url(#SVGID_2_)" width="5.938" height="14" />
+                        </svg>
+                        Boxed</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="fw-news">
+      <div class="fw-image-parallax" data-parallax-url="http://placehold.it/1600x480"></div>
+      <div class="fw-news__pattern"></div>
+      <div class="fw-news__inner">
+        <div class="line-abt">
+          <a href="#" class="label label-default">
+            <div class="lbl-default__lns">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <span>Travel</span>
+            <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+              <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z"></path>
+            </svg>
+            <svg version="1.1" class="label-default__arr label-default__arr-lefts" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="0 0 17.145 30" enable-background="new 0 0 17.145 30" xml:space="preserve">
+              <path fill="#002266" d="M7.145,30L0,15.002L7.145,0h10v30H7.145z" />
+            </svg>
+          </a>
+          <time class="label label-time" datetime="2008-02-14">
+            <svg version="1.1" class="label-default__arr label-default__arr-left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.146px" height="30px" viewBox="0 0 17.146 30" enable-background="new 0 0 17.146 30" xml:space="preserve">
+              <path fill="#e9e8dc" d="M17.146,30H0l7.145-14.998L0,0h17.146V30z"></path>
+            </svg>15 September 2014 <span>08:27</span>
+            <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+              <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z"></path>
+            </svg>
+          </time>
+        </div>
+        <h1><a href="#">Rio de Janeiro City, city of God</a></h1>
+        <p>At once both a cinematic cityscape and a grimy urban front line, Rio de Janeiro, known as the cidade maravilhosa (marvelous city), is nothing if not exhilarating. <a href="" class="btn-read"><span>Read</span>
+					<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+					<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"></path>
+					</svg>
+				</a>
+        </p>
+      </div>
+    </section>
+    <div class="main">
+      <div class="news all-news bg-col">
+        <div class="container">
+          <div class="row">
+            <article class="col-xm-6 col-sm-6 col-md-4 col-lg-3 news-item news-item-2l">
+              <a href="#" class="news-item__image-wrap">
+                <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+              </a>
+              <div class="line-abt">
+                <a href="#" class="label label-default label-sm">
+                  <div class="lbl-default__lns">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span>Politics</span>
+                  <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </a>
+                <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September 2014 <span>08:27</span>
+                  <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </time>
+              </div>
+              <h3><a href="#">White House and House Republicans Clash on president new Immigration Plan </a></h3>
+              <p class="news-item__p">The Republicans, at a hearing, accused the administration of trying to do an end run around Congress.</p>
+              <a href="" class="btn-read"><span>Read</span>
+								<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+								<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+								</svg>
+							</a>
+            </article>
+            <article class="col-xm-6 col-sm-6 col-md-4 col-lg-3 news-item news-item-2r">
+              <a href="#" class="news-item__image-wrap">
+                <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+              </a>
+              <div class="line-abt">
+                <a href="#" class="label label-default label-sm">
+                  <div class="lbl-default__lns">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span>Travel</span>
+                  <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </a>
+                <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September 2014 <span>08:27</span>
+                  <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </time>
+              </div>
+              <h3><a href="#">The Prince Islands — place to visit</a></h3>
+              <p class="news-item__p">During the summer months the Princes’ Islands are popular destinations for day trips from Istanbul. As there is no traffic on the Islands, the only transport being horse and cart, they are incredibly peaceful compared with the city of Istanbul.</p>
+              <a href="" class="btn-read"><span>Read</span>
+								<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+								<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+								</svg>
+							</a>
+            </article>
+            <div class="clearfix visible-xm visible-sm"></div>
+            <article class="col-xm-6 col-sm-6 col-md-4 col-lg-3 news-item news-item-2l">
+              <a href="#" class="news-item__image-wrap">
+                <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+              </a>
+              <div class="line-abt">
+                <a href="#" class="label label-default label-sm">
+                  <div class="lbl-default__lns">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span>Culture</span>
+                  <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </a>
+                <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September 2014 <span>08:27</span>
+                  <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </time>
+              </div>
+              <h3><a href="#">Inside the our blog. A new look for Culture</a></h3>
+              <p class="news-item__p">Today we are unveiling the new look on our Culture sites too. This thread is the place to discuss these changes with members of the project team.</p>
+              <a href="" class="btn-read"><span>Read</span>
+								<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+								<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+								</svg>
+							</a>
+            </article>
+            <div class="clearfix visible-md"></div>
+            <article class="col-xm-6 col-sm-6 col-md-4 col-lg-3 news-item news-item-2r">
+              <a href="#" class="news-item__image-nobg">
+                <svg version="1.1" class="news-item__image-nobg-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1520px" height="855px" viewBox="0 0 1520 855" enable-background="new 0 0 1520 855" xml:space="preserve">
+                </svg>
+                <span class="no-photo"></span>
+              </a>
+              <div class="line-abt">
+                <a href="#" class="label label-default label-sm">
+                  <div class="lbl-default__lns">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span>Society</span>
+                  <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </a>
+                <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September 2014 <span>08:27</span>
+                  <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </time>
+              </div>
+              <h3><a href="#">Winter statement: the regions need active government not devolution</a></h3>
+              <p class="news-item__p">Of course Murray will allow councils more freedom to raise money and coordinate services, but this is no substitute for an active state working to deliver fairness.</p>
+              <a href="" class="btn-read"><span>Read</span>
+								<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+								<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+								</svg>
+							</a>
+            </article>
+            <div class="clearfix visible-xm visible-sm"></div>
+            <div class="clearfix visible-lg"></div>
+            <article class="col-xm-6 col-sm-6 col-md-4 col-lg-3 news-item news-item-2l">
+              <a href="#" class="news-item__image-wrap">
+                <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+              </a>
+              <div class="line-abt">
+                <a href="#" class="label label-default label-sm">
+                  <div class="lbl-default__lns">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span>Projects</span>
+                  <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </a>
+                <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September 2014 <span>08:27</span>
+                  <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </time>
+              </div>
+              <h3><a href="#">The biggest business you've never heard of</a></h3>
+              <p class="news-item__p">Inspired by the octopus, we’re on the road to creating materials that render things almost invisible. Yet as Philip Ball points out, the history of camouflage and our limited understanding of how creatures</p>
+              <a href="" class="btn-read"><span>Read</span>
+								<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+								<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+								</svg>
+							</a>
+            </article>
+            <article class="col-xm-6 col-sm-6 col-md-4 col-lg-3 news-item news-item-2r">
+              <a href="#" class="news-item__image-nobg">
+                <svg version="1.1" class="news-item__image-nobg-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1520px" height="855px" viewBox="0 0 1520 855" enable-background="new 0 0 1520 855" xml:space="preserve">
+                </svg>
+                <span class="no-photo"></span>
+              </a>
+              <div class="line-abt">
+                <a href="#" class="label label-default label-sm">
+                  <div class="lbl-default__lns">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span>Society</span>
+                  <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </a>
+                <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September 2014 <span>08:27</span>
+                  <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </time>
+              </div>
+              <h3><a href="#">Winter statement: the regions need active government not devolution</a></h3>
+              <p class="news-item__p">Of course Murray will allow councils more freedom to raise money and coordinate services, but this is no substitute for an active state working to deliver fairness.</p>
+              <a href="" class="btn-read"><span>Read</span>
+								<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+								<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+								</svg>
+							</a>
+            </article>
+            <div class="clearfix visible-xm visible-sm"></div>
+            <div class="clearfix visible-md"></div>
+            <article class="col-xm-6 col-sm-6 col-md-4 col-lg-3 news-item news-item-2l">
+              <a href="#" class="news-item__image-wrap">
+                <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+              </a>
+              <div class="line-abt">
+                <a href="#" class="label label-default label-sm">
+                  <div class="lbl-default__lns">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span>Politics</span>
+                  <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </a>
+                <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September 2014 <span>08:27</span>
+                  <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </time>
+              </div>
+              <h3><a href="#">White House and House Republicans Clash on president new Immigration Plan </a></h3>
+              <p class="news-item__p">The Republicans, at a hearing, accused the administration of trying to do an end run around Congress.</p>
+              <a href="" class="btn-read"><span>Read</span>
+								<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+								<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+								</svg>
+							</a>
+            </article>
+            <article class="col-xm-6 col-sm-6 col-md-4 col-lg-3 news-item news-item-2r">
+              <a href="#" class="news-item__image-wrap">
+                <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+              </a>
+              <div class="line-abt">
+                <a href="#" class="label label-default label-sm">
+                  <div class="lbl-default__lns">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span>Travel</span>
+                  <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </a>
+                <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September 2014 <span>08:27</span>
+                  <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </time>
+              </div>
+              <h3><a href="#">The Prince Islands — place to visit</a></h3>
+              <p class="news-item__p">During the summer months the Princes’ Islands are popular destinations for day trips from Istanbul. As there is no traffic on the Islands, the only transport being horse and cart, they are incredibly peaceful compared with the city of Istanbul.</p>
+              <a href="" class="btn-read"><span>Read</span>
+								<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+								<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+								</svg>
+							</a>
+            </article>
+            <div class="clearfix visible-xm visible-sm"></div>
+            <div class="clearfix visible-lg"></div>
+            <article class="col-xm-6 col-sm-6 col-md-4 col-lg-3 news-item news-item-2l">
+              <a href="#" class="news-item__image-wrap">
+                <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+              </a>
+              <div class="line-abt">
+                <a href="#" class="label label-default label-sm">
+                  <div class="lbl-default__lns">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span>Culture</span>
+                  <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </a>
+                <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September 2014 <span>08:27</span>
+                  <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </time>
+              </div>
+              <h3><a href="#">Inside the our blog. A new look for Culture</a></h3>
+              <p class="news-item__p">Today we are unveiling the new look on our Culture sites too. This thread is the place to discuss these changes with members of the project team.</p>
+              <a href="" class="btn-read"><span>Read</span>
+								<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+								<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+								</svg>
+							</a>
+            </article>
+            <div class="clearfix visible-md"></div>
+            <article class="col-xm-6 col-sm-6 col-md-4 col-lg-3 news-item news-item-2l">
+              <a href="#" class="news-item__image-wrap">
+                <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+              </a>
+              <div class="line-abt">
+                <a href="#" class="label label-default label-sm">
+                  <div class="lbl-default__lns">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span>Projects</span>
+                  <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </a>
+                <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September 2014 <span>08:27</span>
+                  <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </time>
+              </div>
+              <h3><a href="#">The biggest business you've never heard of</a></h3>
+              <p class="news-item__p">Inspired by the octopus, we’re on the road to creating materials that render things almost invisible. Yet as Philip Ball points out, the history of camouflage and our limited understanding of how creatures</p>
+              <a href="" class="btn-read"><span>Read</span>
+								<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+								<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+								</svg>
+							</a>
+            </article>
+            <div class="clearfix visible-xm visible-sm"></div>
+            <article class="col-xm-6 col-sm-6 col-md-4 col-lg-3 news-item news-item-2l">
+              <a href="#" class="news-item__image-wrap">
+                <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+              </a>
+              <div class="line-abt">
+                <a href="#" class="label label-default label-sm">
+                  <div class="lbl-default__lns">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span>Projects</span>
+                  <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </a>
+                <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September 2014 <span>08:27</span>
+                  <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </time>
+              </div>
+              <h3><a href="#">Exepting challanges of Kenya</a></h3>
+              <p class="news-item__p">Kenya officially the Republic of Kenya, is a country in the African Great Lakes region of East Africa. Its capital and largest city is Nairobi.</p>
+              <a href="" class="btn-read"><span>Read</span>
+								<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+								<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+								</svg>
+							</a>
+            </article>
+            <article class="col-xm-6 col-sm-6 col-md-4 col-lg-3 news-item news-item-2r">
+              <a href="#" class="news-item__image-nobg">
+
+                <svg version="1.1" class="news-item__image-nobg-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1520px" height="855px" viewBox="0 0 1520 855" enable-background="new 0 0 1520 855" xml:space="preserve">
+                </svg>
+                <span class="no-photo"></span>
+              </a>
+              <div class="line-abt">
+                <a href="#" class="label label-default label-sm">
+                  <div class="lbl-default__lns">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <span>Projects</span>
+                  <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </a>
+                <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September 2014 <span>08:27</span>
+                  <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                    <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                  </svg>
+                </time>
+              </div>
+              <h3><a href="#">The biggest business you've never heard of</a></h3>
+              <p class="news-item__p">Inspired by the octopus, we’re on the road to creating materials that render things almost invisible. Yet as Philip Ball points out, the history of camouflage and our limited understanding of how creatures</p>
+              <a href="" class="btn-read"><span>Read</span>
+								<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+								viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+								<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+								</svg>
+							</a>
+            </article>
+            <div class="clearfix visible-xm visible-sm"></div>
+            <div class="clearfix visible-md"></div>
+            <div class="clearfix visible-lg"></div>
+            <div class="tw-follow">
+              <a href="#" class="btn btn-default tw-item__follow">More news</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">Stay updated</div>
+            <form action="#" id="email-footer-form" role="form" method="post" novalidate="novalidate">
+              <div class="form-group">
+                <input type="email" id="fvi" class="form-control" placeholder="Email:" required>
+                <!-- <label for="fvi" class="control-label"></label> -->
+              </div>
+              <div id="loader-subscribe-form" class="form-loader hidden">
+                <div class="loader">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-darkened pull-left">Subscribe</button>
+            </form>
+            <div id="success-subscribe" class="success-message hidden">
+              <div class="suc-title"><i class="fa fa-check"></i>Thank you!</div>
+            </div>
+          </div>
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">We need your support</div>
+            <ul class="footer__ulist">
+              <li><a href="#">Donate</a>
+              </li>
+              <li><a href="#">Volunteer</a>
+              </li>
+              <li><a href="#">Fundraise</a>
+              </li>
+              <li><a href="#">Adopt a project</a>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix visible-sm-block visible-md-block"></div>
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">Contact</div>
+            <ul class="footer__icon-list">
+              <li class="icon-list__item icon-list__item-baloone">Kazantseva str. 7B, 29
+                <br>Mariupol 87500 Ukraine</li>
+              <li class="icon-list__item icon-list__item-phone">+38 (074) 458 78 78</li>
+              <li class="icon-list__item icon-list__item-letter"><a href="mailto:themes@makebecool.com">themes@makebecool.com</a> 
+                <br><a href="#">makebecool.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">Our mission</div>
+            <p>Yet as Philip Ball points out, the history of camouflage and our limited understanding of how creatures hide in nature may make the task trickier than it seems.</p>
+            <div class="copyrights copyrights__footer">Copyright © 2015. All Rights reserved.</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/jquery/jquery-1.11.1.min.js"></script>
+  <script src="js/otherlibs/bootstrap/bootstrap.js"></script>
+  <script src="js/jquery/plugins/Chart.js"></script>
+  <script src="js/jquery/plugins/bootstrap-select.js"></script>
+  <script src="js/jquery/plugins/slick/slick.js"></script>
+  <script src="js/jquery/plugins/topEventsAnimate.js"></script>
+  <script src="js/jquery/plugins/skrollr.js"></script>
+  <script src="js/jquery/plugins/jquery.sharrre.min.js"></script>
+  <script src="js/jquery/plugins/jquery.form.js"></script>
+  <script src="js/jquery/plugins/validation/jquery.validate.js"></script>
+  <script src="js/app/lib/site.js"></script>
+  <script src="js/app/lib/siteMode.js"></script>
+  <script src="js/app/mode/themeMode.js"></script>
+  <script src="js/app/modules/mainSlider.js"></script>
+  <script src="js/app/modules/menuAligns.js"></script>
+  <script src="js/app/modules/bgStretch.js"></script>
+  <script src="js/app/modules/eventAnimate.js"></script>
+  <script src="js/app/modules/stuffSlider.js"></script>
+  <script src="js/app/modules/gridsDiagramms.js"></script>
+  <script src="js/app/modules/barChart.js"></script>
+  <script src="js/app/modules/disquis.js"></script>
+  <script src="js/app/modules/stickyHeader.js"></script>
+  <script src="js/app/modules/globalScripts.js"></script>
+  <script src="js/app/modules/parallax.js"></script>
+  <script src="js/app/modules/backgroundImg.js"></script>
+  <script src="js/app/modules/scrollPlugin.js"></script>
+  <script src="js/app/modules/googleMap.js"></script>
+  <script src="js/app/modules/eventSlider.js"></script>
+  <script src="js/app/modules/stuffPage.js"></script>
+  <script src="js/app/modules/aboutDiagramms.js"></script>
+  <script src="js/app/modules/sharrre.js"></script>
+  <script src="js/app/modules/dtMenu.js"></script>
+  <script src="js/app/modules/formSubscribe.js"></script>
+  <script src="js/app/modules/formFieldsSubscribe.js"></script>
+  <script>
+    appMakeBeCool.gateway.init();
+  </script>
+</body>
+
+</html>

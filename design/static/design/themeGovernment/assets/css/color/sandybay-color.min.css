@@ -1,0 +1,172 @@
+
+/* Defaults
+blue:#01478e;
+dark-blue:#000b22;
+red:#ab6a0f;
+background:;
+
+new-blue:#01478e;
+new-red:#ab6a0f;
+new-dark-blue:#0029a3;
+new-background:#;
+new-link-hover:#002266;;
+-------------------------------*/
+
+/* 404
+-------------------------------*/
+.ff__title {color: #ab6a0f;}
+.ff__link {color: #01478e;}
+
+@media screen and (min-width: 1200px) {
+	.ff__link:hover {color: #01478e;}
+}
+
+
+/* Globals
+-------------------------------*/
+header {}
+.navbar-toggle {background-color: #ab6a0f;}
+.navbar-nav {background-color: #000;}
+.line {background-color: #ab6a0f;}
+.subview .subviewopen>.dl-submenu {background-color: #000;}
+.subview li.subview .dl-submenu {background-color: #000;}
+footer {background-color: #00172e;}
+.label-default {background-color: #01478e;}
+.label-default__arr path {fill: #01478e;}
+.btn-read {color: #ab6a0f;}
+.btn-read__arr-path {fill: #ab6a0f;}
+.btn-read-more {color: #ab6a0f;}
+.btn-read-more__arr-path {fill: #ab6a0f;}
+.btn-read-primary {background-color: #01478e;}
+.btn-read-primary__inverse {background-color: #000;}
+.btn-support {border-color:#ab6a0f;color: #ab6a0f;}
+.btn-support:active, .btn-support:focus, .btn-support:hover, .open>.btn-support.dropdown-toggle {background-color: #ab6a0f;border-color: #ab6a0f;}
+.prop-icons__item-vl {color: #ab6a0f;}
+.fw-colorBg__second {background-color: #ab6a0f;}
+.content__text a {color: #01478e;}
+
+
+@media screen and (min-width: 1200px) {
+
+	.navbar-nav {background-color: transparent;}
+	nav>.nav.navbar-nav>li>a:hover {border-bottom-color: #ab6a0f;}
+	nav>.nav.navbar-nav>li.dropdown:hover>a {border-bottom-color:#ab6a0f;}
+	.btn-read-more:hover {color: #ab6a0f;}
+	.btn-read:hover {color: #ab6a0f;}
+	.btn-read-primary__inverse:hover {background-color: #01478e;}
+	.content__text a:hover {color: #002266;}
+
+}
+
+/* About
+-------------------------------*/
+
+/* Buttons
+-------------------------------*/
+
+/* Contacts
+-------------------------------*/
+.fw-colorBg {background-color: #01478e;}
+
+/* Events
+-------------------------------*/
+@media screen and (min-width: 1200px) {
+	.event-bl:hover .event-bl__inner h3 a {color: #01478e;}
+	.top-navig__item:hover .top-navig__item-inner span {color: #01478e;}
+}
+
+/* Events-view
+-------------------------------*/
+.mapper__desrc-pl {color: #ab6a0f;}
+.event-organizers__item-lst li a {color: #01478e;}
+.event-organizers__subscribe-wrap .project-news__subscribe {background-color: #01478e;}
+
+/* Main
+-------------------------------*/
+.slider__title span {background-color: rgba(171,106,15,.8);}
+.slider__container .label-time .label-default__arr-left path {fill: #e9e8dc;}
+.slider__container .btn-read-primary__inverse {background-color: #000;}
+.news-item-big__title-color {color: #01478e;}
+.news-item-big .news-item-big__header h3 {color: #01478e;}
+.blue-chart {color: #01478e;}
+.sm-diagramm .diagramm-number {color: #01478e;}
+.red-chart {color: #ab6a0f;}
+.big-diagramm .diagramm-number {color: #ab6a0f;}
+.work-item .label-time .label-default__arr-left path {fill: #e9e8dc;}
+.tw-item p a {color: #01478e;}
+.tablist__all-arr path {fill: #01478e;}
+.event-bl .btn-read-primary {background-color: #000;}
+ul.nav.nav-tabs>li.tablist__all>a {background-color: #01478e;}
+.soc-arr__arr {background-color: #01478e;}
+.soc-arr__arr-flag path {background-color: #01478e;}
+.soc-arr__arr .soc-arr__arr-flag path {fill: #01478e;}
+.soc-arr__arr .soc-arr__arr-tail path {fill: #01478e;}
+
+@media screen and (min-width: 1200px) {
+
+	.slider__container .btn-read-primary__inverse:hover {background-color:#01478e;}
+	.news .fullW-news-item__text h3 a:hover {color: #01478e;}
+	section.video h3 a:hover {color: #01478e;}
+	.tw-item p a:hover {color: #000;}
+	.event-bl:hover .btn-read-primary {background-color: #01478e;}
+	ul.nav.nav-tabs>li>a:hover>.tablist__descr, ul.nav.nav-tabs>li>a:hover>.tablist__title {color: #01478e;}
+
+}
+
+/* News
+-------------------------------*/
+@media screen and (min-width: 1200px) {
+
+	.news-item h3 a:hover {color: #01478e;}
+	.fw-news__inner .line-abt:hover .label-default .label-default__arr path {fill:#000;}
+	.fw-news__inner .line-abt:hover .label-time .label-default__arr-left path {fill:#000;}
+
+}
+
+/* News-view
+-------------------------------*/
+.quote p {color: #ab6a0f;}
+.publisher-anchor-color a, a.publisher-anchor-color {color: #ab6a0f !important;}
+#disqus_thread a {color: #ab6a0f !important;}
+
+@media screen and (min-width: 1200px) {
+
+	.aside__news .news-item .news-item__title:focus, .aside__news .news-item .news-item__title:hover {color: #01478e;}
+
+}
+
+/* Projects
+-------------------------------*/
+.red-chart-diagramm .sm-diagramm .diagramm-number {color: #ab6a0f;}
+.project-item-ln-wrap {border-color: #ab6a0f;}
+
+@media screen and (min-width: 1200px) {
+
+	.project-item-ln h2 a:hover {color: #01478e;}
+	.project-item h2 a:hover {color: #01478e;}
+
+}
+
+/* Projects-view
+-------------------------------*/
+.project-news__subscribe {background-color: #ab6a0f;}
+.events__docs-item-ttl {color: #01478e;}
+.bar-chart {color: #01478e;}
+.project-stuff__quote-link {color: #01478e;}
+
+@media screen and (min-width: 1200px) {
+
+	.project-stuff__quote-link:hover {color: #026;}
+	.events__docs-item-right a:hover {color: #333;}
+
+}
+
+/* Stuff
+-------------------------------*/
+
+@media screen and (min-width: 1200px) {
+
+	.stuff__item-act:hover .stuff__item-ttl {color: #01478e;}
+	.project-stuff__quote-link:hover {color: #01478e;}
+
+}

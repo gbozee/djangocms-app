@@ -1,0 +1,28 @@
+@mixin transitions($trans-time){
+  -webkit-transition: all $trans-time ease;
+  transition: all $trans-time ease;
+}
+
+@mixin transitionsVal($prop, $trans-time){
+  -webkit-transition: $prop $trans-time ease;
+  transition: $prop $trans-time ease;
+}
+
+@mixin bxSzingBB(){
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+@mixin imageScale($scale-value, $rotate-value){
+  -webkit-transform: scale($scale-value) rotate($rotate-value);
+  -moz-transform: scale($scale-value) rotate($rotate-value);
+  -o-transform: scale($scale-value) rotate($rotate-value);
+  -ms-transform: scale($scale-value) rotate($rotate-value);
+  transform: scale($scale-value) rotate($rotate-value);
+}
+// @mixin boxShadowNone(){
+//   -moz-box-shadow:none;
+//   -webkit-box-shadow:none;
+//   box-shadow:none;
+// }
