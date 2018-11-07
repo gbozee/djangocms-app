@@ -27,7 +27,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = "7-^3f+_l4s_zoljn-8xmr_=lisqlp^f%&v3is^qh9x@v%%*ay7"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -58,7 +58,7 @@ USE_TZ = True
 STATIC_URL = "/static/"
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(DATA_DIR, "media")
-STATIC_ROOT = os.path.join(DATA_DIR, "static")
+STATIC_ROOT = os.path.join(DATA_DIR, "staticdir")
 
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "mysite", "static"),)
 SITE_ID = 1
@@ -93,6 +93,7 @@ TEMPLATES = [
 
 
 MIDDLEWARE = (
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     "cms.middleware.utils.ApphookReloadMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -105,6 +106,7 @@ MIDDLEWARE = (
     "cms.middleware.page.CurrentPageMiddleware",
     "cms.middleware.toolbar.ToolbarMiddleware",
     "cms.middleware.language.LanguageCookieMiddleware",
+
 )
 
 INSTALLED_APPS = (

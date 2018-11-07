@@ -67,6 +67,8 @@ def home(request):
     return render(request, "design/index.html", {"nav_links": nav_links})
 
 def handler404(request):
-    return details(request, 'design/404')
+    return render(request, "design/404.html")
+    # return details(request, 'design/404')
+    
 urlpatterns = [url(r"^$", home, name="home"), url(r"^about$", about, name="about")]
 
