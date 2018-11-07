@@ -5,7 +5,7 @@
         {% if child.selected %} active{% endif %}
         {% if child.children %} dropdown{% endif %}">
     {% if child.children %}
-    <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">{{child.get_menu_title}}
+    <a href="{{child.children.0.get_absolute_url}}" class="dropdown-toggle" role="button" aria-expanded="false">{{child.get_menu_title}}
         <i>›</i></a>
     <ul class="dropdown-menu dl-submenu" role="menu">
         {% show_menu from_level to_level extra_inactive extra_active template "" "" child %}

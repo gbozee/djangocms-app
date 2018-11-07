@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.conf.urls import include, url
+from cms.views import details 
 
 # Create your views here.
 
@@ -65,6 +66,7 @@ def home(request):
     ]
     return render(request, "design/index.html", {"nav_links": nav_links})
 
-
+def handler404(request):
+    return details(request, 'design/404')
 urlpatterns = [url(r"^$", home, name="home"), url(r"^about$", about, name="about")]
 

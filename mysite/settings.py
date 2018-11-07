@@ -29,7 +29,7 @@ SECRET_KEY = "7-^3f+_l4s_zoljn-8xmr_=lisqlp^f%&v3is^qh9x@v%%*ay7"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -195,3 +195,6 @@ DJANGOCMS_STYLE_TEMPLATES = [
     ("section_with_container_row", "Section with Container and Row"),
 ]
 
+DJANGOCMS_STYLE_TAGS = ['div',
+'main', 'article', 'section', 'header', 'footer','aside',
+                        'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
