@@ -21,3 +21,4 @@ Pillow>=3.0
 django-sekizai>=0.9
 six
 whitenoise==4.1
+gunicorn
