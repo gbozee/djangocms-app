@@ -22,3 +22,7 @@ django-sekizai>=0.9
 six
 whitenoise==4.1
 gunicorn
+aldryn-newsblog==2.1.1
+Whoosh==2.7.4
+aldryn-search==1.0.1
+django-haystack==2.8.1

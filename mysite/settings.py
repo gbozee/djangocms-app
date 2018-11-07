@@ -27,7 +27,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = "7-^3f+_l4s_zoljn-8xmr_=lisqlp^f%&v3is^qh9x@v%%*ay7"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
@@ -62,7 +62,7 @@ STATIC_ROOT = os.path.join(DATA_DIR, "staticdir")
 
 STATICFILES_DIRS = (
     # os.path.join(BASE_DIR, "mysite", "static"),
-    )
+)
 SITE_ID = 1
 
 
@@ -83,11 +83,13 @@ TEMPLATES = [
                 "sekizai.context_processors.sekizai",
                 "django.template.context_processors.static",
                 "cms.context_processors.cms_settings",
+                "aldryn_boilerplates.context_processors.boilerplate",
             ],
             "loaders": [
                 "django.template.loaders.filesystem.Loader",
                 "django.template.loaders.app_directories.Loader",
                 "django.template.loaders.eggs.Loader",
+                "aldryn_boilerplates.template_loaders.AppDirectoriesLoader",
             ],
         },
     }
@@ -95,7 +97,7 @@ TEMPLATES = [
 
 
 MIDDLEWARE = (
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "cms.middleware.utils.ApphookReloadMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -108,7 +110,6 @@ MIDDLEWARE = (
     "cms.middleware.page.CurrentPageMiddleware",
     "cms.middleware.toolbar.ToolbarMiddleware",
     "cms.middleware.language.LanguageCookieMiddleware",
-
 )
 
 INSTALLED_APPS = (
@@ -138,6 +139,23 @@ INSTALLED_APPS = (
     "djangocms_video",
     "mysite",
     "design",
+    # you will probably need to add:
+    "aldryn_apphooks_config",
+    "aldryn_boilerplates",
+    "aldryn_categories",
+    "aldryn_common",
+    "aldryn_newsblog",
+    "aldryn_people",
+    # "aldryn_reversion",
+    "parler",
+    "sortedm2m",
+    "taggit",
+    # and you will probably find the following already listed:
+    # "reversion",
+    "haystack",
+    "aldryn_search",
+    "standard_form",
+    "spurl",
 )
 
 LANGUAGES = (
@@ -199,6 +217,46 @@ DJANGOCMS_STYLE_TEMPLATES = [
     ("section_with_container_row", "Section with Container and Row"),
 ]
 
-DJANGOCMS_STYLE_TAGS = ['div',
-'main', 'article', 'section', 'header', 'footer','aside',
-                        'h1', 'h2', 'h3', 'h4', 'h5', 'h6']
+DJANGOCMS_STYLE_TAGS = [
+    "div",
+    "main",
+    "article",
+    "section",
+    "header",
+    "footer",
+    "aside",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+]
+
+ALDRYN_BOILERPLATE_NAME = "bootstrap3"
+
+STATICFILES_FINDERS = [
+    "django.contrib.staticfiles.finders.FileSystemFinder",
+    "aldryn_boilerplates.staticfile_finders.AppDirectoriesFinder",
+    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
+]
+
+ALDRYN_NEWSBLOG_UPDATE_SEARCH_DATA_ON_SAVE = True
+ALDRYN_SEARCH_DEFAULT_LANGUAGE = 'en'
+HAYSTACK_CONNECTIONS = {
+    "default": {
+        "ENGINE": "haystack.backends.whoosh_backend.WhooshEngine",
+        "PATH": os.path.join(os.path.dirname(__file__), "whoosh_index"),
+    },
+    "en": {
+        "ENGINE": "haystack.backends.whoosh_backend.WhooshEngine",
+        "PATH": os.path.join(os.path.dirname(__file__), "whoosh_index"),
+    },
+}
+
+HAYSTACK_ROUTERS = ["aldryn_search.router.LanguageRouter"]
+
+ALDRYN_SEARCH_LANGUAGE_FROM_ALIAS = lambda alias: alias.split("-")[-1]
+
+ALDRYN_PEOPLE_SEARCH =False
+ALDRYN_SEARCH_REGISTER_APPHOOK = True

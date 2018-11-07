@@ -1,0 +1,84 @@
+{% load i18n staticfiles thumbnail cms_tags apphooks_config_tags %}
+
+<article class="article
+    {% if article.is_featured %} featured{% endif %}
+    {% if not article.published %} unpublished{% endif %}col-xm-6 col-sm-6 col-md-4 col-lg-3 news-item news-item-2l">
+    <a class="news-item__image-wrap" href="#">
+        <img alt="{{ article.featured_image.alt }}" class="news-item__image" src="{% thumbnail article.featured_image 350x198 crop subject_location=article.featured_image.subject_location %}" />
+    </a>
+    <div class="line-abt">
+        <div class="lbl-default__lns">&nbsp;</div>
+        <a class="label label-default label-sm" href="#">
+            {% if article.categories.exists %}
+<span>{{article.categories.first.name}}</span>
+            {% endif %}
+            <svg class="label-default__arr" height="30px" space="preserve" version="1.1" viewbox="-10 0 17.145 30"
+                width="17.145px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+                <path d="M-10,30V0H0l7.145,15.002L0,30H-10z" fill="#002266"></path>
+            </svg> </a> <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September
+            2014 <span>08:27</span> <svg class="label-default__arr label-time__arrow" height="30px" space="preserve"
+                version="1.1" viewbox="-10 0 17.145 30" width="17.145px" x="0px" xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg" y="0px">
+                <path d="M-10,30V0H0l7.145,15.002L0,30H-10z" fill="#002266"></path>
+            </svg> </time>
+    </div>
+
+    <h3><a href="#">White House and House Republicans Clash on president new Immigration Plan </a></h3>
+
+    <p class="news-item__p">The Republicans, at a hearing, accused the administration of trying to do an end run around
+        Congress.</p>
+    <a class="btn-read" href=""><span>Read</span> <svg class="btn-read__arr" space="preserve" version="1.1" viewbox="0 0 7 13"
+            x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" y="0px">
+            <path class="btn-read__arr-path" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z" fill="#990000"></path>
+        </svg> </a>
+</article>
+
+<!-- <article class="article
+    {% if article.is_featured %} featured{% endif %}
+    {% if not article.published %} unpublished{% endif %}">
+
+    {# The image is only shown on the detail view by using the condition "and detail_view" #}
+    {% if article.featured_image_id and detail_view %}
+    <p>
+        <img src="{% thumbnail article.featured_image 800x450 crop subject_location=article.featured_image.subject_location %}"
+            alt="{{ article.featured_image.alt }}">
+    </p>
+    {% endif %}
+
+    {% if article.categories.exists %}
+    <p>
+        {% for category in article.categories.all %}
+        <a href="{% namespace_url 'article-list-by-category' category.slug namespace=namespace default='' %}">{{
+            category.name }}</a>
+        {% if not forloop.last %}, {% endif %}
+        {% endfor %}
+    </p>
+    {% endif %}
+
+    <h2>
+        {% if not detail_view %}
+        <a href="{% namespace_url 'article-detail' article.slug namespace=namespace default='' %}">{% render_model
+            article "title" %}</a>
+        {% else %}
+        {% render_model article "title" %}
+        {% endif %}
+    </h2>
+
+    <p>{{ article.publishing_date|date }}</p>
+
+    {% include "aldryn_newsblog/includes/author.html" with author=article.author %}
+
+    {% if article.tags %}
+    <p>
+        {% for tag in article.tags.all %}
+        <a href="{% namespace_url 'article-list-by-tag' tag=tag.slug namespace=namespace default='' %}">{{ tag.name }}</a>
+        {% endfor %}
+    </p>
+    {% endif %}
+
+    {% render_model article "lead_in" %}
+
+    {% if detail_view %}
+    {% render_placeholder article.content language placeholder_language %}
+    {% endif %}
+</article> -->

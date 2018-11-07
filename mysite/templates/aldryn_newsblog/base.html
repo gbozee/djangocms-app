@@ -1,0 +1,10 @@
+{% extends CMS_TEMPLATE %}
+{% load cms_tags %}
+
+
+{% block content %}
+{% static_placeholder "feature" %}
+    {% block newsblog_content %}
+        {# article_list.html and article_detail.html extend this template #}
+    {% endblock %}
+{% endblock content %}
