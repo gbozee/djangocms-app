@@ -9,6 +9,7 @@ from django.contrib import admin
 from django.contrib.sitemaps.views import sitemap
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 from django.views.static import serve
+from django.views.generic import RedirectView
 
 admin.autodiscover()
 
@@ -18,6 +19,7 @@ urlpatterns = [
 ]
 
 urlpatterns += i18n_patterns(
+    url(r'^$', RedirectView.as_view(url='/home/')),
     url(r'^admin/', include(admin.site.urls)),  # NOQA
     url(r'^design/', include("design.views")),
     url(r'^', include('cms.urls')),

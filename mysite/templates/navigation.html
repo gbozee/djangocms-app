@@ -11,12 +11,12 @@
                 </button>
                 <div class="home-btn">Home</div>
                 <a href="/en/home" class="navbar-brand">
-                    Disability Rights Commission
-                    <!-- <img src="{% static 'design/themeGovernment/assets/images/logo.png' %}" alt=""> -->
+                    {% comment %} Disability Rights Commission {% endcomment %}
+                     <img src="{% static 'design/themeGovernment/assets/images/logo.png' %}" alt=""> 
                 </a>
                 <div class="line"></div>
             </div>
-            <div class="col-lg-7 col-lg-offset-1 navbar-collapse collapse">
+            <div class="col-lg-7  navbar-collapse collapse">
                 <nav role="navigation">
                     <ul id="navigation" class="nav navbar-nav navbar-right dl-menu">
                         {% show_menu 0 1 100 100 "menu.html" %}

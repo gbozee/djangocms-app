@@ -37,6 +37,13 @@
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <![endif]-->
     <title>{% block title %}This is my new project home page{% endblock title %}</title>
+    <style>
+        @media(min-width:1200px) {
+            .slider.slick-initialized.slick-slider {
+                width: 100%;
+            }
+        }
+    </style>
     {% render_block "css" %}
 </head>
 

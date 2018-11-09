@@ -27,7 +27,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = "7-^3f+_l4s_zoljn-8xmr_=lisqlp^f%&v3is^qh9x@v%%*ay7"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
@@ -97,7 +96,6 @@ TEMPLATES = [
 
 
 MIDDLEWARE = (
-    "whitenoise.middleware.WhiteNoiseMiddleware",
     "cms.middleware.utils.ApphookReloadMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",

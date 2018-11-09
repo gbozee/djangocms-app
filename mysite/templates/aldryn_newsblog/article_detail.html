@@ -6,7 +6,46 @@
 {% endblock %}
 
 {% block newsblog_content %}
-    {% include "aldryn_newsblog/includes/article.html" with detail_view="true" %}
+<div class="fw-news">
+    <div class="fw-image-parallax" data-parallax-url="http://placehold.it/1600x480.jpg">&nbsp;</div>
+
+    <div class="fw-news__pattern">&nbsp;</div>
+</div>
+
+<div class="heading-fw bg-col">
+    <div class="heading-fw__inner">
+        <div class="line-abt">
+            <div class="lbl-default__lns">&nbsp;</div>
+            <a class="label label-default" href="#"><span>Travel</span> <svg class="label-default__arr" height="30px"
+                    space="preserve" version="1.1" viewbox="-10 0 17.145 30" width="17.145px" x="0px" xlink="http://www.w3.org/1999/xlink"
+                    xmlns="http://www.w3.org/2000/svg" y="0px">
+                    <path d="M-10,30V0H0l7.145,15.002L0,30H-10z" fill="#002266"></path>
+                </svg> <svg class="label-default__arr label-default__arr-lefts" height="30px" space="preserve" version="1.1"
+                    viewbox="0 0 17.145 30" width="17.145px" x="0px" xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+                    y="0px">
+                    <path d="M7.145,30L0,15.002L7.145,0h10v30H7.145z" fill="#002266"></path>
+                </svg> </a> <time class="label label-time" datetime="2008-02-14"> <svg class="label-default__arr label-default__arr-left"
+                    height="30px" space="preserve" version="1.1" viewbox="0 0 17.146 30" width="17.146px" x="0px" xlink="http://www.w3.org/1999/xlink"
+                    xmlns="http://www.w3.org/2000/svg" y="0px">
+                    <path d="M17.146,30H0l7.145-14.998L0,0h17.146V30z" fill="#e9e8dc"></path>
+                </svg>15 September 2014 <span>08:27</span> <svg class="label-default__arr label-time__arrow" height="30px"
+                    space="preserve" version="1.1" viewbox="-10 0 17.145 30" width="17.145px" x="0px" xlink="http://www.w3.org/1999/xlink"
+                    xmlns="http://www.w3.org/2000/svg" y="0px">
+                    <path d="M-10,30V0H0l7.145,15.002L0,30H-10z" fill="#002266"></path>
+                </svg> </time>
+        </div>
+
+        <h1>{{article.title}}</h1>
+    </div>
+</div>
+<section class="project-details about-text">
+    <div class="container">
+        <div class="project-details__inner content__text">
+        {% comment %} <h2 class="coll-hdr ep-t">our <b>Mission</b></h2> {% endcomment %}
+        {% render_placeholder article.content language placeholder_language %}
+        </div>
+    </div>
+</section>
 
     {% static_placeholder "newsblog_social" %}
 

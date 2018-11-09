@@ -1,0 +1,23 @@
+{% extends "aldryn_search/base.html" %}
+{% load i18n standard_form %}
+
+{% block content_search %}
+<form action="." method="get" class="frm frm-search">
+	<div class="form-group">
+		{% comment %} {% standard_widget form.q options custom_class='input-large form-control' placeholder=_('enter your search term') %} {% endcomment %}
+		{% comment %} <input type="search" name="q" value="services" class="input-text input-large form-control" id="id_q"> {% endcomment %}
+		<input class="form-control input-text input-large" name="q" id="fvi" required="" placeholder="enter your search term"
+		 type="search" aria-required="true">
+
+	</div>
+	{% standard_submit %}
+</form>
+
+<div class="search-results">
+<ul class="list-unstyled">
+		{% include "aldryn_search/includes/search_items.html" %}
+	</ul>
+</div>
+
+{% include "aldryn_search/includes/pagination.html" with obj_string=_('results') %}
+{% endblock %}
