@@ -61,6 +61,7 @@ STATIC_ROOT = os.path.join(DATA_DIR, "staticdir")
 
 STATICFILES_DIRS = (
     # os.path.join(BASE_DIR, "mysite", "static"),
+    os.path.join(BASE_DIR, "..", "design", "static"),
 )
 SITE_ID = 1
 
@@ -240,7 +241,7 @@ STATICFILES_FINDERS = [
 ]
 
 ALDRYN_NEWSBLOG_UPDATE_SEARCH_DATA_ON_SAVE = True
-ALDRYN_SEARCH_DEFAULT_LANGUAGE = 'en'
+ALDRYN_SEARCH_DEFAULT_LANGUAGE = "en"
 HAYSTACK_CONNECTIONS = {
     "default": {
         "ENGINE": "haystack.backends.whoosh_backend.WhooshEngine",
@@ -256,5 +257,5 @@ HAYSTACK_ROUTERS = ["aldryn_search.router.LanguageRouter"]
 
 ALDRYN_SEARCH_LANGUAGE_FROM_ALIAS = lambda alias: alias.split("-")[-1]
 
-ALDRYN_PEOPLE_SEARCH =False
+ALDRYN_PEOPLE_SEARCH = False
 ALDRYN_SEARCH_REGISTER_APPHOOK = True
