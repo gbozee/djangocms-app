@@ -106,6 +106,21 @@
     <script src="{% static 'design/themeGovernment/assets/js/app/modules/formFieldsSubscribe.js' %}"></script>
     <script src="{% static 'design/themeGovernment/assets/js/init.js' %}"></script>
     {% render_block "js" %}
+    <script>
+let path = "{% static 'design/themeGovernment/assets/css/color/' %}"
+        const THEMES = {
+        "css-default": "default-color.min.css",
+        "css-sandybay": "sandybay-color.min.css",
+        "css-skyline": "skyline-color.min.css",
+        "css-raspberry": "raspberry-color.min.css",
+        // "css-boxed": ""
+        }
+        $('.theme-change-btn').click(function (e) {
+        e.preventDefault()
+        let cssFile = THEMES[this.id]
+        loadjscssfile(cssFile, "css",path)
+        })
+    </script>
 </body>
 
 </html>
