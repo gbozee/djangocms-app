@@ -14,12 +14,12 @@ from django.views.generic import RedirectView
 admin.autodiscover()
 
 urlpatterns = [
+    url(r'^$', RedirectView.as_view(url='/en/home/')),
     url(r'^sitemap\.xml$', sitemap,
         {'sitemaps': {'cmspages': CMSSitemap}}),
 ]
 
 urlpatterns += i18n_patterns(
-    url(r'^$', RedirectView.as_view(url='/home/')),
     url(r'^admin/', include(admin.site.urls)),  # NOQA
     url(r'^design/', include("design.views")),
     url(r'^', include('cms.urls')),
