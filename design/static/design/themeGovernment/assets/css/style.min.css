@@ -3,7 +3,7 @@
 @font-face {
   font-family: pt_sansitalic;
   src: url(../../fonts/pt_sans-web-italic.eot);
-  src: url(../../fonts/pt_sans-web-italic.eot?#iefix) format("embedded-opentype"),url(../../fonts/pt_sans-web-italic.woff2) format("woff2"),url(../../fonts/pt_sans-web-italic.woff) format("woff"),url(../../fonts/pt_sans-web-italic.ttf) format("truetype"),url(../../fonts/pt_sans-web-italic.svg#pt_sansitalic) format("svg");
+  src: url(../../fonts/pt_sans-web-italic.eot?#iefix) format("embedded-opentype"), url(../../fonts/pt_sans-web-italic.woff2) format("woff2"), url(../../fonts/pt_sans-web-italic.woff) format("woff"), url(../../fonts/pt_sans-web-italic.ttf) format("truetype"), url(../../fonts/pt_sans-web-italic.svg#pt_sansitalic) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -11,7 +11,7 @@
 @font-face {
   font-family: pt_sansregular;
   src: url(../../fonts/pt_sans-web-regular.eot);
-  src: url(../../fonts/pt_sans-web-regular.eot?#iefix) format("embedded-opentype"),url(../../fonts/pt_sans-web-regular.woff2) format("woff2"),url(../../fonts/pt_sans-web-regular.woff) format("woff"),url(../../fonts/pt_sans-web-regular.ttf) format("truetype"),url(../../fonts/pt_sans-web-regular.svg#pt_sansregular) format("svg");
+  src: url(../../fonts/pt_sans-web-regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/pt_sans-web-regular.woff2) format("woff2"), url(../../fonts/pt_sans-web-regular.woff) format("woff"), url(../../fonts/pt_sans-web-regular.ttf) format("truetype"), url(../../fonts/pt_sans-web-regular.svg#pt_sansregular) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -19,7 +19,7 @@
 @font-face {
   font-family: pt_sansbold_italic;
   src: url(../../fonts/pt_sans-web-bolditalic.eot);
-  src: url(../../fonts/pt_sans-web-bolditalic.eot?#iefix) format("embedded-opentype"),url(../../fonts/pt_sans-web-bolditalic.woff2) format("woff2"),url(../../fonts/pt_sans-web-bolditalic.woff) format("woff"),url(../../fonts/pt_sans-web-bolditalic.ttf) format("truetype"),url(../../fonts/pt_sans-web-bolditalic.svg#pt_sansbold_italic) format("svg");
+  src: url(../../fonts/pt_sans-web-bolditalic.eot?#iefix) format("embedded-opentype"), url(../../fonts/pt_sans-web-bolditalic.woff2) format("woff2"), url(../../fonts/pt_sans-web-bolditalic.woff) format("woff"), url(../../fonts/pt_sans-web-bolditalic.ttf) format("truetype"), url(../../fonts/pt_sans-web-bolditalic.svg#pt_sansbold_italic) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -27,7 +27,7 @@
 @font-face {
   font-family: pt_sansbold;
   src: url(../../fonts/pt_sans-web-bold.eot);
-  src: url(../../fonts/pt_sans-web-bold.eot?#iefix) format("embedded-opentype"),url(../../fonts/pt_sans-web-bold.woff2) format("woff2"),url(../../fonts/pt_sans-web-bold.woff) format("woff"),url(../../fonts/pt_sans-web-bold.ttf) format("truetype"),url(../../fonts/pt_sans-web-bold.svg#pt_sansbold) format("svg");
+  src: url(../../fonts/pt_sans-web-bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/pt_sans-web-bold.woff2) format("woff2"), url(../../fonts/pt_sans-web-bold.woff) format("woff"), url(../../fonts/pt_sans-web-bold.ttf) format("truetype"), url(../../fonts/pt_sans-web-bold.svg#pt_sansbold) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -35,7 +35,7 @@
 @font-face {
   font-family: roboto_condensedlight;
   src: url(../../fonts/robotocondensed-light.eot);
-  src: url(../../fonts/robotocondensed-light.eot?#iefix) format("embedded-opentype"),url(../../fonts/robotocondensed-light.woff2) format("woff2"),url(../../fonts/robotocondensed-light.woff) format("woff"),url(../../fonts/robotocondensed-light.ttf) format("truetype"),url(../../fonts/robotocondensed-light.svg#roboto_condensedlight) format("svg");
+  src: url(../../fonts/robotocondensed-light.eot?#iefix) format("embedded-opentype"), url(../../fonts/robotocondensed-light.woff2) format("woff2"), url(../../fonts/robotocondensed-light.woff) format("woff"), url(../../fonts/robotocondensed-light.ttf) format("truetype"), url(../../fonts/robotocondensed-light.svg#roboto_condensedlight) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -43,7 +43,7 @@
 @font-face {
   font-family: roboto_condensedlight_italic;
   src: url(../../fonts/robotocondensed-lightitalic.eot);
-  src: url(../../fonts/robotocondensed-lightitalic.eot?#iefix) format("embedded-opentype"),url(../../fonts/robotocondensed-lightitalic.woff2) format("woff2"),url(../../fonts/robotocondensed-lightitalic.woff) format("woff"),url(../../fonts/robotocondensed-lightitalic.ttf) format("truetype"),url(../../fonts/robotocondensed-lightitalic.svg#roboto_condensedlight_italic) format("svg");
+  src: url(../../fonts/robotocondensed-lightitalic.eot?#iefix) format("embedded-opentype"), url(../../fonts/robotocondensed-lightitalic.woff2) format("woff2"), url(../../fonts/robotocondensed-lightitalic.woff) format("woff"), url(../../fonts/robotocondensed-lightitalic.ttf) format("truetype"), url(../../fonts/robotocondensed-lightitalic.svg#roboto_condensedlight_italic) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -51,7 +51,7 @@
 @font-face {
   font-family: roboto_condenseditalic;
   src: url(../../fonts/robotocondensed-italic.eot);
-  src: url(../../fonts/robotocondensed-italic.eot?#iefix) format("embedded-opentype"),url(../../fonts/robotocondensed-italic.woff2) format("woff2"),url(../../fonts/robotocondensed-italic.woff) format("woff"),url(../../fonts/robotocondensed-italic.ttf) format("truetype"),url(../../fonts/robotocondensed-italic.svg#roboto_condenseditalic) format("svg");
+  src: url(../../fonts/robotocondensed-italic.eot?#iefix) format("embedded-opentype"), url(../../fonts/robotocondensed-italic.woff2) format("woff2"), url(../../fonts/robotocondensed-italic.woff) format("woff"), url(../../fonts/robotocondensed-italic.ttf) format("truetype"), url(../../fonts/robotocondensed-italic.svg#roboto_condenseditalic) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -59,7 +59,7 @@
 @font-face {
   font-family: roboto_condensedregular;
   src: url(../../fonts/robotocondensed-regular.eot);
-  src: url(../../fonts/robotocondensed-regular.eot?#iefix) format("embedded-opentype"),url(../../fonts/robotocondensed-regular.woff2) format("woff2"),url(../../fonts/robotocondensed-regular.woff) format("woff"),url(../../fonts/robotocondensed-regular.ttf) format("truetype"),url(../../fonts/robotocondensed-regular.svg#roboto_condensedregular) format("svg");
+  src: url(../../fonts/robotocondensed-regular.eot?#iefix) format("embedded-opentype"), url(../../fonts/robotocondensed-regular.woff2) format("woff2"), url(../../fonts/robotocondensed-regular.woff) format("woff"), url(../../fonts/robotocondensed-regular.ttf) format("truetype"), url(../../fonts/robotocondensed-regular.svg#roboto_condensedregular) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -67,7 +67,7 @@
 @font-face {
   font-family: roboto_condensedbold_italic;
   src: url(../../fonts/robotocondensed-bolditalic.eot);
-  src: url(../../fonts/robotocondensed-bolditalic.eot?#iefix) format("embedded-opentype"),url(../../fonts/robotocondensed-bolditalic.woff2) format("woff2"),url(../../fonts/robotocondensed-bolditalic.woff) format("woff"),url(../../fonts/robotocondensed-bolditalic.ttf) format("truetype"),url(../../fonts/robotocondensed-bolditalic.svg#roboto_condensedbold_italic) format("svg");
+  src: url(../../fonts/robotocondensed-bolditalic.eot?#iefix) format("embedded-opentype"), url(../../fonts/robotocondensed-bolditalic.woff2) format("woff2"), url(../../fonts/robotocondensed-bolditalic.woff) format("woff"), url(../../fonts/robotocondensed-bolditalic.ttf) format("truetype"), url(../../fonts/robotocondensed-bolditalic.svg#roboto_condensedbold_italic) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -75,7 +75,7 @@
 @font-face {
   font-family: roboto_condensedbold;
   src: url(../../fonts/robotocondensed-bold.eot);
-  src: url(../../fonts/robotocondensed-bold.eot?#iefix) format("embedded-opentype"),url(../../fonts/robotocondensed-bold.woff2) format("woff2"),url(../../fonts/robotocondensed-bold.woff) format("woff"),url(../../fonts/robotocondensed-bold.ttf) format("truetype"),url(../../fonts/robotocondensed-bold.svg#roboto_condensedbold) format("svg");
+  src: url(../../fonts/robotocondensed-bold.eot?#iefix) format("embedded-opentype"), url(../../fonts/robotocondensed-bold.woff2) format("woff2"), url(../../fonts/robotocondensed-bold.woff) format("woff"), url(../../fonts/robotocondensed-bold.ttf) format("truetype"), url(../../fonts/robotocondensed-bold.svg#roboto_condensedbold) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -83,7 +83,7 @@
 @font-face {
   font-family: FontAwesome;
   src: url(../../fonts/fontawesome-webfont.eot);
-  src: url(../../fonts/fontawesome-webfont.eot?#iefix) format("embedded-opentype"),url(../../fonts/fontawesome-webfont.woff) format("woff"),url(../../fonts/fontawesome-webfont.ttf) format("truetype"),url(../../fonts/fontawesome-webfont.svg#roboto_condensedbold) format("svg");
+  src: url(../../fonts/fontawesome-webfont.eot?#iefix) format("embedded-opentype"), url(../../fonts/fontawesome-webfont.woff) format("woff"), url(../../fonts/fontawesome-webfont.ttf) format("truetype"), url(../../fonts/fontawesome-webfont.svg#roboto_condensedbold) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -199,10 +199,10 @@ th {
 
 @media print {
   * {
-    text-shadow: none!important;
-    color: #000!important;
-    background: 0 0!important;
-    box-shadow: none!important;
+    text-shadow: none !important;
+    color: #000 !important;
+    background: 0 0 !important;
+    box-shadow: none !important;
   }
 
   a,
@@ -211,7 +211,7 @@ th {
   }
 
   a[href]:after {
-    content: " (" attr(href) ")";
+    content: " ("attr(href) ")";
   }
 
   a[href^="#"]:after {
@@ -233,7 +233,7 @@ th {
   }
 
   img {
-    max-width: 100%!important;
+    max-width: 100% !important;
   }
 
   h2,
@@ -249,12 +249,12 @@ th {
   }
 
   select {
-    background: #fff!important;
+    background: #fff !important;
   }
 
   .table td,
   .table th {
-    background-color: #fff!important;
+    background-color: #fff !important;
   }
 
   .label {
@@ -262,14 +262,14 @@ th {
   }
 
   .table {
-    border-collapse: collapse!important;
+    border-collapse: collapse !important;
   }
 }
 
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url(bootstrap/glyphicons-halflings-regular.eot);
-  src: url(bootstrap/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"),url(bootstrap/glyphicons-halflings-regular.woff) format("woff"),url(bootstrap/glyphicons-halflings-regular.ttf) format("truetype"),url(bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
+  src: url(bootstrap/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(bootstrap/glyphicons-halflings-regular.woff) format("woff"), url(bootstrap/glyphicons-halflings-regular.ttf) format("truetype"), url(bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg");
 }
 
 .glyphicon-eye-open:before {
@@ -302,7 +302,7 @@ html {
 }
 
 body {
-  font-family: pt_sansregular,sans-serif;
+  font-family: pt_sansregular, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333;
@@ -358,7 +358,7 @@ hr {
   margin: -1px;
   padding: 0;
   overflow: hidden;
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   border: 0;
 }
 
@@ -640,6 +640,7 @@ blockquote:before {
 }
 
 @media (min-width:768px) {
+
   .col-sm-1,
   .col-sm-10,
   .col-sm-12,
@@ -712,6 +713,7 @@ blockquote:before {
 }
 
 @media (min-width:992px) {
+
   .col-md-10,
   .col-md-12,
   .col-md-2,
@@ -779,6 +781,7 @@ blockquote:before {
 }
 
 @media (min-width:1200px) {
+
   .col-lg-10,
   .col-lg-12,
   .col-lg-2,
@@ -917,11 +920,11 @@ input[type=radio]:focus {
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
 .form-control::-moz-placeholder {
@@ -981,8 +984,8 @@ input[type=radio][disabled] {
 
 .has-error .form-control {
   border-color: #a94442;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
 }
 
 .has-error .form-control:focus {
@@ -1159,10 +1162,10 @@ input[type=radio][disabled] {
   text-align: left;
   background-color: #fff;
   border: 1px solid #ccc;
-  border: 1px solid rgba(0,0,0,.15);
+  border: 1px solid rgba(0, 0, 0, .15);
   border-radius: 4px;
-  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
-  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
   background-clip: padding-box;
 }
 
@@ -1215,8 +1218,8 @@ input[type=radio][disabled] {
 }
 
 .btn-group.open .dropdown-toggle {
-  -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
-  box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
 }
 
 .btn-group.open .dropdown-toggle.btn-link {
@@ -1331,7 +1334,7 @@ input[type=radio][disabled] {
 
 .navbar-collapse {
   overflow-x: visible;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .1);
   -webkit-overflow-scrolling: touch;
 }
 
@@ -1357,10 +1360,10 @@ input[type=radio][disabled] {
   }
 
   .navbar-collapse.collapse {
-    display: block!important;
-    height: auto!important;
+    display: block !important;
+    height: auto !important;
     padding-bottom: 0;
-    overflow: visible!important;
+    overflow: visible !important;
   }
 
   .navbar-collapse.in {
@@ -1460,7 +1463,7 @@ input[type=radio][disabled] {
 
 @media (min-width:1200px) {
   .navbar-right {
-    float: right!important;
+    float: right !important;
   }
 }
 
@@ -1682,16 +1685,16 @@ a.label:hover {
 }
 
 .pull-right {
-  float: right!important;
+  float: right !important;
 }
 
 .pull-left {
-  float: left!important;
+  float: left !important;
 }
 
 .hidden {
-  display: none!important;
-  visibility: hidden!important;
+  display: none !important;
+  visibility: hidden !important;
 }
 
 @-ms-viewport {
@@ -1704,60 +1707,60 @@ a.label:hover {
 .visible-sm,
 .visible-sm-block,
 .visible-xs {
-  display: none!important;
+  display: none !important;
 }
 
 @media (max-width:767px) {
   .visible-xs {
-    display: block!important;
+    display: block !important;
   }
 }
 
 @media (min-width:768px) and (max-width:991px) {
   .visible-sm {
-    display: block!important;
+    display: block !important;
   }
 }
 
 @media (min-width:768px) and (max-width:991px) {
   .visible-sm-block {
-    display: block!important;
+    display: block !important;
   }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
   .visible-md {
-    display: block!important;
+    display: block !important;
   }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
   .visible-md-block {
-    display: block!important;
+    display: block !important;
   }
 }
 
 @media (min-width:1200px) {
   .visible-lg {
-    display: block!important;
+    display: block !important;
   }
 }
 
 @media (min-width:768px) and (max-width:991px) {
   .hidden-sm {
-    display: none!important;
+    display: none !important;
   }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
   .hidden-md {
-    display: none!important;
+    display: none !important;
   }
 }
 
 @media (min-width:1200px) {
   .hidden-lg {
-    display: none!important;
+    display: none !important;
   }
 }
 
@@ -1769,7 +1772,7 @@ a.label:hover {
 @font-face {
   font-family: FontAwesome;
   src: url(../../fonts/fontawesome-webfont.eot?v=4.2.0);
-  src: url(../../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0) format("embedded-opentype"),url(../../fonts/fontawesome-webfont.woff?v=4.2.0) format("woff"),url(../../fonts/fontawesome-webfont.ttf?v=4.2.0) format("truetype"),url(../../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format("svg");
+  src: url(../../fonts/fontawesome-webfont.eot?#iefix&v=4.2.0) format("embedded-opentype"), url(../../fonts/fontawesome-webfont.woff?v=4.2.0) format("woff"), url(../../fonts/fontawesome-webfont.ttf?v=4.2.0) format("truetype"), url(../../fonts/fontawesome-webfont.svg?v=4.2.0#fontawesomeregular) format("svg");
   font-weight: 400;
   font-style: normal;
 }
@@ -1901,7 +1904,7 @@ textarea {
 .btn-read-primary span {
   display: block;
   float: left;
-  font-family: roboto_condensedregular,Arial,sans-serif;
+  font-family: roboto_condensedregular, Arial, sans-serif;
   font-size: 24px;
   line-height: 24px;
   color: #fff;
@@ -2025,7 +2028,7 @@ textarea {
 .btn-read {
   display: block;
   float: left;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 18px;
   line-height: 18px;
   color: #900;
@@ -2088,7 +2091,7 @@ textarea {
 }
 
 .btn-read-more {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #900;
@@ -2187,7 +2190,7 @@ textarea {
   float: left;
   height: 100%;
   width: 1px;
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255, 255, 255, .1);
   margin-right: 3px;
 }
 
@@ -2199,7 +2202,7 @@ textarea {
   display: block;
   float: left;
   margin-left: 10px;
-  font-family: roboto_condensedregular,Arial,sans-serif;
+  font-family: roboto_condensedregular, Arial, sans-serif;
   font-size: 14px;
   line-height: 13px;
   color: #fff;
@@ -2243,12 +2246,12 @@ textarea {
   padding: 7px 10px 8px 11px;
   margin-right: 15px;
   background-color: #e9e8dc;
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 14px;
   line-height: 13px;
   font-weight: 400;
   text-transform: uppercase;
-  color: rgba(0,0,0,.5);
+  color: rgba(0, 0, 0, .5);
 }
 
 .label-time .label-time__arrow path {
@@ -2256,7 +2259,7 @@ textarea {
 }
 
 .label-time span {
-  font-family: roboto_condensedregular,Arial,sans-serif;
+  font-family: roboto_condensedregular, Arial, sans-serif;
 }
 
 .label-sm {
@@ -2264,7 +2267,7 @@ textarea {
 }
 
 .label-sm>span {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 10px;
   line-height: 10px;
 }
@@ -2360,10 +2363,10 @@ textarea {
 
 .btn-lg {
   padding: 25px 50px;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   border-radius: 0;
-  font-size: 30px!important;
-  line-height: 30px!important;
+  font-size: 30px !important;
+  line-height: 30px !important;
 }
 
 button {
@@ -2376,7 +2379,7 @@ button {
   color: #000;
   background-color: transparent;
   border: 2px solid #000;
-  font-family: roboto_condensedregular,Arial,sans-serif;
+  font-family: roboto_condensedregular, Arial, sans-serif;
   font-size: 20px;
   line-height: 20px;
   text-transform: uppercase;
@@ -2402,7 +2405,7 @@ button {
 }
 
 .btn-default i {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-style: normal;
 }
 
@@ -2412,7 +2415,7 @@ button {
   background-color: transparent;
   border: 2px solid #900;
   color: #900;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 20px;
   line-height: 20px;
   text-transform: uppercase;
@@ -2441,12 +2444,12 @@ button {
 }
 
 .btn-darkened {
-  border: 2px solid rgba(255,255,255,.66);
+  border: 2px solid rgba(255, 255, 255, .66);
   background-color: transparent;
-  font-family: roboto_condensedregular,Arial,sans-serif;
+  font-family: roboto_condensedregular, Arial, sans-serif;
   font-size: 20px;
   line-height: 20px;
-  color: rgba(255,255,255,.66);
+  color: rgba(255, 255, 255, .66);
   text-transform: uppercase;
 }
 
@@ -2454,9 +2457,9 @@ button {
 .btn-darkened.disabled:active,
 .btn-darkened.disabled:focus,
 .btn-darkened.disabled:hover {
-  border-color: rgba(255,255,255,.33);
+  border-color: rgba(255, 255, 255, .33);
   background-color: transparent;
-  color: rgba(255,255,255,.33);
+  color: rgba(255, 255, 255, .33);
 }
 
 .btn-darkened:hover {
@@ -2829,7 +2832,7 @@ ul.nav.nav-tabs>li.tablist__all>a {
 }
 
 ul.nav.nav-tabs>li.tablist__all>a>div {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 20px;
   line-height: 14px;
   color: #fff;
@@ -2915,7 +2918,7 @@ ul.nav.nav-tabs>li.active>a:active {
 
 .tablist__title {
   display: block;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 24px;
   line-height: 24px;
   color: #000;
@@ -2924,7 +2927,7 @@ ul.nav.nav-tabs>li.active>a:active {
 
 .tablist__descr {
   display: block;
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 10px;
   line-height: 10px;
   color: #000;
@@ -2938,7 +2941,7 @@ ul.nav.nav-tabs>li.active>a:active {
 
   .tablist__title {
     display: block;
-    font-family: roboto_condensedbold,Arial,sans-serif;
+    font-family: roboto_condensedbold, Arial, sans-serif;
     font-size: 40px;
     line-height: 40px;
     color: #000;
@@ -2947,7 +2950,7 @@ ul.nav.nav-tabs>li.active>a:active {
 
   .tablist__descr {
     display: block;
-    font-family: roboto_condensedlight,Arial,sans-serif;
+    font-family: roboto_condensedlight, Arial, sans-serif;
     font-size: 14px;
     line-height: 14px;
     color: #000;
@@ -2965,7 +2968,7 @@ ul.nav.nav-tabs>li.active>a:active {
 
 .radio label {
   position: relative;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 18px;
   line-height: 18px;
   color: #000;
@@ -2983,7 +2986,7 @@ ul.nav.nav-tabs>li.active>a:active {
   position: absolute;
   left: 0;
   bottom: 1px;
-  box-shadow: inset 1px 1px 0 0 rgba(0,0,0,.2);
+  box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, .2);
   background-color: #fff;
   border-radius: 20px;
 }
@@ -3044,7 +3047,7 @@ input[type=radio]:disabled+label:after {
 
 .checkbox label {
   position: relative;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 18px;
   line-height: 18px;
   color: #000;
@@ -3062,7 +3065,7 @@ input[type=radio]:disabled+label:after {
   position: absolute;
   left: 0;
   bottom: 1px;
-  box-shadow: inset 1px 1px 0 0 rgba(0,0,0,.2);
+  box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, .2);
   background-color: #fff;
 }
 
@@ -3143,29 +3146,29 @@ input[type=checkbox]:disabled+label:after {
   border-bottom: none;
   border-right: none;
   border-color: #bdbbac;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 18px;
   line-height: 18px;
   padding: 0 10px;
 }
 
 ::-webkit-input-placeholder {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   text-transform: uppercase;
 }
 
 ::-moz-placeholder {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   text-transform: uppercase;
 }
 
 :-ms-input-placeholder {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   text-transform: uppercase;
 }
 
 input:-moz-placeholder {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   text-transform: uppercase;
 }
 
@@ -3182,7 +3185,7 @@ textarea:disabled {
 }
 
 .form-group label.control-label {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 20px;
   font-weight: lighter;
   line-height: 20px;
@@ -3191,7 +3194,7 @@ textarea:disabled {
 }
 
 .form-group.has-error label.control-label.control-label-top {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 20px;
   font-weight: lighter;
   line-height: 20px;
@@ -3202,7 +3205,7 @@ textarea:disabled {
 }
 
 .form-group.has-error label.control-label {
-  font-family: roboto_condensedregular,Arial,sans-serif;
+  font-family: roboto_condensedregular, Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 21px;
@@ -3255,7 +3258,7 @@ footer .form-group.has-error label.control-label {
 
 .navbar-nav .dropdown>.dropdown-menu a,
 .navbar-nav .dropdown>.dropdown-menu span {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   text-transform: uppercase;
 }
 
@@ -3269,7 +3272,7 @@ nav>.nav.navbar-nav>li>a>i {
   top: 11px;
   right: 40px;
   height: 18px;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 18px;
   line-height: 14px;
   color: #bdbbac;
@@ -3310,11 +3313,11 @@ nav .dropdown-menu>.active>a:hover {
 
 .subview .subviewopen {
   display: block;
-  border-bottom: none!important;
+  border-bottom: none !important;
 }
 
 .subview .subviewopen>a {
-  display: none!important;
+  display: none !important;
 }
 
 .subview .subviewopen>.dl-submenu {
@@ -3328,7 +3331,7 @@ nav .dropdown-menu>.active>a:hover {
 
 .subview .subviewopen>.dl-submenu>li {
   display: block;
-  border-bottom: 1px solid rgba(255,255,255,.1);
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
 .subview .subviewopen>.dl-submenu>li:last-child {
@@ -3339,7 +3342,7 @@ nav .dropdown-menu>.active>a:hover {
 .subview .subviewopen>.dl-submenu>li>span {
   display: block;
   position: relative;
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 14px;
   line-height: 14px;
   color: #fff;
@@ -3356,7 +3359,7 @@ nav .dropdown-menu>.active>a:hover {
   width: 40px;
   top: 0;
   right: 0;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 18px;
   color: #bdbdac;
   line-height: 48px;
@@ -3375,11 +3378,11 @@ nav .dropdown-menu>.active>a:hover {
 
 .subview li.subview {
   display: block;
-  border-bottom: none!important;
+  border-bottom: none !important;
 }
 
 .subview li.subview>a {
-  display: none!important;
+  display: none !important;
 }
 
 .subview li.subview .dl-submenu {
@@ -3425,6 +3428,7 @@ nav>.nav.navbar-nav>li.colors li>span {
 }
 
 @media screen and (min-width:992px) and (max-width:1200px) {
+
   .subview .subviewopen>.dl-submenu>li>a,
   .subview .subviewopen>.dl-submenu>li>span {
     padding-right: 40px;
@@ -3477,7 +3481,7 @@ nav>.nav.navbar-nav>li.colors li>span {
     padding: 20px 0;
     font-size: 14px;
     line-height: 1;
-    border-bottom: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
     color: #fff;
     white-space: nowrap;
     cursor: pointer;
@@ -3490,7 +3494,7 @@ nav>.nav.navbar-nav>li.colors li>span {
     font-size: 14px;
     line-height: 1;
     color: #bdbbac;
-    border-bottom: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
   }
 
   .navbar-nav .dropdown>.dropdown-menu>li.dropdown-submenu>a {
@@ -3506,7 +3510,7 @@ nav>.nav.navbar-nav>li.colors li>span {
     top: 16px;
     right: 0;
     height: 18px;
-    font-family: roboto_condensedbold,Arial,sans-serif;
+    font-family: roboto_condensedbold, Arial, sans-serif;
     font-size: 18px;
     line-height: 16px;
     font-style: normal;
@@ -3551,7 +3555,7 @@ nav>.nav.navbar-nav>li.colors li>span {
   }
 
   .dropdown-submenu>.dropdown-menu>li {
-    border-bottom: 1px solid rgba(255,255,255,.1);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
   }
 
   .dropdown-submenu>.dropdown-menu>li:last-child {
@@ -3665,7 +3669,7 @@ nav>.nav.navbar-nav>li.colors li>span {
   width: 100%;
   height: 50px;
   padding: 15px 13px;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 18px;
   background: #fff;
   color: #999;
@@ -3691,7 +3695,7 @@ nav>.nav.navbar-nav>li.colors li>span {
 
 .bootstrap-select.btn-group .dropdown-menu.dropdown-menu>li>a {
   padding: 16px 12px;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   color: #000;
   font-size: 18px;
   line-height: 18px;
@@ -3752,7 +3756,7 @@ nav>.nav.navbar-nav>li.colors li>span {
 }
 
 .content__text blockquote p {
-  font-family: pt_sansitalic,Arial,sans-serif;
+  font-family: pt_sansitalic, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #666;
@@ -3761,7 +3765,7 @@ nav>.nav.navbar-nav>li.colors li>span {
 
 .content__text blockquote footer {
   padding-top: 0;
-  font-family: pt_sansbold,Arial,sans-serif;
+  font-family: pt_sansbold, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #000;
@@ -3781,7 +3785,7 @@ nav>.nav.navbar-nav>li.colors li>span {
 }
 
 .table>thead>tr>th {
-  font-family: pt_sansbold,Arial,sans-serif;
+  font-family: pt_sansbold, Arial, sans-serif;
   font-size: 20px;
   line-height: 22px;
   color: #000;
@@ -3799,14 +3803,14 @@ nav>.nav.navbar-nav>li.colors li>span {
 }
 
 .table>tbody>tr>td {
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #000;
 }
 
 .table>tbody>tr>td.lead {
-  font-family: pt_sansbold,Arial,sans-serif;
+  font-family: pt_sansbold, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   color: #000;
@@ -3823,7 +3827,7 @@ nav>.nav.navbar-nav>li.colors li>span {
   background-color: #e9e8dc;
   border-radius: 0;
   padding: 20px;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 14px;
   line-height: 22px;
   color: #666;
@@ -3874,7 +3878,7 @@ nav>.nav.navbar-nav>li.colors li>span {
 
 .pager .pager-m {
   display: block;
-  font-family: roboto_condensedregular,Arial,sans-serif;
+  font-family: roboto_condensedregular, Arial, sans-serif;
   font-size: 20px;
   line-height: 20px;
   color: #000;
@@ -3883,7 +3887,7 @@ nav>.nav.navbar-nav>li.colors li>span {
 
 .pager .pager-y {
   display: block;
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 14px;
   line-height: 14px;
   color: #000;
@@ -3968,12 +3972,12 @@ hr.half {
 
 .fw-image-parallax {
   background: #ce9c94;
-  background: -moz-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: -webkit-gradient(linear,left top,right bottom,color-stop(0%,#ce9c94),color-stop(100%,#9da6b4));
-  background: -webkit-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: -o-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: -ms-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: linear-gradient(135deg,#ce9c94 0,#9da6b4 100%);
+  background: -moz-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ce9c94), color-stop(100%, #9da6b4));
+  background: -webkit-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: -o-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: -ms-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: linear-gradient(135deg, #ce9c94 0, #9da6b4 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce9c94', endColorstr='#9da6b4', GradientType=1);
 }
 
@@ -4156,7 +4160,7 @@ header {
   float: right;
   margin-right: 15px;
   margin-top: 16px;
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 20px;
   color: #bdbbac;
 }
@@ -4174,7 +4178,7 @@ nav>.nav.navbar-nav {
 }
 
 nav>.nav.navbar-nav>li {
-  border-bottom: 1px solid rgba(255,255,255,.1);
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
 nav>.nav.navbar-nav>li:last-child {
@@ -4186,7 +4190,7 @@ nav>.nav.navbar-nav>li>a,
 nav>.nav.navbar-nav>li>span {
   display: block;
   float: right;
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 18px;
   line-height: 18px;
   color: #fff;
@@ -4220,7 +4224,7 @@ nav>.nav.navbar-nav>li.colors>a>span {
 }
 
 nav>.nav.navbar-nav>li.colors li {
-  border-bottom: none!important;
+  border-bottom: none !important;
 }
 
 nav>.nav.navbar-nav>li.colors li>a>svg,
@@ -4243,7 +4247,7 @@ nav>.nav.navbar-nav>li.colors li>span {
 .dropdown-menu .divider {
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255, 255, 255, .1);
 }
 
 .subview .subviewopen>.dl-submenu>li.active>span {
@@ -4280,7 +4284,7 @@ nav>.nav.navbar-nav>li.colors li>span {
   width: 100%;
   height: 100%;
   z-index: 11;
-  background-color: rgba(0,0,0,.2);
+  background-color: rgba(0, 0, 0, .2);
 }
 
 .slider__container {
@@ -4308,15 +4312,15 @@ nav>.nav.navbar-nav>li.colors li>span {
 .slider__title span {
   display: inline;
   padding-bottom: 1px;
-  background-color: rgba(153,0,0,.8);
-  font-family: roboto_condensedregular,Arial,sans-serif;
+  background-color: rgba(153, 0, 0, .8);
+  font-family: roboto_condensedregular, Arial, sans-serif;
   font-size: 30px;
   line-height: 1.43;
   color: #fff;
 }
 
 .slider__bg-img.fw-image-parallax {
-  left: 0!important;
+  left: 0 !important;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -4411,7 +4415,7 @@ nav>.nav.navbar-nav>li.colors li>span {
 }
 
 h2 {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #000;
@@ -4421,7 +4425,7 @@ h2 {
 }
 
 h3 {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 21px;
   line-height: 21px;
   color: #000;
@@ -4454,7 +4458,7 @@ h3 {
 
 .fullW-news-item__p {
   margin-bottom: 30px;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #000;
@@ -4513,12 +4517,12 @@ h3 {
   overflow: hidden;
   padding: 30px 0;
   background: #ce9c94;
-  background: -moz-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: -webkit-gradient(linear,left top,right bottom,color-stop(0%,#ce9c94),color-stop(100%,#9da6b4));
-  background: -webkit-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: -o-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: -ms-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: linear-gradient(135deg,#ce9c94 0,#9da6b4 100%);
+  background: -moz-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ce9c94), color-stop(100%, #9da6b4));
+  background: -webkit-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: -o-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: -ms-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: linear-gradient(135deg, #ce9c94 0, #9da6b4 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce9c94', endColorstr='#9da6b4', GradientType=1);
 }
 
@@ -4549,7 +4553,7 @@ h3 {
 .fw-news__inner h1 {
   margin-bottom: 20px;
   padding: 0 20px;
-  font-family: roboto_condensedregular,Arial,sans-serif;
+  font-family: roboto_condensedregular, Arial, sans-serif;
   color: #fff;
 }
 
@@ -4563,7 +4567,7 @@ h3 {
 
 .fw-news__inner p {
   padding: 0 30px;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   color: #fff;
 }
 
@@ -4589,12 +4593,12 @@ h3 {
   display: block;
   position: relative;
   background: #ce9c94;
-  background: -moz-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: -webkit-gradient(linear,left top,right bottom,color-stop(0%,#ce9c94),color-stop(100%,#9da6b4));
-  background: -webkit-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: -o-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: -ms-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: linear-gradient(135deg,#ce9c94 0,#9da6b4 100%);
+  background: -moz-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ce9c94), color-stop(100%, #9da6b4));
+  background: -webkit-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: -o-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: -ms-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: linear-gradient(135deg, #ce9c94 0, #9da6b4 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce9c94', endColorstr='#9da6b4', GradientType=1);
 }
 
@@ -4625,7 +4629,7 @@ h3 {
   top: 0;
   left: 0;
   z-index: 2;
-  background-color: rgba(0,0,0,.4);
+  background-color: rgba(0, 0, 0, .4);
 }
 
 .fw-news .label-default {
@@ -4633,7 +4637,7 @@ h3 {
 }
 
 .news-item__p {
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 14px;
   line-height: 22px;
   color: #000;
@@ -4650,7 +4654,7 @@ h3 {
   position: absolute;
   top: 10px;
   left: 13px;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 40px;
   line-height: 30px;
   color: #fff;
@@ -4684,18 +4688,18 @@ h3 {
 
 .news-item-big .news-item-big__header h3 {
   display: inline;
-  font-family: roboto_condensedregular,Arial,sans-serif;
+  font-family: roboto_condensedregular, Arial, sans-serif;
   font-size: 40px;
   line-height: 54px;
   color: #026;
   padding-right: 60px;
   text-transform: none;
-  background: rgba(255,255,255,.8);
+  background: rgba(255, 255, 255, .8);
 }
 
 .news-item-big p {
   max-height: 96px;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #000;
@@ -4727,7 +4731,7 @@ h3 {
 
 .prop-icons {
   display: block;
-  border-top: 1px solid rgba(0,0,0,.2);
+  border-top: 1px solid rgba(0, 0, 0, .2);
   padding-top: 20px;
   overflow: hidden;
 }
@@ -4757,7 +4761,7 @@ h3 {
 }
 
 .prop-icons__item-hd {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 14px;
   line-height: 14px;
   color: #333;
@@ -4766,7 +4770,7 @@ h3 {
 }
 
 .prop-icons__item-vl {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 16px;
   line-height: 16px;
   color: #900;
@@ -4792,7 +4796,7 @@ h3 {
   bottom: 0;
   left: 0;
   margin: auto;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 36px;
   line-height: 36px;
   color: #026;
@@ -4800,7 +4804,7 @@ h3 {
 }
 
 .sm-diagramm span {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 36px;
   line-height: 36px;
 }
@@ -4814,7 +4818,7 @@ h3 {
   bottom: 0;
   left: 0;
   margin: auto;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 112px;
   line-height: 112px;
   color: #900;
@@ -4852,7 +4856,7 @@ section.work {
 }
 
 .section-hdr {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 48px;
   line-height: 48px;
   margin-bottom: 20px;
@@ -4894,7 +4898,7 @@ section.work {
   left: 0;
   z-index: 5;
   padding-right: 20px;
-  font-family: roboto_condensedregular,Arial,sans-serif;
+  font-family: roboto_condensedregular, Arial, sans-serif;
   font-size: 36px;
   line-height: 49px;
   color: #bdbbac;
@@ -4961,7 +4965,7 @@ section.video {
 }
 
 section.video h3 {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   margin-bottom: 10px;
@@ -4978,7 +4982,7 @@ section.video .line-abt {
 }
 
 section.video p {
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   color: #000;
@@ -5057,7 +5061,7 @@ section.soc .section-hdr__icon-tw:before {
 .tw-item__title {
   display: block;
   position: relative;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 16px;
   line-height: 16px;
   color: #000;
@@ -5070,7 +5074,7 @@ section.soc .section-hdr__icon-tw:before {
   position: absolute;
   right: 0;
   top: 1px;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 16px;
   line-height: 16px;
   color: #000;
@@ -5078,7 +5082,7 @@ section.soc .section-hdr__icon-tw:before {
 
 .tw-item__addr {
   display: block;
-  font-family: roboto_condensedregular,Arial,sans-serif;
+  font-family: roboto_condensedregular, Arial, sans-serif;
   font-size: 16px;
   line-height: 18px;
   color: #666;
@@ -5086,7 +5090,7 @@ section.soc .section-hdr__icon-tw:before {
 }
 
 .tw-item p {
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #000;
@@ -5094,7 +5098,7 @@ section.soc .section-hdr__icon-tw:before {
 }
 
 .tw-item p a {
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #026;
@@ -5204,7 +5208,7 @@ section.stuff .section-hdr {
 }
 
 .stuff-slider__title {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 24px;
   line-height: 24px;
   color: #000;
@@ -5213,7 +5217,7 @@ section.stuff .section-hdr {
 }
 
 .stuff-slider__descr {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 14px;
   line-height: 14px;
   color: #666;
@@ -5226,12 +5230,12 @@ section.stuff .section-hdr {
   outline: 0;
   border: 0;
   height: 1px;
-  background: rgba(0,0,0,.2);
+  background: rgba(0, 0, 0, .2);
 }
 
 .stuff-slider__p {
   max-height: 86px;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 14px;
   line-height: 22px;
   color: #333;
@@ -5345,7 +5349,7 @@ footer {
 }
 
 .foot-title {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 30px;
   color: #e9e8dc;
   margin-bottom: 35px;
@@ -5367,10 +5371,10 @@ footer {
 }
 
 .footer__ulist li a {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 16px;
   line-height: 16px;
-  color: rgba(255,255,255,.66);
+  color: rgba(255, 255, 255, .66);
   border-bottom: 1px solid;
   text-decoration: none;
   -webkit-transition: all .3s ease;
@@ -5378,17 +5382,17 @@ footer {
 }
 
 footer p {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
-  color: rgba(255,255,255,.66);
+  color: rgba(255, 255, 255, .66);
 }
 
 .copyrights {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
-  color: rgba(255,255,255,.66);
+  color: rgba(255, 255, 255, .66);
 }
 
 .copyrights__footer {
@@ -5404,10 +5408,10 @@ footer p {
 
 .icon-list__item,
 .icon-list__item a {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
-  color: rgba(255,255,255,.66);
+  color: rgba(255, 255, 255, .66);
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
@@ -5464,7 +5468,7 @@ footer form {
 }
 
 .success-message .suc-title {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 18px;
   line-height: 1;
   color: #fff;
@@ -5485,7 +5489,7 @@ footer .success-message .suc-title i {
   background-color: #000;
   -webkit-transition: top .5s ease;
   transition: top .5s ease;
-  -webkit-transform: translate3d(0,0,0);
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 .sticky.active {
@@ -5505,7 +5509,7 @@ footer .success-message .suc-title i {
   width: 55%;
   height: 50px;
   margin-left: 80px;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 24px;
   line-height: 47px;
   color: #e9e8dc;
@@ -5542,12 +5546,12 @@ footer .success-message .suc-title i {
   height: 50px;
   left: -30px;
   top: -10px;
-  background: -moz-linear-gradient(left,transparent 0,#000 100%);
-  background: -webkit-gradient(linear,left top,right top,color-stop(0%,transparent),color-stop(100%,#000));
-  background: -webkit-linear-gradient(left,transparent 0,#000 100%);
-  background: -o-linear-gradient(left,transparent 0,#000 100%);
-  background: -ms-linear-gradient(left,transparent 0,#000 100%);
-  background: linear-gradient(to right,transparent 0,#000 100%);
+  background: -moz-linear-gradient(left, transparent 0, #000 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, transparent), color-stop(100%, #000));
+  background: -webkit-linear-gradient(left, transparent 0, #000 100%);
+  background: -o-linear-gradient(left, transparent 0, #000 100%);
+  background: -ms-linear-gradient(left, transparent 0, #000 100%);
+  background: linear-gradient(to right, transparent 0, #000 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#000000', GradientType=1);
 }
 
@@ -5589,7 +5593,7 @@ footer .success-message .suc-title i {
 }
 
 .heading-fw h1 {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 48px;
   line-height: 51px;
   color: #000;
@@ -5606,7 +5610,7 @@ footer .success-message .suc-title i {
 }
 
 .content__text p.lead {
-  font-family: pt_sansitalic,Arial,sans-serif;
+  font-family: pt_sansitalic, Arial, sans-serif;
   line-height: 32px;
   font-size: 24px;
   color: #666;
@@ -5618,7 +5622,7 @@ footer .success-message .suc-title i {
 }
 
 .content__text h2 {
-  font-family: pt_sansbold,Arial,sans-serif;
+  font-family: pt_sansbold, Arial, sans-serif;
   font-size: 36px;
   line-height: 36px;
   color: #000;
@@ -5628,7 +5632,7 @@ footer .success-message .suc-title i {
 }
 
 .content__text h3 {
-  font-family: pt_sansbold,Arial,sans-serif;
+  font-family: pt_sansbold, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #000;
@@ -5638,7 +5642,7 @@ footer .success-message .suc-title i {
 }
 
 .content__text h4 {
-  font-family: pt_sansbold,Arial,sans-serif;
+  font-family: pt_sansbold, Arial, sans-serif;
   font-size: 26px;
   line-height: 26px;
   color: #000;
@@ -5648,7 +5652,7 @@ footer .success-message .suc-title i {
 }
 
 .content__text h5 {
-  font-family: pt_sansbold,Arial,sans-serif;
+  font-family: pt_sansbold, Arial, sans-serif;
   font-size: 24px;
   line-height: 24px;
   color: #000;
@@ -5658,7 +5662,7 @@ footer .success-message .suc-title i {
 }
 
 .content__text h6 {
-  font-family: pt_sansbold,Arial,sans-serif;
+  font-family: pt_sansbold, Arial, sans-serif;
   font-size: 20px;
   line-height: 22px;
   color: #000;
@@ -5673,7 +5677,7 @@ footer .success-message .suc-title i {
 }
 
 .content__text p {
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 30px;
@@ -5690,7 +5694,7 @@ footer .success-message .suc-title i {
 .content__text ol li,
 .content__text ul li {
   margin-bottom: 8px;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 18px;
   line-height: 28px;
   color: #666;
@@ -5698,7 +5702,7 @@ footer .success-message .suc-title i {
 
 .content__text ul li {
   position: relative;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 18px;
   line-height: 28px;
   color: #000;
@@ -5768,7 +5772,7 @@ figure.full-figure-aside hr {
 }
 
 figure.full-figure-aside figcaption {
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 14px;
   line-height: 22px;
   color: #666;
@@ -5791,7 +5795,7 @@ figure.full-figure hr {
 }
 
 figure.full-figure figcaption {
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 14px;
   line-height: 22px;
   color: #666;
@@ -5817,7 +5821,7 @@ figure.full-figure figcaption {
 }
 
 .quote p {
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 14px;
   line-height: 22px;
   color: #900;
@@ -5845,8 +5849,8 @@ figure.full-figure figcaption {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .news-to-r .news-to-r__descr {
@@ -5868,7 +5872,7 @@ figure.full-figure figcaption {
 }
 
 .news-to-r__title {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 21px;
   line-height: 21px;
   color: #000;
@@ -5933,7 +5937,7 @@ figure.full-figure figcaption {
   position: absolute;
   width: 100%;
   bottom: -7px;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 48px;
   line-height: 51px;
   color: #e9e8dc;
@@ -5965,7 +5969,7 @@ figure.full-figure figcaption {
 }
 
 .aside__news .news-item .news-item__title {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 21px;
   line-height: 21px;
   color: #000;
@@ -5989,7 +5993,7 @@ figure.full-figure figcaption {
 }
 
 .recommend__title {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 48px;
   line-height: 37px;
   color: #e9e8dc;
@@ -6002,7 +6006,7 @@ figure.full-figure figcaption {
 }
 
 .recommend__news .news-item__title {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 18px;
   line-height: 18px;
   color: #000;
@@ -6027,7 +6031,7 @@ figure.full-figure figcaption {
 }
 
 .comments__title {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 48px;
   line-height: 37px;
   color: #fff;
@@ -6044,11 +6048,11 @@ figure.full-figure figcaption {
 #disqus_thread a,
 .publisher-anchor-color a,
 a.publisher-anchor-color {
-  color: #900!important;
+  color: #900 !important;
 }
 
 .projects h1 {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   text-transform: uppercase;
   text-align: center;
   color: #000;
@@ -6074,8 +6078,8 @@ a.publisher-anchor-color {
   width: 200%;
   position: absolute;
   left: 50%;
-  -webkit-transform: translate(-50%,0);
-  transform: translate(-50%,0);
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
 
 .project-item__no-img {
@@ -6088,8 +6092,8 @@ a.publisher-anchor-color {
   height: 100%;
   position: absolute;
   left: 50%;
-  -webkit-transform: translate(-50%,0);
-  transform: translate(-50%,0);
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
 
 .project-item__diagramm {
@@ -6109,7 +6113,7 @@ a.publisher-anchor-color {
 
 .project-item h2 {
   margin-bottom: 25px;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   text-transform: uppercase;
   color: #026;
   text-align: center;
@@ -6129,7 +6133,7 @@ a.publisher-anchor-color {
 
 .project-item__p {
   margin-bottom: 25px;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   color: #000;
 }
 
@@ -6185,7 +6189,7 @@ a.publisher-anchor-color {
 
 .project-item-ln h2 {
   margin-bottom: 25px;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   text-transform: uppercase;
   color: #000;
   text-align: center;
@@ -6246,8 +6250,8 @@ a.publisher-anchor-color {
   min-width: 100%;
   width: 100%;
   height: auto;
-  -webkit-transform: translate(-50%,0);
-  transform: translate(-50%,0);
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
 
 .project-topper__bt {
@@ -6276,7 +6280,7 @@ a.publisher-anchor-color {
 
 .project-topper__bt .project-item__p {
   padding: 0 20px;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   color: #666;
 }
 
@@ -6318,12 +6322,12 @@ a.publisher-anchor-color {
 
 .coll-hdr {
   padding: 20px 0;
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   text-align: center;
 }
 
 .coll-hdr b {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
 }
 
 .project-stuff .coll-hdr {
@@ -6342,7 +6346,7 @@ a.publisher-anchor-color {
 
 .project-stuff__slider-title {
   margin-bottom: 5px;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 20px;
   line-height: 18px;
   color: #000;
@@ -6350,7 +6354,7 @@ a.publisher-anchor-color {
 }
 
 .project-stuff__slider-desrc {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 12px;
   line-height: 12px;
   color: #666;
@@ -6361,7 +6365,7 @@ a.publisher-anchor-color {
 }
 
 .project-stuff__slider .slick-disabled:after {
-  opacity: .15!important;
+  opacity: .15 !important;
 }
 
 .project-stuff__slider-links,
@@ -6405,7 +6409,7 @@ a.publisher-anchor-color {
 .project-stuff__quote-text {
   border-bottom: 1px solid #bdbbac;
   padding: 0 15px 30px;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 18px;
   line-height: 28px;
   color: #000;
@@ -6436,7 +6440,7 @@ a.publisher-anchor-color {
 .project-stuff__quote-link {
   display: block;
   float: left;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 16px;
   left: 36px;
   color: #026;
@@ -6549,7 +6553,7 @@ a.publisher-anchor-color {
 
 .project-news__subscribe-title {
   margin-bottom: 25px;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 36px;
   line-height: 36px;
   text-transform: uppercase;
@@ -6559,7 +6563,7 @@ a.publisher-anchor-color {
 .project-news__subscribe p {
   margin-bottom: 20px;
   padding: 0 40px;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   color: #fff;
 }
 
@@ -6575,13 +6579,13 @@ a.publisher-anchor-color {
 
 .project-news__subscribe form input,
 .project-news__subscribe form textarea {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 18px;
 }
 
 .project-news__subscribe form input::-webkit-input-placeholder,
 .project-news__subscribe form textarea::-webkit-input-placeholder {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
@@ -6589,7 +6593,7 @@ a.publisher-anchor-color {
 
 .project-news__subscribe form input:-webkit-input-placeholder,
 .project-news__subscribe form textarea:-webkit-input-placeholder {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
@@ -6597,7 +6601,7 @@ a.publisher-anchor-color {
 
 .project-news__subscribe form input:-moz-placeholder,
 .project-news__subscribe form textarea:-moz-placeholder {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
@@ -6605,7 +6609,7 @@ a.publisher-anchor-color {
 
 .project-news__subscribe form input::-moz-placeholder,
 .project-news__subscribe form textarea::-moz-placeholder {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
@@ -6613,7 +6617,7 @@ a.publisher-anchor-color {
 
 .project-news__subscribe form input:-ms-input-placeholder,
 .project-news__subscribe form textarea:-ms-input-placeholder {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   text-align: center;
@@ -6710,7 +6714,7 @@ a.publisher-anchor-color {
 
 .events__docs-item-ex,
 .events__docs-item-sz {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 12px;
   line-height: 16px;
   color: #000;
@@ -6718,7 +6722,7 @@ a.publisher-anchor-color {
 }
 
 .events__docs-item-ttl {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   color: #026;
   font-size: 14px;
   line-height: 16px;
@@ -6768,7 +6772,7 @@ a.publisher-anchor-color {
 }
 
 .events h1 {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   text-transform: uppercase;
   text-align: center;
   color: #000;
@@ -6822,7 +6826,7 @@ a.publisher-anchor-color {
 
 .top-navig__item-ttl {
   display: block;
-  font-family: roboto_condensedregular,Arial,sans-serif;
+  font-family: roboto_condensedregular, Arial, sans-serif;
   font-size: 20px;
   color: #000;
   text-transform: uppercase;
@@ -6830,7 +6834,7 @@ a.publisher-anchor-color {
 
 .top-navig__item-desc {
   display: block;
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   color: #000;
   text-transform: uppercase;
 }
@@ -6920,7 +6924,7 @@ a.publisher-anchor-color {
 }
 
 .event-cont__item-day-d {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 22px;
   line-height: 22px;
   color: #000;
@@ -6928,7 +6932,7 @@ a.publisher-anchor-color {
 }
 
 .event-cont__item-day-dt {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 22px;
   line-height: 22px;
   color: #000;
@@ -6964,12 +6968,12 @@ a.publisher-anchor-color {
   width: 100%;
   height: 100%;
   background: #ce9c94;
-  background: -moz-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: -webkit-gradient(linear,left top,right bottom,color-stop(0%,#ce9c94),color-stop(100%,#9da6b4));
-  background: -webkit-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: -o-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: -ms-linear-gradient(-45deg,#ce9c94 0,#9da6b4 100%);
-  background: linear-gradient(135deg,#ce9c94 0,#9da6b4 100%);
+  background: -moz-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ce9c94), color-stop(100%, #9da6b4));
+  background: -webkit-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: -o-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: -ms-linear-gradient(-45deg, #ce9c94 0, #9da6b4 100%);
+  background: linear-gradient(135deg, #ce9c94 0, #9da6b4 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce9c94', endColorstr='#9da6b4', GradientType=1);
 }
 
@@ -6982,7 +6986,7 @@ a.publisher-anchor-color {
   right: 0;
   margin: auto;
   z-index: 5;
-  background-color: rgba(233,232,220,.9);
+  background-color: rgba(233, 232, 220, .9);
   padding: 20px;
 }
 
@@ -6992,7 +6996,7 @@ a.publisher-anchor-color {
 }
 
 .event-bl__inner h3 a {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   color: #000;
   text-transform: uppercase;
 }
@@ -7031,7 +7035,7 @@ a.publisher-anchor-color {
 }
 
 .pager li>a.go-up {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   padding: 20px 10px;
   color: #000;
   text-transform: uppercase;
@@ -7052,7 +7056,7 @@ a.publisher-anchor-color {
 }
 
 .events-view__item .fw-news__inner h1 {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   color: #000;
   text-transform: uppercase;
 }
@@ -7062,7 +7066,7 @@ a.publisher-anchor-color {
 }
 
 .events-view__item .fw-news__pattern {
-  background-color: rgba(233,232,220,.5);
+  background-color: rgba(233, 232, 220, .5);
 }
 
 .events-view__item .fw-news__inner .img-circle {
@@ -7117,7 +7121,7 @@ a.publisher-anchor-color {
 }
 
 .mapper__desrc-d {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 5.2vw;
   line-height: 1;
   color: #000;
@@ -7125,7 +7129,7 @@ a.publisher-anchor-color {
 }
 
 .mapper__desrc-dt {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 5.2vw;
   line-height: 1;
   color: #000;
@@ -7133,7 +7137,7 @@ a.publisher-anchor-color {
 }
 
 .mapper__desrc-pl {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 5.2vw;
   line-height: 1;
   color: #900;
@@ -7189,14 +7193,14 @@ a.publisher-anchor-color {
 
 .event-organizers__item-rt h3 {
   margin-bottom: 5px;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   color: #000;
   text-transform: uppercase;
 }
 
 .event-organizers__item-rt h4 {
   margin-bottom: 15px;
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   color: #666;
 }
 
@@ -7224,7 +7228,7 @@ a.publisher-anchor-color {
 .event-organizers__item-lst li a {
   display: block;
   float: left;
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   font-size: 14px;
   line-height: 14px;
   color: #026;
@@ -7263,7 +7267,7 @@ a.publisher-anchor-color {
 }
 
 .event-details__item-lft time {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 36px;
   line-height: 36px;
   color: #000;
@@ -7271,7 +7275,7 @@ a.publisher-anchor-color {
 }
 
 .event-details__item-lft time b {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   color: #000;
   text-transform: uppercase;
 }
@@ -7304,7 +7308,7 @@ a.publisher-anchor-color {
 
 .event-details__item-ttl-rt h3 {
   margin-bottom: 4px;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 20px;
   line-height: 20px;
   text-transform: uppercase;
@@ -7314,7 +7318,7 @@ a.publisher-anchor-color {
 
 .event-details__item-ttl-rt h4 {
   margin-bottom: 20px;
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   line-height: 14px;
   color: #666;
   font-size: 16px;
@@ -7328,18 +7332,18 @@ a.publisher-anchor-color {
 
 .event-details__item-descr h5 {
   margin-bottom: 15px;
-  font-family: pt_sansbold,Arial,sans-serif;
+  font-family: pt_sansbold, Arial, sans-serif;
   font-size: 18px;
   color: #000;
 }
 
 .event-details__item-descr p {
-  font-family: pt_sansregular,Arial,sans-serif;
+  font-family: pt_sansregular, Arial, sans-serif;
   color: #000;
 }
 
 .event-details__item-rt h3.crs {
-  font-family: roboto_condensedlight_italic,Arial,sans-serif;
+  font-family: roboto_condensedlight_italic, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #999;
@@ -7445,7 +7449,7 @@ a.publisher-anchor-color {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0, 0, 0, .8);
   overflow: hidden;
 }
 
@@ -7482,7 +7486,7 @@ a.publisher-anchor-color {
 }
 
 .stuff h1 {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   text-transform: uppercase;
   text-align: center;
   color: #000;
@@ -7517,13 +7521,13 @@ a.publisher-anchor-color {
 
 .stuff__item-ttl {
   margin-bottom: 10px;
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   text-transform: uppercase;
   color: #000;
 }
 
 .stuff__item-descr {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   color: #666;
 }
 
@@ -7567,7 +7571,7 @@ a.publisher-anchor-color {
   position: relative;
   margin-bottom: 15px;
   padding-left: 30px;
-  color: rgba(255,255,255,.5);
+  color: rgba(255, 255, 255, .5);
 }
 
 .list-icons li i {
@@ -7582,10 +7586,10 @@ a.publisher-anchor-color {
 
 .list-icons li a,
 .list-icons li span {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 22px;
   line-height: 22px;
-  color: rgba(255,255,255,.66);
+  color: rgba(255, 255, 255, .66);
 }
 
 .contacts-form {
@@ -7645,7 +7649,7 @@ a.publisher-anchor-color {
 }
 
 .about h1 {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
   font-size: 36px;
   line-height: 300px;
   text-transform: uppercase;
@@ -7658,7 +7662,7 @@ a.publisher-anchor-color {
 }
 
 .fw-intro p {
-  font-family: pt_sansitalic,Arial,sans-serif;
+  font-family: pt_sansitalic, Arial, sans-serif;
   font-size: 24px;
   line-height: 32px;
   color: #666;
@@ -7721,7 +7725,7 @@ a.publisher-anchor-color {
   left: 0;
   margin: auto;
   height: 52px;
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 48px;
   line-height: 48px;
   text-align: center;
@@ -7729,7 +7733,7 @@ a.publisher-anchor-color {
 }
 
 .about-diagramms__item-diagr .diagramm-number span {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 48px;
   line-height: 48px;
   text-align: center;
@@ -7753,7 +7757,7 @@ a.publisher-anchor-color {
 
 .about-diagramms__item-title,
 .about-diagramms__item-title b {
-  font-family: roboto_condensedlight,Arial,sans-serif;
+  font-family: roboto_condensedlight, Arial, sans-serif;
   font-size: 30px;
   line-height: 30px;
   color: #fff;
@@ -7762,7 +7766,7 @@ a.publisher-anchor-color {
 }
 
 .about-diagramms__item-title b {
-  font-family: roboto_condensedbold,Arial,sans-serif;
+  font-family: roboto_condensedbold, Arial, sans-serif;
 }
 
 .fw-image-parallax {
@@ -7772,6 +7776,7 @@ a.publisher-anchor-color {
 }
 
 @media screen and (min-width:480px) and (max-width:767px) {
+
   .col-xm-3,
   .col-xm-4,
   .col-xm-6,
@@ -7788,7 +7793,7 @@ a.publisher-anchor-color {
   }
 
   .col-xm-6 {
-    width: 50%!important;
+    width: 50% !important;
     padding-left: 15px;
     padding-right: 15px;
     float: left;
@@ -7799,7 +7804,7 @@ a.publisher-anchor-color {
   }
 
   .col-xm-12 {
-    width: 100%!important;
+    width: 100% !important;
     padding-left: 15px;
     padding-right: 15px;
     float: left;
@@ -7818,7 +7823,7 @@ a.publisher-anchor-color {
   }
 
   .visible-xm {
-    display: block!important;
+    display: block !important;
   }
 
   .news {
@@ -8048,7 +8053,7 @@ a.publisher-anchor-color {
   }
 
   .slider__title span {
-    background-color: rgba(153,0,0,.8);
+    background-color: rgba(153, 0, 0, .8);
     font-size: 60px;
     line-height: 1.37;
   }
@@ -8339,7 +8344,7 @@ a.publisher-anchor-color {
 
 @media screen and (min-width:768px) and (max-width:991px) {
   .work-item__title span {
-    background: rgba(38,37,37,.8);
+    background: rgba(38, 37, 37, .8);
   }
 
   .work-item.work-item__big .work-item__title {
@@ -8626,7 +8631,7 @@ a.publisher-anchor-color {
     bottom: 0;
     left: 0;
     margin: auto;
-    font-family: roboto_condensedbold,Arial,sans-serif;
+    font-family: roboto_condensedbold, Arial, sans-serif;
     font-size: 24px;
     line-height: 22px;
     color: #FFF;
@@ -9180,7 +9185,7 @@ a.publisher-anchor-color {
 
   .sticky__event-time-lft time {
     display: inline-block;
-    font-family: roboto_condensedbold,Arial,sans-serif;
+    font-family: roboto_condensedbold, Arial, sans-serif;
     font-size: 11px;
     line-height: 12px;
     color: #fff;
@@ -9633,7 +9638,7 @@ a.publisher-anchor-color {
   }
 
   .slider__title span {
-    background-color: rgba(153,0,0,.8);
+    background-color: rgba(153, 0, 0, .8);
     font-size: 60px;
     line-height: 1.37;
   }
@@ -9927,7 +9932,7 @@ a.publisher-anchor-color {
 
 @media screen and (min-width:992px) and (max-width:1199px) {
   .work-item__title span {
-    background: rgba(38,37,37,.8);
+    background: rgba(38, 37, 37, .8);
   }
 
   .work-item.work-item__big .work-item__title {
@@ -10173,7 +10178,7 @@ a.publisher-anchor-color {
     bottom: 0;
     left: 0;
     margin: auto;
-    font-family: roboto_condensedbold,Arial,sans-serif;
+    font-family: roboto_condensedbold, Arial, sans-serif;
     font-size: 24px;
     line-height: 22px;
     color: #FFF;
@@ -10769,7 +10774,7 @@ a.publisher-anchor-color {
 
   .sticky__event-time-lft time {
     display: inline-block;
-    font-family: roboto_condensedbold,Arial,sans-serif;
+    font-family: roboto_condensedbold, Arial, sans-serif;
     font-size: 11px;
     line-height: 12px;
     color: #fff;
@@ -11230,8 +11235,8 @@ a.publisher-anchor-color {
   }
 
   nav>.nav.navbar-nav>li.dropdown.colors>.dropdown-menu {
-    padding-top: 9px!important;
-    padding-bottom: 5px!important;
+    padding-top: 9px !important;
+    padding-bottom: 5px !important;
   }
 
   .line {
@@ -11244,7 +11249,7 @@ a.publisher-anchor-color {
   }
 
   .colors li {
-    border-bottom: none!important;
+    border-bottom: none !important;
   }
 
   .colors li>a>svg,
@@ -11258,17 +11263,17 @@ a.publisher-anchor-color {
 
   .colors li>a,
   .colors li>span {
-    padding-top: 11px!important;
-    padding-bottom: 11px!important;
-    padding-left: 45px!important;
-    border-bottom: none!important;
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+    padding-left: 45px !important;
+    border-bottom: none !important;
   }
 
   .dropdown-menu .divider {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 20px;
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255, 255, 255, .1);
   }
 
   .slider {
@@ -11298,7 +11303,7 @@ a.publisher-anchor-color {
   }
 
   .slider__title span {
-    background-color: rgba(153,0,0,.8);
+    background-color: rgba(153, 0, 0, .8);
     font-size: 60px;
     line-height: 1.37;
   }
@@ -11460,7 +11465,7 @@ a.publisher-anchor-color {
   }
 
   .main-news .news-item {
-    width: 22.6666%!important;
+    width: 22.6666% !important;
   }
 
   .news-item__image-wrap {
@@ -11492,7 +11497,7 @@ a.publisher-anchor-color {
   }
 
   .news-item-big {
-    width: 32%!important;
+    width: 32% !important;
     position: relative;
     padding-left: 0;
     padding-right: 0;
@@ -11703,7 +11708,7 @@ a.publisher-anchor-color {
 
 @media screen and (min-width:1200px) {
   .work-item__title span {
-    background: rgba(38,37,37,.8);
+    background: rgba(38, 37, 37, .8);
     -webkit-transition: all .5s ease;
     transition: all .5s ease;
   }
@@ -11942,13 +11947,13 @@ a.publisher-anchor-color {
   }
 
   ul.nav.nav-tabs>li.tablist__all>a {
-    padding: 15px 0 14px!important;
+    padding: 15px 0 14px !important;
   }
 
   ul.nav.nav-tabs>li.tablist__all>a>div {
-    font-size: 30px!important;
-    line-height: 22px!important;
-    margin-bottom: 4px!important;
+    font-size: 30px !important;
+    line-height: 22px !important;
+    margin-bottom: 4px !important;
   }
 
   ul.nav.nav-tabs li.tablist__all:after {
@@ -12103,7 +12108,7 @@ a.publisher-anchor-color {
 
   .footer__ulist li a:hover,
   .icon-list__item a:hover {
-    color: rgba(255,255,255,.9);
+    color: rgba(255, 255, 255, .9);
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
   }
@@ -12180,7 +12185,7 @@ a.publisher-anchor-color {
     bottom: 0;
     left: 0;
     margin: auto;
-    font-family: roboto_condensedbold,Arial,sans-serif;
+    font-family: roboto_condensedbold, Arial, sans-serif;
     font-size: 24px;
     line-height: 22px;
     color: #fff;
@@ -12196,7 +12201,7 @@ a.publisher-anchor-color {
   }
 
   .content__text p.lead {
-    font-family: pt_sansitalic,Arial,sans-serif;
+    font-family: pt_sansitalic, Arial, sans-serif;
     line-height: 32px;
     font-size: 24px;
     color: #666;
@@ -12762,7 +12767,7 @@ a.publisher-anchor-color {
 
   .project-stuff__quote-link:hover {
     color: #026;
-    border-bottom: 1px solid transparent!important;
+    border-bottom: 1px solid transparent !important;
     text-decoration: none;
   }
 
@@ -12796,7 +12801,7 @@ a.publisher-anchor-color {
   }
 
   .top-navig__item {
-    height: 110px!important;
+    height: 110px !important;
   }
 
   .top-navig__item .top-navig__item-inner {
@@ -13029,7 +13034,7 @@ a.publisher-anchor-color {
 
   .sticky__event-time-lft time {
     display: inline-block;
-    font-family: roboto_condensedbold,Arial,sans-serif;
+    font-family: roboto_condensedbold, Arial, sans-serif;
     font-size: 11px;
     line-height: 12px;
     color: #fff;
@@ -13431,7 +13436,7 @@ a.publisher-anchor-color {
   }
 
   .list-icons li a {
-    color: rgba(255,255,255,.66);
+    color: rgba(255, 255, 255, .66);
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
   }
@@ -13472,7 +13477,7 @@ a.publisher-anchor-color {
   }
 
   .about h1 {
-    font-family: roboto_condensedbold,Arial,sans-serif;
+    font-family: roboto_condensedbold, Arial, sans-serif;
     font-size: 98px;
     line-height: 420px;
     text-transform: uppercase;
@@ -13523,8 +13528,8 @@ a.publisher-anchor-color {
     width: 1400px;
     margin: 0 auto;
     background-color: #fff;
-    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.5);
-    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
   }
 
   .col-lg-15 {
@@ -13823,7 +13828,7 @@ footer {
 -------------------------------*/
 
 .slider__title span {
-  background-color: rgba(171,106,15,.8);
+  background-color: rgba(171, 106, 15, .8);
 }
 
 .slider__container .label-time .label-default__arr-left path {
@@ -13955,6 +13960,7 @@ a.publisher-anchor-color {
 }
 
 @media screen and (min-width: 1200px) {
+
   .aside__news .news-item .news-item__title:focus,
   .aside__news .news-item .news-item__title:hover {
     color: #01478e;
@@ -14202,7 +14208,7 @@ footer {
 -------------------------------*/
 
 .slider__title span {
-  background-color: rgba(0,107,142,.8);
+  background-color: rgba(0, 107, 142, .8);
 }
 
 .slider__container .label-time .label-default__arr-left path {
@@ -14334,6 +14340,7 @@ a.publisher-anchor-color {
 }
 
 @media screen and (min-width: 1200px) {
+
   .aside__news .news-item .news-item__title:focus,
   .aside__news .news-item .news-item__title:hover {
     color: #232323;
@@ -14577,7 +14584,7 @@ footer {
 -------------------------------*/
 
 .slider__title span {
-  background-color: rgba(36,36,36,.8);
+  background-color: rgba(36, 36, 36, .8);
 }
 
 .slider__container .label-time .label-default__arr-left path {
@@ -14709,6 +14716,7 @@ a.publisher-anchor-color {
 }
 
 @media screen and (min-width: 1200px) {
+
   .aside__news .news-item .news-item__title:focus,
   .aside__news .news-item .news-item__title:hover {
     color: #900021;
@@ -14785,3 +14793,4 @@ a.publisher-anchor-color {
     color: #900021;
   }
 }
+
