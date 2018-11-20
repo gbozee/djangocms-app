@@ -26,7 +26,19 @@
 .high-contrast .bg-dark h3 {
     color: #fff !important;
 }
-
+.high-contrast .contacts-form h2{
+    color: #fff !important;
+}
+.high-contrast .nav.navbar-nav .btn-darkened {
+    color: #000;
+    border: 2px solid #000;
+}
+.high-contrast .footer__icon-list li{
+    color: rgba(255, 255, 255) !important;
+}
+.high-contrast .foot-sect li a {
+    color: rgba(255, 255, 255) !important;
+}
 @media screen and (min-width: 1200px) {
     .high-contrast header {
         background: #fff;
@@ -36,4 +48,47 @@
         padding: 0 0 0 20px;
         background-color: #fff;
     }
+}
+
+/* Fonsize increase */
+
+.is-largeText .stuff-slider__p {
+    font-size: 20px;
+}
+.is-largeText .news-item__p {
+    font-size: 20px;
+}
+.is-largeText .fullW-news-item__p {
+    font-size: 20px;
+}
+.is-largeText h3 {
+    font-size: 25px;
+}
+.is-largeText h3.work-item__title {
+    font-size: 30px;
+}
+.is-largeText nav>.nav.navbar-nav>li>a>span{
+    font-size: 25px;
+}
+.is-largeText span{
+    font-size: 18px;
+}
+.is-largeText .label-sm>span{
+    font-size: 18px;
+}
+.is-largeText .slider__title span{
+    font-size: 60px;
+}
+
+.is-largeText .fw-intro p{
+    font-size: 30px;
+}
+.is-largeText .content__text p{
+    font-size: 20px;
+}
+.is-largeText .content__text ul li{
+    font-size: 20px;
+}
+.is-largeText .content__text ol li{
+    font-size: 20px;
 }
