@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>News</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <base href="" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="">
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <link rel="dns-prefetch" href="http://code.jquery.com" />
+  <link rel="dns-prefetch" href="http://fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="http://www.google-analytics.com" />
+  <link rel="icon" href="images/themegovrnmnt-favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="images/themegovrnmnt-favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/min/style.min.css">
+  <link rel="stylesheet" href="js/jquery/plugins/slick/slick.css">
+  <link rel="stylesheet" href="css/color/sandybay-color.min.css">
+  <link rel="stylesheet" href="css/color/skyline-color.min.css">
+  <link rel="stylesheet" href="css/color/raspberry-color.min.css">
+  <!--[if lt IE 9]>
+            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+  <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="body">
+  <div>
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1 navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="home-btn">Home</div>
+            <a href="index.html" class="navbar-brand">
+              <img src="images/logo.png" alt="">
+            </a>
+            <div class="line"></div>
+          </div>
+          <div class="col-lg-7 col-lg-offset-1 navbar-collapse collapse">
+            <nav role="navigation">
+              <ul id="navigation" class="nav navbar-nav navbar-right dl-menu">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Projects <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="projects.html">Projects</a>
+                    </li>
+                    <li><a href="projects-view.html">Project view</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Events <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="events.html">Events</a>
+                    </li>
+                    <li><a href="events-view.html">Events view</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">News <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li class="dropdown-submenu">
+                      <a href="news.html">News</a>
+                      <a href="news-no-image.html">News view (no image)</a>
+                      <a href="news-view.html">News view <i>›</i></a>
+                      <ul class="dropdown-menu dl-submenu" role="menu">
+                        <li><a href="#">News view 3 level</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li>
+                  <a href="stuff.html">Stuff</a>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">About <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="about.html">About page</a>
+                    </li>
+                    <li><a href="404.html">404 page</a>
+                    </li>
+                    <li class="active"><span>Design elements</span>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li>
+                  <a href="contacts.html">Contacts</a>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown colors">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">
+                    <span class="fa fa-cog"></span><i>›</i>
+                  </a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li class="active">
+                      <span>
+													<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+													<path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0"/>
+													<rect fill="#012267" width="14" height="14"/>
+													<rect x="14" fill="#9A0000" width="14" height="14"/>
+													</svg>
+													Government
+												</span>
+                    </li>
+                    <li>
+                      <a href="index-sandybay.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#01478e" width="14" height="14" />
+                          <rect x="14" fill="#ab6a0f" width="14" height="14" />
+                        </svg>
+                        SANDYBAY
+                      </a>
+                    </li>
+                    <li>
+                      <a href="index-skyline.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#232323" width="14" height="14" />
+                          <rect x="14" fill="#006b8e" width="14" height="14" />
+                        </svg>
+                        SKYLINE
+                      </a>
+                    </li>
+                    <li>
+                      <a href="index-raspberry.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#900021" width="14" height="14" />
+                          <rect x="14" fill="#242424" width="14" height="14" />
+                        </svg>
+                        Raspberry</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                      <a href="main-bordered.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#F8F8F8" width="28" height="14" />
+                          <rect x="5.906" fill="#E9E8DC" width="16.156" height="14" />
+                          <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="22.0625" y1="7" x2="28" y2="7">
+                            <stop offset="0" style="stop-color:#000000" />
+                            <stop offset="1" style="stop-color:#FFFFFF" />
+                          </linearGradient>
+                          <rect x="22.063" opacity="0.41" fill="url(#SVGID_1_)" width="5.938" height="14" />
+                          <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="0" y1="7" x2="5.9375" y2="7">
+                            <stop offset="0" style="stop-color:#FFFFFF" />
+                            <stop offset="1" style="stop-color:#000000" />
+                          </linearGradient>
+                          <rect opacity="0.41" fill="url(#SVGID_2_)" width="5.938" height="14" />
+                        </svg>
+                        Boxed</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="main">
+      <section class="fw-news fw-news-nimg fw-news__hdr">
+        <div class="fw-news__inner">
+          <h1>Design elements</h1>
+        </div>
+      </section>
+      <div class="all-news bg-col">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>Disabled</th>
+                      <th>Active</th>
+                      <th>CSS class</th>
+                      <th>Descrption</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <button class="btn-read-primary disabled">
+                          <span>Read</span>
+                          <svg class="btn-read-primary__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+                            <path class="btn-read-primary__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z" />
+                          </svg>
+                        </button>
+                      </td>
+                      <td>
+                        <button class="btn-read-primary">
+                          <span>Read</span>
+                          <svg class="btn-read-primary__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+                            <path class="btn-read-primary__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z" />
+                          </svg>
+                        </button>
+                      </td>
+                      <td>.btn-read-primary</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button class="btn-read-primary btn-read-primary__inverse disabled">
+                          <span>Read</span>
+                        </button>
+                      </td>
+                      <td>
+                        <button class="btn-read-primary btn-read-primary__inverse">
+                          <span>Read</span>
+                        </button>
+                      </td>
+                      <td>.btn-read-primary.btn-read-primary__inverse</td>
+                      <td>.btn-read-primary.btn-read-primary__inverse</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="" class="btn-read-more disabled">Read more</a>
+                      </td>
+                      <td>
+                        <a href="" class="btn-read-more">Read more
+													<svg class="btn-read-more__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+													<path class="btn-read-more__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+													</svg>
+												</a>
+                      </td>
+                      <td>.btn-read-more</td>
+                      <td></td>
+                    </tr>
+
+                    <tr>
+                      <td>
+                        <a href="" class="btn-read disabled"><span>Read</span><svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+													<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+												</svg></a>
+                      </td>
+                      <td>
+                        <a href="" class="btn-read"><span>Read</span>
+													<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+													<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"/>
+													</svg>
+												</a>
+                      </td>
+                      <td>.btn-read</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <a href="" class="label label-default disabled">
+                          <div class="lbl-default__lns">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                          </div>
+                          <span>Word</span>
+                          <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                            <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z"></path>
+                          </svg>
+                        </a>
+                      </td>
+                      <td>
+                        <a href="" class="label label-default">
+                          <div class="lbl-default__lns">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                          </div>
+                          <span>Word</span>
+                          <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                            <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z"></path>
+                          </svg>
+                        </a>
+                      </td>
+                      <td>.label-default</td>
+                      <td>.label-default</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button class="btn btn-default disabled">Follow</button>
+                      </td>
+                      <td>
+                        <button class="btn btn-default">Follow</button>
+                      </td>
+                      <td>.btn.btn-default</td>
+                      <td>.btn.btn-default</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button class="btn btn-support disabled">Support</button>
+                      </td>
+                      <td>
+                        <button class="btn btn-support">Support</button>
+                      </td>
+                      <td>.btn.btn-support</td>
+                      <td>.btn.btn-support</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button class="btn btn-default btn-lg disabled">Follow</button>
+                      </td>
+                      <td>
+                        <button class="btn btn-default btn-lg">Follow</button>
+                      </td>
+                      <td>.btn.btn-default.btn-lg</td>
+                      <td>.btn.btn-default.btn-lg</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button class="btn btn-support btn-lg disabled">Support</button>
+                      </td>
+                      <td>
+                        <button class="btn btn-support btn-lg">Support</button>
+                      </td>
+                      <td>.btn.btn-support.btn-lg</td>
+                      <td>.btn.btn-support.btn-lg</td>
+                    </tr>
+                    <tr class="info">
+                      <td>
+                        <button class="btn btn-darkened disabled">Subscribe</button>
+                      </td>
+                      <td>
+                        <button class="btn btn-darkened">Subscribe</button>
+                      </td>
+                      <td>.btn.btn-darkened</td>
+                      <td>.btn.btn-darkened</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button class="arrow-lg-left disabled pull-left">
+                          <svg version="1.1" class="arrow-lg-left__white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="150px" viewBox="0 0 36 150" enable-background="new 0 0 36 150" xml:space="preserve">
+                            <path fill="#FFFFFF" d="M4.534,75L36,0L0,75l36,75L4.534,75z" />
+                          </svg>
+                          <svg version="1.1" class="arrow-lg-left__shad" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="31.465px" height="150px" viewBox="0 0 31.465 150" enable-background="new 0 0 31.465 150" xml:space="preserve">
+                            <path opacity="0.33" enable-background="new    " d="M0,75L31.465,0L5.141,75l26.324,75L0,75z" />
+                          </svg>
+                        </button>
+                        <button class="arrow-lg-right disabled pull-right">
+                          <svg version="1.1" class="arrow-lg-right__white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="150px" viewBox="0 0 36 150" enable-background="new 0 0 36 150" xml:space="preserve">
+                            <path fill="#FFFFFF" d="M4.534,75L36,0L0,75l36,75L4.534,75z" />
+                          </svg>
+                          <svg version="1.1" class="arrow-lg-right__shad" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="31.465px" height="150px" viewBox="0 0 31.465 150" enable-background="new 0 0 31.465 150" xml:space="preserve">
+                            <path opacity="0.33" enable-background="new    " d="M31.465,75L0,150l26.324-75L0,0L31.465,75z" />
+                          </svg>
+                        </button>
+                      </td>
+                      <td>
+                        <button class="arrow-lg-left pull-left">
+                          <svg version="1.1" class="arrow-lg-left__white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="150px" viewBox="0 0 36 150" enable-background="new 0 0 36 150" xml:space="preserve">
+                            <path fill="#FFFFFF" d="M4.534,75L36,0L0,75l36,75L4.534,75z" />
+                          </svg>
+                          <svg version="1.1" class="arrow-lg-left__shad" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="31.465px" height="150px" viewBox="0 0 31.465 150" enable-background="new 0 0 31.465 150" xml:space="preserve">
+                            <path opacity="0.33" enable-background="new    " d="M0,75L31.465,0L5.141,75l26.324,75L0,75z" />
+                          </svg>
+                        </button>
+                        <button class="arrow-lg-right pull-right">
+                          <svg version="1.1" class="arrow-lg-right__white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="150px" viewBox="0 0 36 150" enable-background="new 0 0 36 150" xml:space="preserve">
+                            <path fill="#FFFFFF" d="M31.466,75L0,150l36-75L0,0L31.466,75z" />
+                          </svg>
+                          <svg version="1.1" class="arrow-lg-right__shad" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="31.465px" height="150px" viewBox="0 0 31.465 150" enable-background="new 0 0 31.465 150" xml:space="preserve">
+                            <path opacity="0.33" enable-background="new    " d="M31.465,75L0,150l26.324-75L0,0L31.465,75z" />
+                          </svg>
+                        </button>
+                      </td>
+                      <td>.arrow-lg-left + .arrow-lg-right</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <button class="arrow-sm-left disabled pull-left"></button>
+                        <button class="arrow-sm-right disabled pull-right"></button>
+                      </td>
+                      <td>
+                        <button class="arrow-sm-left pull-left"></button>
+                        <button class="arrow-sm-right pull-right"></button>
+                      </td>
+                      <td>.arrow-sm-left + .arrow-sm-right</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td colspan="4">
+                        <ul class="nav nav-tabs" role="tablist">
+                          <!-- 	<li class="active disabled">
+														<a class="tablist__item" href="#profile1" role="tab" data-toggle="tab">
+																											<span class="tablist__title">Tab1</span>
+																											<span class="tablist__descr">Selected disabled</span>
+														</a>
+												</li> -->
+                          <li class="active">
+                            <a class="tablist__item" href="#profile1" role="tab" data-toggle="tab">
+                              <span class="tablist__title">Tab2</span>
+                              <span class="tablist__descr">Selected</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a class="tablist__item" href="#profile" role="tab" data-toggle="tab">
+                              <span class="tablist__title">Tab3</span>
+                              <span class="tablist__descr">Usual</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a class="tablist__item" href="#profile" role="tab" data-toggle="tab">
+                              <span class="tablist__title">Tab4</span>
+                              <span class="tablist__descr">Usual</span>
+                            </a>
+                          </li>
+                          <li>
+                            <a class="tablist__item" href="#profile" role="tab" data-toggle="tab">
+                              <span class="tablist__title">Tab4</span>
+                              <span class="tablist__descr">Usual</span>
+                            </a>
+                          </li>
+                          <li class="disabled">
+                            <a class="tablist__item" href="#profile" role="tab" data-toggle="tab">
+                              <span class="tablist__title">Tab3</span>
+                              <span class="tablist__descr">Usual disabled</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <form>
+                          <div class="radio disabled">
+                            <input type="radio" name="optionsRadios" id="radio1" value="option1" disabled checked>
+                            <label for="radio1">
+                              Radio 1 Disabled
+                            </label>
+                          </div>
+                          <div class="radio disabled">
+                            <input type="radio" name="optionsRadios" id="radio2" value="option1" disabled>
+                            <label for="radio2">
+                              Radio 2 Disabled
+                            </label>
+                          </div>
+                        </form>
+                      </td>
+                      <td>
+                        <form>
+                          <div class="radio">
+                            <input type="radio" name="optionsRadios" id="radio3" value="option1" checked>
+                            <label for="radio3">
+                              Radio 3 Usual
+                            </label>
+                          </div>
+                          <div class="radio">
+                            <input type="radio" name="optionsRadios" id="radio4" value="option1">
+                            <label for="radio4">
+                              Radio 4 Usual
+                            </label>
+                          </div>
+                        </form>
+                      </td>
+                      <td>.radio</td>
+                      <td>.radio</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <form>
+                          <div class="checkbox disabled">
+                            <input type="checkbox" name="optionsRadios" id="checkbox1" value="option1" disabled checked>
+                            <label for="checkbox1">
+                              Checkbox 1 Disabled
+                            </label>
+                          </div>
+                          <div class="checkbox disabled">
+                            <input type="checkbox" name="optionsRadios" id="checkbox2" value="option1" disabled>
+                            <label for="checkbox2">
+                              Checkbox 2 Disabled
+                            </label>
+                          </div>
+                        </form>
+                      </td>
+                      <td>
+                        <form>
+                          <div class="checkbox">
+                            <input type="checkbox" name="optionsRadios" id="checkbox3" value="option1">
+                            <label for="checkbox3">
+                              Checkbox 3 Usual
+                            </label>
+                          </div>
+                          <div class="checkbox ">
+                            <input type="checkbox" name="optionsRadios" id="checkbox4" value="option1">
+                            <label for="checkbox4">
+                              Checkbox 4 Usual
+                            </label>
+                          </div>
+                        </form>
+                      </td>
+                      <td>.checkbox</td>
+                      <td>.checkbox</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <form>
+                          <div class="form-group disabled">
+                            <label for="ep1" class="control-label">Enter your password</label>
+                            <input id="ep1" class="form-control" type="text" placeholder="Input disabled LABEL:" disabled>
+                          </div>
+                        </form>
+                      </td>
+                      <td>
+                        <form>
+                          <div class="form-group">
+                            <label for="ep2" class="control-label">Enter your password</label>
+                            <input id="ep2" class="form-control" type="text" placeholder="Input LABEL:">
+                          </div>
+                        </form>
+                      </td>
+                      <td>.form-group>input</td>
+                      <td>.form-group>input</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <form>
+                          <div class="form-group">
+                            <label for="ep3" class="control-label">Enter your password</label>
+                            <input id="ep3" type="text" class="form-control" placeholder="Input LABEL:">
+                          </div>
+                          <label for="ep3" class="error"></label>
+                        </form>
+                      </td>
+                      <td>
+                        <form>
+                          <div class="form-group has-error">
+                            <label for="ep4" class="control-label control-label-top">Enter your password</label>
+                            <input id="ep4" type="text" class="form-control" placeholder="Input LABEL:">
+                            <label for="ep4" class="control-label error">Error input</label>
+                          </div>
+                        </form>
+                      </td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        <form class="form-horizontal" role="form">
+                          <div class="form-group">
+                            <label for="inline-input1" class="col-sm-3 control-label">Your name:</label>
+                            <div class="col-sm-8">
+                              <input type="text" id="inline-input1" class="form-control" placeholder="Enter your name:">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="inline-input2" class="col-sm-3 control-label">Your Email:</label>
+                            <div class="col-sm-8">
+                              <input type="text" id="inline-input2" class="form-control" placeholder="Enter your Email:">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <label for="inline-input3" class="col-sm-3 control-label">Your phone:</label>
+                            <div class="col-sm-8">
+                              <input type="text" id="inline-input3" class="form-control" placeholder="Enter Your phone:">
+                            </div>
+                          </div>
+                        </form>
+                      </td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <form>
+                          <div class="form-group">
+                            <select class="selectpicker" disabled>
+                              <option disabled selected>DropList disabled</option>
+                              <option>Drop Element 1</option>
+                              <option>Drop Element 2</option>
+                              <option>Drop Element 3</option>
+                            </select>
+                          </div>
+                        </form>
+                      </td>
+                      <td>
+                        <form>
+                          <div class="form-group">
+                            <select class="selectpicker">
+                              <option disabled selected>DropList please choose:</option>
+                              <option>Drop Element 1</option>
+                              <option>Drop Element 2</option>
+                              <option>Drop Element 3</option>
+                            </select>
+                          </div>
+                        </form>
+                      </td>
+                      <td>.selectpicker</td>
+                      <td>.selectpicker</td>
+                    </tr>
+                    <!-- 				<tr>
+											<td>
+												<div class="dropdown">
+													<a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+													<ul class="dropdown-menu" role="menu" aria-labelledby="drop1">
+														<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Action</a></li>
+														<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Another action</a></li>
+														<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Something else here</a></li>
+														<li role="presentation" class="divider"></li>
+														<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Separated link</a></li>
+													</ul>
+												</div>
+											</td>
+											<td></td>
+											<td></td>
+											<td></td>
+										</tr> -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">Stay updated</div>
+            <form action="#" id="email-footer-form" role="form" method="post" novalidate="novalidate">
+              <div class="form-group">
+                <input type="email" id="fvi" class="form-control" placeholder="Email:" required>
+                <!-- <label for="fvi" class="control-label"></label> -->
+              </div>
+              <div id="loader-subscribe-form" class="form-loader hidden">
+                <div class="loader">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-darkened pull-left">Subscribe</button>
+            </form>
+            <div id="success-subscribe" class="success-message hidden">
+              <div class="suc-title"><i class="fa fa-check"></i>Thank you!</div>
+            </div>
+          </div>
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">We need your support</div>
+            <ul class="footer__ulist">
+              <li><a href="#">Donate</a>
+              </li>
+              <li><a href="#">Volunteer</a>
+              </li>
+              <li><a href="#">Fundraise</a>
+              </li>
+              <li><a href="#">Adopt a project</a>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix visible-sm-block visible-md-block"></div>
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">Contact</div>
+            <ul class="footer__icon-list">
+              <li class="icon-list__item icon-list__item-baloone">Kazantseva str. 7B, 29
+                <br>Mariupol 87500 Ukraine</li>
+              <li class="icon-list__item icon-list__item-phone">+38 (074) 458 78 78</li>
+              <li class="icon-list__item icon-list__item-letter"><a href="mailto:themes@makebecool.com">themes@makebecool.com</a> 
+                <br><a href="#">makebecool.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">Our mission</div>
+            <p>Yet as Philip Ball points out, the history of camouflage and our limited understanding of how creatures hide in nature may make the task trickier than it seems.</p>
+            <div class="copyrights copyrights__footer">Copyright © 2015. All Rights reserved.</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/jquery/jquery-1.11.1.min.js"></script>
+  <script src="js/otherlibs/bootstrap/bootstrap.js"></script>
+  <script src="js/jquery/plugins/Chart.js"></script>
+  <script src="js/jquery/plugins/bootstrap-select.js"></script>
+  <script src="js/jquery/plugins/slick/slick.js"></script>
+  <script src="js/jquery/plugins/topEventsAnimate.js"></script>
+  <script src="js/jquery/plugins/skrollr.js"></script>
+  <script src="js/jquery/plugins/jquery.sharrre.min.js"></script>
+  <script src="js/jquery/plugins/jquery.form.js"></script>
+  <script src="js/jquery/plugins/validation/jquery.validate.js"></script>
+  <script src="js/app/lib/site.js"></script>
+  <script src="js/app/lib/siteMode.js"></script>
+  <script src="js/app/mode/themeMode.js"></script>
+  <script src="js/app/modules/mainSlider.js"></script>
+  <script src="js/app/modules/menuAligns.js"></script>
+  <script src="js/app/modules/bgStretch.js"></script>
+  <script src="js/app/modules/eventAnimate.js"></script>
+  <script src="js/app/modules/stuffSlider.js"></script>
+  <script src="js/app/modules/gridsDiagramms.js"></script>
+  <script src="js/app/modules/barChart.js"></script>
+  <script src="js/app/modules/disquis.js"></script>
+  <script src="js/app/modules/stickyHeader.js"></script>
+  <script src="js/app/modules/globalScripts.js"></script>
+  <script src="js/app/modules/parallax.js"></script>
+  <script src="js/app/modules/backgroundImg.js"></script>
+  <script src="js/app/modules/scrollPlugin.js"></script>
+  <script src="js/app/modules/googleMap.js"></script>
+  <script src="js/app/modules/eventSlider.js"></script>
+  <script src="js/app/modules/stuffPage.js"></script>
+  <script src="js/app/modules/aboutDiagramms.js"></script>
+  <script src="js/app/modules/sharrre.js"></script>
+  <script src="js/app/modules/dtMenu.js"></script>
+  <script src="js/app/modules/formSubscribe.js"></script>
+  <script src="js/app/modules/formFieldsSubscribe.js"></script>
+  <script>
+    appMakeBeCool.gateway.init();
+  </script>
+</body>
+
+</html>

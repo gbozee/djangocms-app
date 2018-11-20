@@ -1,0 +1,127 @@
+{% load cms_tags staticfiles sekizai_tags menu_tags %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <base href="" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:site_name" content="" />
+    <link rel="dns-prefetch" href="https://code.jquery.com" />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+    <link rel="icon" href="{% static 'design/themeGovernment/assets/images/themegovrnmnt-favicon.ico' %}" type=" image/x-icon" />
+    <link rel="shortcut icon" href="{% static 'design/themeGovernment/assets/images/themegovrnmnt-favicon.ico' %}" type="image/x-icon" />
+    <link rel="stylesheet" href="{% static 'design/themeGovernment/assets/css/min/style.min.css' %}">
+    <link rel="stylesheet" href="{% static 'design/themeGovernment/assets/js/jquery/plugins/slick/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'design/themeGovernment/assets/css/color/sandybay-color.min.css' %}">
+    <link rel="stylesheet" href="{% static 'design/themeGovernment/assets/css/color/skyline-color.min.css' %}">
+    <link rel="stylesheet" href="{% static 'design/themeGovernment/assets/css/color/raspberry-color.min.css' %}">
+    <link rel="stylesheet" href="{% static 'design/themeGovernment/assets/css/override.css' %}">
+<link rel="stylesheet" href="{% static 'design/themeGovernment/assets/css/contrast.css' %}">
+    <!--[if lt IE 9]>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+    <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+    <title>{% block title %}This is my new project home page{% endblock title %}</title>
+    <style>
+        @media(min-width:1200px) {
+            .slider.slick-initialized.slick-slider {
+                width: 100%;
+            }
+        }
+    </style>
+    {% render_block "css" %}
+</head>
+
+<body id="body">
+    {% cms_toolbar %}
+    {% block body_content %}
+    {% block navigation %}
+    {% include "design/navigation.html" %}
+
+    {% endblock navigation %}
+    <div id="goverment-parallax" class="main">
+        {% block content %}
+
+        {% endblock content %}
+
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                {% static_placeholder 'footer' %}
+            </div>
+        </div>
+    </footer>
+    {% endblock body_content %}
+    <script src="{% static 'design/themeGovernment/assets/js/jquery/jquery-1.11.1.min.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/otherlibs/bootstrap/bootstrap.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/jquery/plugins/Chart.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/jquery/plugins/bootstrap-select.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/jquery/plugins/slick/slick.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/jquery/plugins/topEventsAnimate.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/jquery/plugins/skrollr.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/jquery/plugins/jquery.sharrre.min.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/jquery/plugins/jquery.parallax.min.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/jquery/plugins/jquery.form.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/jquery/plugins/validation/jquery.validate.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/lib2/site.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/lib2/siteMode.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/mode/themeMode.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/mainSlider.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/menuAligns.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/bgStretch.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/eventAnimate.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/stuffSlider.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/gridsDiagramms.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/barChart.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/disquis.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/stickyHeader.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/globalScripts.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/parallax.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/backgroundImg.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/scrollPlugin.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/googleMap.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/eventSlider.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/stuffPage.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/aboutDiagramms.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/sharrre.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/dtMenu.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/formSubscribe.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/app/modules/formFieldsSubscribe.js' %}"></script>
+    <script src="{% static 'design/themeGovernment/assets/js/init.js' %}"></script>
+    {% render_block "js" %}
+    <script>
+let path = "{% static 'design/themeGovernment/assets/css/color/' %}"
+        const THEMES = {
+        "css-default": "default-color.min.css",
+        "css-sandybay": "sandybay-color.min.css",
+        "css-skyline": "skyline-color.min.css",
+        "css-raspberry": "raspberry-color.min.css",
+        // "css-boxed": ""
+        }
+        $('.theme-change-btn').click(function (e) {
+        e.preventDefault()
+        let cssFile = THEMES[this.id]
+        loadjscssfile(cssFile, "css",path)
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>News</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <base href="" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="">
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <link rel="dns-prefetch" href="http://code.jquery.com" />
+  <link rel="dns-prefetch" href="http://fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="http://www.google-analytics.com" />
+  <link rel="icon" href="images/themegovrnmnt-favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="images/themegovrnmnt-favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/min/style.min.css">
+  <link rel="stylesheet" href="js/jquery/plugins/slick/slick.css">
+  <link rel="stylesheet" href="css/color/sandybay-color.min.css">
+  <link rel="stylesheet" href="css/color/skyline-color.min.css">
+  <link rel="stylesheet" href="css/color/raspberry-color.min.css">
+  <!--[if lt IE 9]>
+            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+  <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="body">
+  <div>
+    <div id="sticky" class="sticky">
+      <div class="container-fluid">
+        <div class="row">
+          <a href="index.html" class="sticky__brand">
+            <img src="images/logo.png" alt="">
+          </a>
+          <div class="sticky__title">Rio de Janeiro, city of God</div>
+          <div class="socials">
+            <a href="#" class="socials__item socials__item-fb"><i class="fa fa-facebook"></i><span>Share</span></a>
+            <a href="#" class="socials__item socials__item-tw"><i class="fa fa-twitter"></i><span>Tweet</span></a>
+            <a href="#" class="socials__item socials__item-more"><i class="fa fa-plus"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header id="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1 navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="home-btn">Home</div>
+            <a href="main.html" class="navbar-brand">
+              <img src="images/logo.png" alt="">
+            </a>
+            <div class="line"></div>
+          </div>
+          <div class="col-lg-7 col-lg-offset-1 navbar-collapse collapse">
+            <nav role="navigation">
+              <ul id="navigation" class="nav navbar-nav navbar-right dl-menu">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Projects <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="projects.html">Projects</a>
+                    </li>
+                    <li><a href="projects-view.html">Project view</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Events <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="events.html">Events</a>
+                    </li>
+                    <li><a href="events-view.html">Events view</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">News <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="news.html">News</a>
+                    </li>
+                    <li><a href="news-no-image.html">News view (no image)</a>
+                    </li>
+                    <li class="dropdown-submenu active">
+                      <span>News view <i>›</i></span>
+                      <ul class="dropdown-menu dl-submenu" role="menu">
+                        <li><a href="#">News view 3 level</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li>
+                  <a href="stuff.html">Stuff</a>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">About <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="about.html">About page</a>
+                    </li>
+                    <li><a href="404.html">404 page</a>
+                    </li>
+                    <li><a href="buttons.html">Design elements</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li>
+                  <a href="contacts.html">Contacts</a>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown colors">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">
+                    <span class="fa fa-cog"></span><i>›</i>
+                  </a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li class="active">
+                      <span>
+													<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+													<path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0"/>
+													<rect fill="#012267" width="14" height="14"/>
+													<rect x="14" fill="#9A0000" width="14" height="14"/>
+													</svg>
+													Government
+												</span>
+                    </li>
+                    <li>
+                      <a href="index-sandybay.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#01478e" width="14" height="14" />
+                          <rect x="14" fill="#ab6a0f" width="14" height="14" />
+                        </svg>
+                        SANDYBAY
+                      </a>
+                    </li>
+                    <li>
+                      <a href="index-skyline.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#232323" width="14" height="14" />
+                          <rect x="14" fill="#006b8e" width="14" height="14" />
+                        </svg>
+                        SKYLINE
+                      </a>
+                    </li>
+                    <li>
+                      <a href="index-raspberry.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#900021" width="14" height="14" />
+                          <rect x="14" fill="#242424" width="14" height="14" />
+                        </svg>
+                        Raspberry</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                      <a href="main-bordered.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#F8F8F8" width="28" height="14" />
+                          <rect x="5.906" fill="#E9E8DC" width="16.156" height="14" />
+                          <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="22.0625" y1="7" x2="28" y2="7">
+                            <stop offset="0" style="stop-color:#000000" />
+                            <stop offset="1" style="stop-color:#FFFFFF" />
+                          </linearGradient>
+                          <rect x="22.063" opacity="0.41" fill="url(#SVGID_1_)" width="5.938" height="14" />
+                          <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="0" y1="7" x2="5.9375" y2="7">
+                            <stop offset="0" style="stop-color:#FFFFFF" />
+                            <stop offset="1" style="stop-color:#000000" />
+                          </linearGradient>
+                          <rect opacity="0.41" fill="url(#SVGID_2_)" width="5.938" height="14" />
+                        </svg>
+                        Boxed</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="news-view">
+      <div class="fw-news">
+        <!-- <img src="../uploads/news/tonyabbott.jpg" alt="" class="fw-news__image"> -->
+        <div class="fw-image-parallax" data-parallax-url="http://placehold.it/1600x480.jpg"></div>
+        <div class="fw-news__pattern"></div>
+      </div>
+      <div class="heading-fw bg-col">
+        <div class="heading-fw__inner">
+          <div class="line-abt">
+            <a href="#" class="label label-default">
+              <div class="lbl-default__lns">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span>Travel</span>
+              <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z"></path>
+              </svg>
+              <svg version="1.1" class="label-default__arr label-default__arr-lefts" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="0 0 17.145 30" enable-background="new 0 0 17.145 30" xml:space="preserve">
+                <path fill="#002266" d="M7.145,30L0,15.002L7.145,0h10v30H7.145z" />
+              </svg>
+            </a>
+            <time class="label label-time" datetime="2008-02-14">
+              <svg version="1.1" class="label-default__arr label-default__arr-left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.146px" height="30px" viewBox="0 0 17.146 30" enable-background="new 0 0 17.146 30" xml:space="preserve">
+                <path fill="#e9e8dc" d="M17.146,30H0l7.145-14.998L0,0h17.146V30z"></path>
+              </svg>15 September 2014 <span>08:27</span>
+              <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z"></path>
+              </svg>
+            </time>
+          </div>
+          <h1>Rio de Janeiro, city of God</h1>
+        </div>
+      </div>
+      <div id="content" class="content">
+        <div class="container">
+          <div class="row">
+            <main class="col-sm-12 col-md-8 col-lg-8 content__text">
+              <div id="lead-block" class="lead-block">
+                <p class="lead">The bustling city of Rio de Janeiro has been one of Brazil’s most popular and frequented tourist destinations for decades. Its vibrant city centre is bursting with culture and pulsating with a deep sense of history and heritage. Rio, as it is commonly known, is the second largest city in Brazil and the third largest metropolis in the whole of South America.</p>
+                <hr>
+              </div>
+              <div class="content__text-usr">
+                <p>Founded in 1565 by the Portuguese, the city was initially the seat of the Captaincy of Rio de Janeiro, a captaincy of the Portuguese Empire. Later, in 1763, it became the capital of the State of Brazil, a State of the Portuguese Empire. In 1808, when the Portuguese Royal Court transferred itself from Portugal to Brazil, Rio de Janeiro became the chosen seat of the court of Queen Maria I of Portugal, who subsequently, in 1815, under the leadership of her son, the Prince Regent, and future King João VI of Portugal, raised Brazil to the dignity of a kingdom, within the United Kingdom of Portugal, Brazil, and Algarves. Rio stayed the capital of the pluricontinental Lusitanian monarchy until 1822, when the War of Brazilian Independence began. This is one of the few instances in history that the capital of a colonising country officially shifted to a city in one of its colonies. Rio de Janeiro subsequently served as the capital of the independent monarchy, the Empire of Brazil, until 1889, and then the capital of a republican Brazil until 1960.</p>
+                <p>Rio de Janeiro represents the second largest GDP in the country (and 30th largest in the world in 2008), estimated at about R$343 billion (IBGE/2008) (nearly US$201 billion), and is headquarters to two of Brazil's major companies—Petrobras and Vale, and major oil companies and telephony in Brazil, besides the largest conglomerate of media and communications companies in Latin America, the Globo Organizations. The home of many universities and institutes, it is the second largest center of research and development in Brazil, accounting for 17% of national scientific production—according to 2005 data.</p>
+                <hr>
+                <h2>History</h2>
+                <p>Europeans first encountered Guanabara Bay on January 1,1502 (hence Rio de Janeiro, "January River"), by a Portuguese expedition under explorer Gaspar de Lemos captain of a ship in Pedro Álvares Cabral's fleet, or under Gonçalo Coelho.[11] Allegedly the Florentine explorer Amerigo Vespucci participated as observer at the invitation of King Manuel I in the same expedition. The region of Rio was inhabited by the Tupi, Puri, Botocudo and Maxakalí peoples</p>
+                <figure class="row full-figure-aside">
+                  <div class="col-sm-7 col-md-8">
+                    <img src="http://placehold.it/900x500.jpg" alt="" title="American C-130 planes">
+                  </div>
+                  <div class="col-sm-5 col-md-4">
+                    <hr>
+                    <figcaption>Founding of Rio de Janeiro, 1565.</figcaption>
+                  </div>
+                </figure>
+                <p>In 1555, one of the islands of Guanabara Bay, now called Villegagnon Island, was occupied by 500 French colonists under the French admiral Nicolas Durand de Villegaignon. Consequently, Villegagnon built Fort Coligny on the island when attempting to establish the France Antarctique colony.</p>
+                <hr>
+                <h3>Climate</h3>
+                <p>Rio has a tropical wet and dry or savanna type (Aw ) that closely borders a tropical monsoon climate (Am ) according to the Köppen climate classification, and is often characterized by long periods of heavy rain from December to March.[25] In inland areas of the city, temperatures above 40 °C (104 °F) are common during the summer, though rarely for long periods, while maximum temperatures above 27 °C (81 °F) can occur on a monthly basis.</p>
+                <figure class="full-figure">
+                  <div>
+                    <img src="http://placehold.it/900x500.jpg" alt="" title="American C-130 planes">
+                  </div>
+                  <div>
+                    <figcaption>Sugarloaf mountain.</figcaption>
+                    <hr class="col-xs-4">
+                  </div>
+                </figure>
+                <p>Along the coast, the breeze, blowing onshore and offshore, moderates the temperature. Because of its geographic situation, the city is often reached, especially during autumn and winter, by cold fronts advancing from Antarctica, causing frequent weather changes. It is mostly in summer that strong showers provoke catastrophic floods and landslides. The mountainous areas register greater rainfall since they constitute a barrier to the humid wind that comes from the Atlantic.</p>
+                <hr>
+                <h4>Education</h4>
+                <p>The city has several universities and research institutes. The Ministry of Education has certified approximately 99 upper-learning institutions in Rio. Some notable higher education institutions are:</p>
+                <ul>
+                  <li>Federal University of Rio de Janeiro (UFRJ);</li>
+                  <li>Federal University of the Rio de Janeiro state (UNIRIO);</li>
+                  <li>Rio de Janeiro State University (UERJ);</li>
+                  <li>Federal Rural University of Rio de Janeiro (UFRRJ, often nicknamed Rural);</li>
+                  <li>Fluminense Federal University (UFF);</li>
+                  <li>Pontifical Catholic University of Rio de Janeiro (PUC-Rio);</li>
+                  <li>Getúlio Vargas Foundation (FGV);</li>
+                  <li>Military Institute of Engineering (IME);</li>
+                  <li>Superior Institute of Technology in Computer Science of Rio de Janeiro (IST-Rio);</li>
+                  <li>Estácio de Sá University (UNESA);</li>
+                  <li>National Institute of Pure and Applied Mathematics (IMPA).</li>
+                </ul>
+                <hr>
+                <h5>Carnival</h5>
+                <p>Carnaval, is an annual celebration in the Roman Catholic tradition that allows merry-making and red meat consumption before the more sober 40 days of Lent penance which culminates with Holy or Passion Week and Easter.</p>
+                <ol>
+                  <li>Cordão do Bola Preta: Parades in the centre of the city. It is one of the most traditional carnavals. In 2008, 500,000 people attended in one day.[120] In 2011, a record 2 million people attended the city covering three different metro stations!</li>
+                  <li>Suvaco do Cristo: Band that parades in the Botanic Garden, directly below the Redeemer statue's arm. The name translates to 'Christ's armpit' in English, and was chosen for that reason.</li>
+                  <li>Carmelitas: Band that was supposedly created by nuns, but in fact is just a theme chosen by the band. It parades in Santa Teresa, a bairro from where one can see beautiful panoramas.</li>
+                </ol>
+                <blockquote>
+                  <p>The Carnaval in Rio de Janeiro is a world famous festival held before Lent every year and considered the biggest carnival in the world</p>
+                  <footer> <cite>Wikipedia</cite>
+                  </footer>
+                </blockquote>
+                <p>In 1840, the first Carnaval was celebrated with a masked ball. As years passed, adorned floats and costumed revelers became a tradition among the celebrants. Carnaval is known as a historic root of Brazilian music.</p>
+                <div class="quote">
+                  <hr>
+                  <p>* — "WPS - Port of Rio de Janeiro contact information". Worldportsource.com. Retrieved 31 October 2012.</p>
+                </div>
+                <p>From the beautiful and sexy beaches of Rio de Janeiro to Rio Carnival and the Rio Nightlife, the type of energy that the city of Rio emulates is just simply electrifying. What is even more exhilarating are the deliciously bronzed samba dancers, the pulsating music, the energy and applause of the spectators filled with Cariocas and visitors from around the world who call come to the same place to experience the world famous Rio Carnival.</p>
+                <div class="row news-to-r">
+                  <a href="#" class="col-sm-3 col-md-3 col-lg-3 news-to-r__img">
+                    <img src="http://placehold.it/350x200.jpg" alt="">
+                  </a>
+                  <div class="col-sm-9 col-md-9 col-lg-9 news-to-r__descr">
+                    <div class="line-abt">
+                      <a href="#" class="label label-default label-sm">
+                        <div class="lbl-default__lns">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                        <span>Travel</span>
+                        <svg version="1.1" class="label-default__arr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                          <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                        </svg>
+                      </a>
+                      <time class="label label-time label-time-sm label-time__nbg" datetime="2008-02-14">15 September 2014 <span>08:27</span>
+                        <svg version="1.1" class="label-default__arr label-time__arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17.145px" height="30px" viewBox="-10 0 17.145 30" enable-background="new -10 0 17.145 30" xml:space="preserve">
+                          <path fill="#002266" d="M-10,30V0H0l7.145,15.002L0,30H-10z" />
+                        </svg>
+                      </time>
+                    </div>
+                    <div class="news-to-r__title">Istanbul Prince Islands ferry trip</div>
+                    <a href="" class="btn-read"><span>Read</span>
+									<svg class="btn-read__arr" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 7 13" enable-background="new 0 0 7 13" xml:space="preserve">
+									<path class="btn-read__arr-path" fill="#990000" d="M0,13l7-6.5L0,0l3.62,6.5L0,13z"></path>
+									</svg>
+								</a>
+                  </div>
+                </div>
+                <hr>
+                <h6>Sports</h6>
+                <p>As in the rest of Brazil, football is the most popular sport. The city's major teams are Botafogo, Flamengo, Fluminense and Vasco da Gama. Madureira, Bangu and <a href="#">Bonsucesso</a> are <a href="#" class="goverment-tooltip" data-toggle="tooltip" title=" Rio, Brazil: PNUD. 2000. ISBN 85-240-3919-1. Retrieved 9 January 2008.">three small clubs</a>.</p>
+                <div class="table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th>League</th>
+                        <th>Venue</th>
+                        <th>Established (team)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="lead">Botafogo</td>
+                        <td>Série A</td>
+                        <td>Maracanã Stadium 78,838 (173,850 record)</td>
+                        <td>1904</td>
+                      </tr>
+                      <tr>
+                        <td class="lead">CR Flamengo</td>
+                        <td>Série A</td>
+                        <td>Maracanã Stadium 78,838 (173,850 record)</td>
+                        <td>1895</td>
+                      </tr>
+                      <tr>
+                        <td class="lead">Fluminense FC</td>
+                        <td>Série A</td>
+                        <td>Maracanã Stadium 78,838 (173,850 record)</td>
+                        <td>1902</td>
+                      </tr>
+                      <tr>
+                        <td class="lead">CR Vasco</td>
+                        <td>Série B</td>
+                        <td>Estádio São Januário 19,717 (25,000 record)</td>
+                        <td>1898</td>
+                      </tr>
+                      <tr>
+                        <td class="lead">Madureira</td>
+                        <td>Série C</td>
+                        <td>Estádio Aniceto Moscoso 5,400 (10,762 record)</td>
+                        <td>1914</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p>Rio de Janeiro was one of the host cities of the 2014 FIFA World Cup, for which Brazil was the host nation. The Maracanã Stadium hosted seven matches, including the final.</p>
+              </div>
+            </main>
+            <aside class="col-sm-4 col-md-3 col-md-offset-1 col-lg-3 col-lg-offset-1 side-news">
+              <div id="socials-lead" class="socials">
+                <a href="#" class="socials__item socials__item-fb"><i class="fa fa-facebook"></i><span>Share</span></a>
+                <a href="#" class="socials__item socials__item-tw"><i class="fa fa-twitter"></i><span>Tweet</span></a>
+                <a href="#" class="socials__item socials__item-more"><i class="fa fa-plus"></i></a>
+                <div class="aside__news-title">Interesting</div>
+              </div>
+              <div class="aside__news">
+                <article class="col-xm-6 col-sm-12 col-md-12 col-lg-12 news-item news-item-2l">
+                  <a href="#" class="news-item__image-wrap">
+                    <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+                  </a>
+                  <a class="news-item__title" href="#">NY city tours</a>
+                </article>
+                <article class="col-xm-6 col-sm-12 col-md-12 col-lg-12 news-item news-item-2l">
+                  <a href="#" class="news-item__image-wrap">
+                    <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+                  </a>
+                  <a class="news-item__title" href="#">Prince Islands ferry</a>
+                </article>
+                <article class="col-xm-6 col-sm-12 col-md-12 col-lg-12 news-item news-item-2l">
+                  <a href="#" class="news-item__image-wrap">
+                    <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+                  </a>
+                  <a class="news-item__title" href="#">White House Clash</a>
+                </article>
+                <article class="col-xm-6 col-sm-12 col-md-12 col-lg-12 news-item news-item-2l">
+                  <a href="#" class="news-item__image-wrap news-item__image-nobg">
+                    <svg version="1.1" class="news-item__image-nobg-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1520 855" enable-background="new 0 0 1520 855" xml:space="preserve">
+                      <rect fill="url(#SVGID_1_)" width="1520" height="855" />
+                    </svg>
+                    <span class="no-photo"></span>
+                  </a>
+                  <a class="news-item__title" href="#">LIVE: Follow the Pistorius verdict Can we ever create true invisibility?</a>
+                </article>
+                <div class="clearfix visible-sm visible-md visible-lg"></div>
+                <div class="image-prld">
+                  <div id="loader" class="loader active"></div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+      <div class="recommend">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 recommend__title">Recommended</div>
+          </div>
+        </div>
+        <div class="recommend__news-wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 recommend__news">
+                <article class="col-xm-6 col-sm-6 col-md-3 col-lg-4 news-item news-item-2l">
+                  <a href="#" class="news-item__image-wrap">
+                    <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+                  </a>
+                  <a class="news-item__title" href="#">NY city tours</a>
+                </article>
+                <article class="col-xm-6 col-sm-6 col-md-3 col-lg-4 news-item news-item-2r">
+                  <a href="#" class="news-item__image-wrap">
+                    <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+                  </a>
+                  <a class="news-item__title" href="#">Prince Islands ferry</a>
+                </article>
+                <article class="col-xm-6 col-sm-6 col-md-3 col-lg-4 news-item news-item-2l">
+                  <a href="#" class="news-item__image-wrap">
+                    <img class="news-item__image" src="http://placehold.it/350x200.jpg" alt="">
+                  </a>
+                  <a class="news-item__title" href="#">White House Clash</a>
+                </article>
+                <article class="col-xm-6 col-sm-6 col-md-3 news-item news-item-2l hidden-lg">
+                  <a href="#" class="news-item__image-wrap news-item__image-n news-item__image-nobg">
+                    <svg version="1.1" class="news-item__image-nobg-img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1520 855" enable-background="new 0 0 1520 855" xml:space="preserve">
+                      <rect fill="url(#SVGID_1_)" width="1520" height="855" />
+                    </svg>
+                    <span class="no-photo"></span>
+                  </a>
+                  <a class="news-item__title" href="#">Kenya struggle shootout</a>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="comments">
+        <div class="comments__wrap">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 comments__title">Comments</div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 disqus_wrap">
+              <div id="disqus_thread"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">Stay updated</div>
+            <form action="#" id="email-footer-form" role="form" method="post" novalidate="novalidate">
+              <div class="form-group">
+                <input type="email" id="fvi" class="form-control" placeholder="Email:" required>
+                <!-- <label for="fvi" class="control-label"></label> -->
+              </div>
+              <div id="loader-subscribe-form" class="form-loader hidden">
+                <div class="loader">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-darkened pull-left">Subscribe</button>
+            </form>
+            <div id="success-subscribe" class="success-message hidden">
+              <div class="suc-title"><i class="fa fa-check"></i>Thank you!</div>
+            </div>
+          </div>
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">We need your support</div>
+            <ul class="footer__ulist">
+              <li><a href="#">Donate</a>
+              </li>
+              <li><a href="#">Volunteer</a>
+              </li>
+              <li><a href="#">Fundraise</a>
+              </li>
+              <li><a href="#">Adopt a project</a>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix visible-sm-block visible-md-block"></div>
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">Contact</div>
+            <ul class="footer__icon-list">
+              <li class="icon-list__item icon-list__item-baloone">Kazantseva str. 7B, 29
+                <br>Mariupol 87500 Ukraine</li>
+              <li class="icon-list__item icon-list__item-phone">+38 (074) 458 78 78</li>
+              <li class="icon-list__item icon-list__item-letter"><a href="mailto:themes@makebecool.com">themes@makebecool.com</a> 
+                <br><a href="#">makebecool.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">Our mission</div>
+            <p>Yet as Philip Ball points out, the history of camouflage and our limited understanding of how creatures hide in nature may make the task trickier than it seems.</p>
+            <div class="copyrights copyrights__footer">Copyright © 2015. All Rights reserved.</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/jquery/jquery-1.11.1.min.js"></script>
+  <script src="js/otherlibs/bootstrap/bootstrap.js"></script>
+  <script src="js/jquery/plugins/Chart.js"></script>
+  <script src="js/jquery/plugins/bootstrap-select.js"></script>
+  <script src="js/jquery/plugins/slick/slick.js"></script>
+  <script src="js/jquery/plugins/topEventsAnimate.js"></script>
+  <script src="js/jquery/plugins/skrollr.js"></script>
+  <script src="js/jquery/plugins/jquery.sharrre.min.js"></script>
+  <script src="js/jquery/plugins/jquery.form.js"></script>
+  <script src="js/jquery/plugins/validation/jquery.validate.js"></script>
+  <script src="js/app/lib/site.js"></script>
+  <script src="js/app/lib/siteMode.js"></script>
+  <script src="js/app/mode/themeMode.js"></script>
+  <script src="js/app/modules/mainSlider.js"></script>
+  <script src="js/app/modules/menuAligns.js"></script>
+  <script src="js/app/modules/bgStretch.js"></script>
+  <script src="js/app/modules/eventAnimate.js"></script>
+  <script src="js/app/modules/stuffSlider.js"></script>
+  <script src="js/app/modules/gridsDiagramms.js"></script>
+  <script src="js/app/modules/barChart.js"></script>
+  <script src="js/app/modules/disquis.js"></script>
+  <script src="js/app/modules/stickyHeader.js"></script>
+  <script src="js/app/modules/globalScripts.js"></script>
+  <script src="js/app/modules/parallax.js"></script>
+  <script src="js/app/modules/backgroundImg.js"></script>
+  <script src="js/app/modules/scrollPlugin.js"></script>
+  <script src="js/app/modules/googleMap.js"></script>
+  <script src="js/app/modules/eventSlider.js"></script>
+  <script src="js/app/modules/stuffPage.js"></script>
+  <script src="js/app/modules/aboutDiagramms.js"></script>
+  <script src="js/app/modules/sharrre.js"></script>
+  <script src="js/app/modules/dtMenu.js"></script>
+  <script src="js/app/modules/formSubscribe.js"></script>
+  <script src="js/app/modules/formFieldsSubscribe.js"></script>
+  <script>
+    appMakeBeCool.gateway.init();
+  </script>
+</body>
+
+</html>

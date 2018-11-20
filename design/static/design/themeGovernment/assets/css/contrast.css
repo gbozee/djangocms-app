@@ -1,0 +1,39 @@
+.high-contrast .bg-col {
+    background-color: #000;
+}
+
+.high-contrast a,
+.high-contrast p {
+    color: #fff !important;
+}
+
+.high-contrast ul li a {
+    color: #000 !important;
+}
+
+.high-contrast ul li:hover a {
+    /* color: #000 !important; */
+}
+
+.high-contrast .bg-dark {
+    background-color: #fff;
+}
+
+.high-contrast .bg-dark h2 {
+    color: #000 !important;
+}
+
+.high-contrast .bg-dark h3 {
+    color: #fff !important;
+}
+
+@media screen and (min-width: 1200px) {
+    .high-contrast header {
+        background: #fff;
+    }
+
+    .high-contrast .navbar-nav .dropdown>.dropdown-menu {
+        padding: 0 0 0 20px;
+        background-color: #fff;
+    }
+}

@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>News</title>
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <base href="" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="">
+  <meta property="og:title" content="" />
+  <meta property="og:description" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
+  <meta property="og:site_name" content="" />
+  <link rel="dns-prefetch" href="http://code.jquery.com" />
+  <link rel="dns-prefetch" href="http://fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="http://www.google-analytics.com" />
+  <link rel="icon" href="images/themegovrnmnt-favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="images/themegovrnmnt-favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/min/style.min.css">
+  <link rel="stylesheet" href="js/jquery/plugins/slick/slick.css">
+  <link rel="stylesheet" href="css/color/sandybay-color.min.css">
+  <link rel="stylesheet" href="css/color/skyline-color.min.css">
+  <link rel="stylesheet" href="css/color/raspberry-color.min.css">
+  <!--[if lt IE 9]>
+            <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <![endif]-->
+  <!--[if IE]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+
+<body id="body">
+  <div>
+    <div id="sticky" class="sticky">
+      <div class="container-fluid">
+        <div class="row">
+          <a href="index.html" class="sticky__brand">
+            <img src="images/logo.png" alt="">
+          </a>
+          <div class="sticky__event-time">
+            <div class="sticky__event-time-lft">
+              <time datetime="2014-09-14T12:00">14-09-2014 12:00</time>
+            </div>
+            <div class="sticky__event-time-rt">
+              <i class="fa fa-clock-o"></i>
+            </div>
+          </div>
+          <div class="sticky__title sticky__title-diagr">Prince Islands ferry trip</div>
+          <div class="socials">
+            <a href="#" class="socials__item socials__item-fb"><i class="fa fa-facebook"></i><span>Share</span></a>
+            <a href="#" class="socials__item socials__item-tw"><i class="fa fa-twitter"></i><span>Tweet</span></a>
+            <a href="#" class="socials__item socials__item-more"><i class="fa fa-plus"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-2 col-lg-offset-1 navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="home-btn">Home</div>
+            <a href="index.html" class="navbar-brand">
+              <img src="images/logo.png" alt="">
+            </a>
+            <div class="line"></div>
+          </div>
+          <div class="col-lg-7 col-lg-offset-1 navbar-collapse collapse">
+            <nav role="navigation">
+              <ul id="navigation" class="nav navbar-nav navbar-right dl-menu">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Projects <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="projects.html">Projects</a>
+                    </li>
+                    <li><a href="projects-view.html">Project view</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown active">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Events <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="events.html">Events</a>
+                    </li>
+                    <li class="active"><span>Events view</span>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">News <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="news.html">News</a>
+                    </li>
+                    <li><a href="news-no-image.html">News view (no image)</a>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a href="news-view.html" class="dropdown-toggle" role="button" aria-expanded="false">News view <i>›</i></a>
+                      <ul class="dropdown-menu dl-submenu" role="menu">
+                        <li><a href="#">News view 3 level</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li>
+                  <a href="stuff.html">Stuff</a>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">About <i>›</i></a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li><a href="about.html">About page</a>
+                    </li>
+                    <li><a href="404.html">404 page</a>
+                    </li>
+                    <li><a href="buttons.html">Design elements</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+                <li>
+                  <a href="contacts.html">Contacts</a>
+                  <div class="clearfix"></div>
+                </li>
+                <li class="dropdown colors">
+                  <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">
+                    <span class="fa fa-cog"></span><i>›</i>
+                  </a>
+                  <ul class="dropdown-menu dl-submenu" role="menu">
+                    <li class="active">
+                      <span>
+													<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+													<path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0"/>
+													<rect fill="#012267" width="14" height="14"/>
+													<rect x="14" fill="#9A0000" width="14" height="14"/>
+													</svg>
+													Government
+												</span>
+                    </li>
+                    <li>
+                      <a href="index-sandybay.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#01478e" width="14" height="14" />
+                          <rect x="14" fill="#ab6a0f" width="14" height="14" />
+                        </svg>
+                        SANDYBAY
+                      </a>
+                    </li>
+                    <li>
+                      <a href="index-skyline.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#232323" width="14" height="14" />
+                          <rect x="14" fill="#006b8e" width="14" height="14" />
+                        </svg>
+                        SKYLINE
+                      </a>
+                    </li>
+                    <li>
+                      <a href="index-raspberry.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#900021" width="14" height="14" />
+                          <rect x="14" fill="#242424" width="14" height="14" />
+                        </svg>
+                        Raspberry</a>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                      <a href="main-bordered.html">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="14px" viewBox="0 0 28 14" enable-background="new 0 0 28 14" xml:space="preserve">
+                          <path fill="#012267" stroke="#201600" stroke-miterlimit="10" d="M0,0" />
+                          <rect fill="#F8F8F8" width="28" height="14" />
+                          <rect x="5.906" fill="#E9E8DC" width="16.156" height="14" />
+                          <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="22.0625" y1="7" x2="28" y2="7">
+                            <stop offset="0" style="stop-color:#000000" />
+                            <stop offset="1" style="stop-color:#FFFFFF" />
+                          </linearGradient>
+                          <rect x="22.063" opacity="0.41" fill="url(#SVGID_1_)" width="5.938" height="14" />
+                          <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="0" y1="7" x2="5.9375" y2="7">
+                            <stop offset="0" style="stop-color:#FFFFFF" />
+                            <stop offset="1" style="stop-color:#000000" />
+                          </linearGradient>
+                          <rect opacity="0.41" fill="url(#SVGID_2_)" width="5.938" height="14" />
+                        </svg>
+                        Boxed</a>
+                    </li>
+                  </ul>
+                  <div class="clearfix"></div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="events-view">
+      <section class="fw-news events-view__item">
+        <!-- <img src="../uploads/news/tonyabbott.jpg" alt="" class="fw-news__image"> -->
+        <div class="fw-image-parallax" data-parallax-url="http://placehold.it/1600x480.jpg"></div>
+        <div class="fw-news__pattern"></div>
+        <div class="fw-news__inner">
+          <div class="img-circle">
+            <img src="../uploads/event-view/Article/logo-ar.jpg" alt="">
+          </div>
+          <h1>Prince Islands ferry tour</h1>
+        </div>
+      </section>
+      <div id="content" class="mapper">
+        <div class="container">
+          <div class="row">
+            <div id="map-canvas-event1" class="col-sm-8 col-md-8 mapper__map">
+              <div id="event_canvas" class="mapper__map-inner" data-latitude="41.033658" data-longitude="28.993832" data-map-name="Kabataş, Istanbul">
+              </div>
+            </div>
+            <div class="col-sm-4 col-md-3 mapper__desrc">
+              <div class="mapper__desrc-inner">
+                <div class="mapper__desrc-item">
+                  <div class="mapper__desrc-d">Monday</div>
+                  <div class="mapper__desrc-dt">14 Sep 2014</div>
+                  <div class="mapper__desrc-pl">10:00</div>
+                </div>
+                <div class="mapper__desrc-item">
+                  <div class="mapper__desrc-d">Destination</div>
+                  <div class="mapper__desrc-pl">Kabataş</div>
+                </div>
+                <div class="mapper__desrc-item">
+                  <div class="mapper__desrc-d">for</div>
+                  <div class="mapper__desrc-pl">$5</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="event-organizers">
+        <div class="container">
+          <h2 class="coll-hdr">
+					Event <b>Organizers</b>
+					</h2>
+          <div class="row">
+            <div class="col-md-8 col-lg-8 event-organizers__ppl">
+              <div class="row event-organizers__ppl-inner">
+                <article class="col-sm-6 col-md-6 event-organizers__item">
+                  <div class="event-organizers__item-lft">
+                    <img src="http://placehold.it/200x200.jpg" alt="" class="event-organizers__item-img img-circle">
+                  </div>
+                  <div class="event-organizers__item-rt">
+                    <h3>Program and work with the tourists</h3>
+                    <h4>Nina Belousova</h4>
+                    <ul class="event-organizers__item-lst">
+                      <li>
+                        <i class="fa fa-envelope-o"></i>
+                        <a href="#" class="project-stuff__quote-link">Nina.Belousova@mail.com</a>
+                      </li>
+                      <li>
+                        <i class="fa fa-skype"></i>
+                        <a href="#" class="project-stuff__quote-link">nina.belousova</a>
+                      </li>
+                      <li>
+                        <i class="fa fa-facebook"></i>
+                        <a href="#" class="project-stuff__quote-link">facebook.com/belousova</a>
+                      </li>
+                      <li>
+                        <i class="fa fa-twitter"></i>
+                        <a href="#" class="project-stuff__quote-link">twitter.com/NinaBelous</a>
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+                <div class="br-t clearfix visible-xs"></div>
+                <article class="col-sm-6 col-md-6 event-organizers__item">
+                  <div class="event-organizers__item-lft">
+                    <img src="http://placehold.it/200x200.jpg" alt="" class="event-organizers__item-img img-circle">
+                  </div>
+                  <div class="event-organizers__item-rt">
+                    <h3>Working with VIP Members</h3>
+                    <h4>Peter Tong</h4>
+                    <ul class="event-organizers__item-lst">
+                      <li>
+                        <i class="fa fa-envelope-o"></i>
+                        <a href="#" class="project-stuff__quote-link">peter.tong@mail.com</a>
+                      </li>
+                      <li>
+                        <i class="fa fa-phone"></i>
+                        <a href="#" class="project-stuff__quote-link">+38 (004) 57-45-47</a>
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+                <div class="br-t clearfix visible-xs"></div>
+              </div>
+              <div class="br-t clearfix visible-sm visible-lg visible-md"></div>
+              <div class="row event-organizers__ppl-inner">
+                <article class="col-sm-6 col-md-6 event-organizers__item">
+                  <div class="event-organizers__item-lft">
+                    <img src="http://placehold.it/200x200.jpg" alt="" class="event-organizers__item-img img-circle">
+                  </div>
+                  <div class="event-organizers__item-rt">
+                    <h3>Manager</h3>
+                    <h4>John Black</h4>
+                    <ul class="event-organizers__item-lst">
+                      <li>
+                        <i class="fa fa-envelope-o"></i>
+                        <a href="#" class="project-stuff__quote-link">Nina.Belousova@mail.com</a>
+                      </li>
+                      <li>
+                        <i class="fa fa-skype"></i>
+                        <a href="#" class="project-stuff__quote-link">nina.belousova</a>
+                      </li>
+                      <li>
+                        <i class="fa fa-facebook"></i>
+                        <a href="#" class="project-stuff__quote-link">facebook.com/belousova</a>
+                      </li>
+                      <li>
+                        <i class="fa fa-twitter"></i>
+                        <a href="#" class="project-stuff__quote-link">twitter.com/NinaBelous</a>
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+                <div class="br-t clearfix visible-xs"></div>
+                <article class="col-sm-6 col-md-6 event-organizers__item">
+                  <div class="event-organizers__item-lft">
+                    <img src="http://placehold.it/200x200.jpg" alt="" class="event-organizers__item-img img-circle">
+                  </div>
+                  <div class="event-organizers__item-rt">
+                    <h3>Director</h3>
+                    <h4>Anita Billboard</h4>
+                    <ul class="event-organizers__item-lst">
+                      <li>
+                        <i class="fa fa-envelope-o"></i>
+                        <a href="#" class="project-stuff__quote-link">Nina.Belousova@mail.com</a>
+                      </li>
+                      <li>
+                        <i class="fa fa-skype"></i>
+                        <a href="#" class="project-stuff__quote-link">nina.belousova</a>
+                      </li>
+                      <li>
+                        <i class="fa fa-facebook"></i>
+                        <a href="#" class="project-stuff__quote-link">facebook.com/belousova</a>
+                      </li>
+                      <li>
+                        <i class="fa fa-twitter"></i>
+                        <a href="#" class="project-stuff__quote-link">twitter.com/NinaBelous</a>
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-4 project-news__subscribe-wrap event-organizers__subscribe-wrap">
+              <div class="project-news__subscribe-left-t"></div>
+              <div class="project-news__subscribe-left-b"></div>
+              <div class="project-news__subscribe-right-t"></div>
+              <div class="project-news__subscribe-right-b"></div>
+              <div class="project-news__subscribe">
+                <div class="project-news__subscribe-title">Booking</div>
+                <p>You can ask or book a ticket</p>
+                <form action="#" class="form-validate" role="form" method="post" novalidate="novalidate">
+                  <div class="form-group">
+                    <input type="email" id="subscribe-email" name="subscribe-email" class="form-control" placeholder="email:" required>
+                    <!-- <label for="subscribe-email"></label> -->
+                  </div>
+                  <div class="form-group">
+                    <input type="text" id="subscribe-name" name="subscribe-name" class="form-control" placeholder="your name:" required>
+                    <!-- <label for="subscribe-name"></label> -->
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" id="subscribe-textarea" name="subscribe-textarea" rows="4" placeholder="Additional info:" required></textarea>
+                  </div>
+                  <button class="btn btn-darkened" value="Send" type="submit">Send</button>
+                  <!-- <input type="submit" class="btn btn-darkened" value="Send"> -->
+                  <div class="form-loader hidden">
+                    <div id="loader" class="loader">
+
+                    </div>
+                  </div>
+                </form>
+                <div class="success-message hidden">
+                  <div class="suc-title"><i class="fa fa-check"></i>Thank you!</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="event-details">
+        <div class="container">
+          <h2 class="coll-hdr br-t">Event <b>Details</b></h2>
+          <main class="project-details__inner content__text">
+            <hr class="first">
+            <p>Istanbul is surrounded and divided by water. Because of this you’ll see a bustling activity of floating devices on the Bosphorus, the Sea of Marmara and in the Golden Horn. A whole array of water-borne craft, ranging from privately owned (fishing) boats, over regular ferries (vapur) to a fleet of high-speed catamaran sea buses (deniz otobüsü).</p>
+            <p>İDO, Istanbul’s Fast Ferry and Sea Bus Company, is the market leader and offers visitors and locals alike probably the most relaxing and quickest way of transportation available in Istanbul. Whether you want to go up and/or down the Bosphorus, travel between the European and Asian shores, or make a short trip to the Princes’ Islands, they have a suitable and cheap solution for all of this.</p>
+            <hr>
+            <p>On the Asian side, the main piers are located in Kadıköy (to Beşiktaş, Eminönü, Karaköy and the Princes’ Islands) and in Üsküdar (towards Beşiktaş, Eminönü and Kabataş).</p>
+            <figure class="row full-figure-aside">
+              <div class="col-sm-7 col-md-8">
+                <img src="http://placehold.it/900x500.jpg" alt="" title="American C-130 planes">
+              </div>
+              <div class="col-sm-5 col-md-4">
+                <hr>
+                <figcaption>High-speed ferry or sea bus.</figcaption>
+              </div>
+            </figure>
+            <p>The interior of the high-speed catamaran ferries or sea buses resemble aircraft cabins, with long rows of comfortable seats and air-conditioning. The main docks are Bostancı and Kadıköy on the Asian side, and Kabataş, Yenikapı and Bakırköy on the European side. As a tourist, chances are you’ll only use this ferry type to reach the Princes’ Islands from the Kabataş pier.</p>
+          </main>
+        </div>
+      </section>
+      <section class="event-details">
+        <div class="container">
+          <h2 class="coll-hdr br-t">Event <b>Chronogram</b></h2>
+          <div class="project-details__inner content__text">
+            <hr class="first">
+            <div class="event-details__item">
+              <div class="event-details__item-lft">
+                <time datetime="2004-07-24T09:00"><b>9:00</b> — 10:00</time>
+              </div>
+              <div class="event-details__item-rt">
+                <div class="event-details__item-ttl">
+                  <div class="event-details__item-ttl-lft">
+                    <img src="http://placehold.it/200x200.jpg" alt="" class="img-circle">
+                  </div>
+                  <div class="event-details__item-ttl-rt">
+                    <h3>Anita Billboard</h3>
+                    <h4>Director</h4>
+                  </div>
+                </div>
+                <div class="event-details__item-descr content__text">
+                  <h5>Meeting the arrived guests</h5>
+                  <p>First impressions make a significant impact on how others perceive you. Therefore, the introduction that you or another person gives about you is extremely important. You should give careful thought to these words when you write a speech introducing yourself. The information you give can either uphold or harm your credibility.</p>
+                </div>
+              </div>
+            </div>
+            <hr class="first clearfix">
+            <div class="event-details__item">
+              <div class="event-details__item-lft">
+                <time datetime="2004-07-24T09:00"><b>10:00</b> — 10:45</time>
+              </div>
+              <div class="event-details__item-rt">
+                <div class="event-details__item-ttl">
+                  <div class="event-details__item-ttl-lft">
+                    <img src="http://placehold.it/200x200.jpg" alt="" class="img-circle">
+                  </div>
+                  <div class="event-details__item-ttl-rt">
+                    <h3>Peter Tong</h3>
+                    <h4>Guide</h4>
+                  </div>
+                </div>
+                <div class="event-details__item-descr content__text">
+                  <h5>Ferry trip begin</h5>
+                  <p>Most of the typical tourist destinations are reachable by both type of boats. It’s up to you to decide which craft to use, based on your personal preference. Let me list the pros and consof the two ferry types.</p>
+                </div>
+              </div>
+            </div>
+            <hr class="first clearfix">
+            <div class="event-details__item">
+              <div class="event-details__item-lft">
+                <time datetime="2004-07-24T09:00"><b>10:45</b> — 12:00</time>
+              </div>
+              <div class="event-details__item-rt">
+                <h3 class="crs">Free time at the islands</h3>
+              </div>
+            </div>
+            <hr class="first clearfix">
+            <div class="event-details__item">
+              <div class="event-details__item-lft">
+                <time datetime="2004-07-24T09:00"><b>12:00</b> — 12:45</time>
+              </div>
+              <div class="event-details__item-rt">
+                <div class="event-details__item-ttl">
+                  <div class="event-details__item-ttl-lft">
+                    <img src="http://placehold.it/200x200.jpg" alt="" class="img-circle">
+                  </div>
+                  <div class="event-details__item-ttl-rt">
+                    <h3>Nina Belousova</h3>
+                    <h4>Island guide</h4>
+                  </div>
+                </div>
+                <div class="event-details__item-descr content__text">
+                  <h5>Bisycle trip around the last island</h5>
+                  <p>Typically, we begin in Charlottetown with professional outfitting, a short tour of the Island's capital and accommodations in our capitol city. You will then cycle to our quiet eastern coast visiting Montague's waterfront and picturesque Panmure Island. From there you have a choice of cycling to Souris and the "singing sands" of Basin Head or to St Peters and the unique sand dunes of our National Park before returning to Charlottetown. Or, if you prefer, you can visit both Souris and St Peters enjoying both destinations. You'll return to Charlottetown by cycling the Confederation Trail, encountering quaint fishing villages, lighthouses, farmland, beaches, friendly people and the peace and serenity that Prince Edward Island offers..</p>
+                </div>
+              </div>
+            </div>
+            <hr class="first clearfix">
+            <div class="event-details__item">
+              <div class="event-details__item-lft">
+                <time datetime="2004-07-24T09:00"><b>13:00</b> — 13:45</time>
+              </div>
+              <div class="event-details__item-rt">
+                <div class="event-details__item-ttl">
+                  <div class="event-details__item-ttl-lft">
+                    <img src="http://placehold.it/200x200.jpg" alt="" class="img-circle">
+                  </div>
+                  <div class="event-details__item-ttl-rt">
+                    <h3>John Black</h3>
+                    <h4>Manager</h4>
+                  </div>
+                </div>
+                <div class="event-details__item-descr content__text">
+                  <h5>Finish</h5>
+                  <p>Closing credits.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="event-partners">
+        <div class="container">
+          <h2 class="coll-hdr br-t">Event <b>Partners</b></h2>
+          <div id="event-partners__slider" class="event-partners__slider">
+            <div class="event-partners__slider-item">
+              <a href="#" title="Bubble gum" class="event-partners__slider-circle img-circle">
+                <img src="http://placehold.it/160x100.jpg" alt="">
+              </a>
+            </div>
+            <div class="event-partners__slider-item">
+              <a href="#" title="Bubble gum" class="event-partners__slider-circle img-circle">
+                <img src="http://placehold.it/160x100.jpg" alt="">
+              </a>
+            </div>
+            <div class="event-partners__slider-item">
+              <a href="#" title="Bubble gum" class="event-partners__slider-circle img-circle">
+                <img src="http://placehold.it/160x100.jpg" alt="">
+              </a>
+            </div>
+            <div class="event-partners__slider-item">
+              <a href="#" title="Bubble gum" class="event-partners__slider-circle img-circle">
+                <img src="http://placehold.it/160x100.jpg" alt="">
+              </a>
+            </div>
+            <div class="event-partners__slider-item">
+              <a href="#" title="Bubble gum" class="event-partners__slider-circle img-circle">
+                <img src="http://placehold.it/160x100.jpg" alt="">
+              </a>
+            </div>
+            <div class="event-partners__slider-item">
+              <a href="#" title="Bubble gum" class="event-partners__slider-circle img-circle">
+                <img src="http://placehold.it/160x100.jpg" alt="">
+              </a>
+            </div>
+            <div class="event-partners__slider-item">
+              <a href="#" title="Bubble gum" class="event-partners__slider-circle img-circle">
+                <img src="http://placehold.it/160x100.jpg" alt="">
+              </a>
+            </div>
+            <div class="event-partners__slider-item">
+              <a href="#" title="Bubble gum" class="event-partners__slider-circle img-circle">
+                <img src="http://placehold.it/160x100.jpg" alt="">
+              </a>
+            </div>
+            <div class="event-partners__slider-item">
+              <a href="#" title="Bubble gum" class="event-partners__slider-circle img-circle">
+                <img src="http://placehold.it/160x100.jpg" alt="">
+              </a>
+            </div>
+            <div class="event-partners__slider-item">
+              <a href="#" title="Bubble gum" class="event-partners__slider-circle img-circle">
+                <img src="http://placehold.it/160x100.jpg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">Stay updated</div>
+            <form action="#" id="email-footer-form" role="form" method="post" novalidate="novalidate">
+              <div class="form-group">
+                <input type="email" id="fvi" class="form-control" placeholder="Email:" required>
+                <!-- <label for="fvi" class="control-label"></label> -->
+              </div>
+              <div id="loader-subscribe-form" class="form-loader hidden">
+                <div class="loader">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-darkened pull-left">Subscribe</button>
+            </form>
+            <div id="success-subscribe" class="success-message hidden">
+              <div class="suc-title"><i class="fa fa-check"></i>Thank you!</div>
+            </div>
+          </div>
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">We need your support</div>
+            <ul class="footer__ulist">
+              <li><a href="#">Donate</a>
+              </li>
+              <li><a href="#">Volunteer</a>
+              </li>
+              <li><a href="#">Fundraise</a>
+              </li>
+              <li><a href="#">Adopt a project</a>
+              </li>
+            </ul>
+          </div>
+          <div class="clearfix visible-sm-block visible-md-block"></div>
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">Contact</div>
+            <ul class="footer__icon-list">
+              <li class="icon-list__item icon-list__item-baloone">Kazantseva str. 7B, 29
+                <br>Mariupol 87500 Ukraine</li>
+              <li class="icon-list__item icon-list__item-phone">+38 (074) 458 78 78</li>
+              <li class="icon-list__item icon-list__item-letter"><a href="mailto:themes@makebecool.com">themes@makebecool.com</a> 
+                <br><a href="#">makebecool.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="foot-sect col-xs-12 col-md-6 col-sm-6 col-lg-3">
+            <div class="foot-title">Our mission</div>
+            <p>Yet as Philip Ball points out, the history of camouflage and our limited understanding of how creatures hide in nature may make the task trickier than it seems.</p>
+            <div class="copyrights copyrights__footer">Copyright © 2015. All Rights reserved.</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="js/jquery/jquery-1.11.1.min.js"></script>
+  <script src="js/otherlibs/bootstrap/bootstrap.js"></script>
+  <script src="js/jquery/plugins/Chart.js"></script>
+  <script src="js/jquery/plugins/bootstrap-select.js"></script>
+  <script src="js/jquery/plugins/slick/slick.js"></script>
+  <script src="js/jquery/plugins/topEventsAnimate.js"></script>
+  <script src="js/jquery/plugins/skrollr.js"></script>
+  <script src="js/jquery/plugins/jquery.sharrre.min.js"></script>
+  <script src="js/jquery/plugins/jquery.form.js"></script>
+  <script src="js/jquery/plugins/validation/jquery.validate.js"></script>
+  <script src="js/app/lib/site.js"></script>
+  <script src="js/app/lib/siteMode.js"></script>
+  <script src="js/app/mode/themeMode.js"></script>
+  <script src="js/app/modules/mainSlider.js"></script>
+  <script src="js/app/modules/menuAligns.js"></script>
+  <script src="js/app/modules/bgStretch.js"></script>
+  <script src="js/app/modules/eventAnimate.js"></script>
+  <script src="js/app/modules/stuffSlider.js"></script>
+  <script src="js/app/modules/gridsDiagramms.js"></script>
+  <script src="js/app/modules/barChart.js"></script>
+  <script src="js/app/modules/disquis.js"></script>
+  <script src="js/app/modules/stickyHeader.js"></script>
+  <script src="js/app/modules/globalScripts.js"></script>
+  <script src="js/app/modules/parallax.js"></script>
+  <script src="js/app/modules/backgroundImg.js"></script>
+  <script src="js/app/modules/scrollPlugin.js"></script>
+  <script src="js/app/modules/googleMap.js"></script>
+  <script src="js/app/modules/eventSlider.js"></script>
+  <script src="js/app/modules/stuffPage.js"></script>
+  <script src="js/app/modules/aboutDiagramms.js"></script>
+  <script src="js/app/modules/sharrre.js"></script>
+  <script src="js/app/modules/dtMenu.js"></script>
+  <script src="js/app/modules/formSubscribe.js"></script>
+  <script src="js/app/modules/formFieldsSubscribe.js"></script>
+  <script>
+    appMakeBeCool.gateway.init();
+  </script>
+</body>
+
+</html>

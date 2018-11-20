@@ -1,0 +1,177 @@
+
+/* Defaults
+blue:#026;
+dark-blue:#000b22;
+red:#900;
+background:;
+link-hover:;
+
+new-blue:#;
+new-red:#;
+new-dark-blue:#;
+new-background:#;
+new-link-hover:;
+-------------------------------*/
+
+/* 404
+-------------------------------*/
+.ff__title {color: #9a0000;}
+.ff__link {color: #002465;}
+
+@media screen and (min-width: 1200px) {
+	.ff__link:hover {color: #002465;}
+}
+
+/* Globals
+-------------------------------*/
+header {}
+.navbar-toggle {background-color: #900;}
+.navbar-nav {background-color: #000;}
+.line {background-color: #900;}
+.subview .subviewopen>.dl-submenu {background-color: #000;}
+.subview li.subview .dl-submenu {background-color: #000;}
+footer {background-color: #000b22;}
+.label-default {background-color: #026;}
+.label-default__arr path {fill: #026;}
+.btn-read {color: #900;}
+.btn-read__arr-path {fill: #900;}
+.btn-read-more {color: #900;}
+.btn-read-more__arr-path {fill: #900;}
+.btn-read-primary {background-color: #026;}
+.btn-read-primary__inverse {background-color: #000;}
+.btn-read-primary__inverse:hover {background-color: #026;}
+.btn-support {border-color:#900;color: #900;}
+.btn-support:active, .btn-support:focus, .btn-support:hover, .open>.btn-support.dropdown-toggle {background-color: #900;border-color: #900;}
+.prop-icons__item-vl {color: #900;}
+.fw-colorBg__second {background-color: #900;}
+.content__text a {color: #026;}
+
+@media screen and (min-width: 1200px) {
+
+	.navbar-nav {background-color: transparent;}
+	nav>.nav.navbar-nav>li>a:hover {border-bottom-color: #900;}
+	nav>.nav.navbar-nav>li.dropdown:hover>a {border-bottom-color:#900;}
+	.btn-read:hover {color: #900;}
+	.btn-read-more:hover {color: #900;}
+
+}
+
+/* About
+-------------------------------*/
+
+/* Buttons
+-------------------------------*/
+
+/* Contacts
+-------------------------------*/
+.fw-colorBg {background-color: #026;}
+
+/* Events
+-------------------------------*/
+
+@media screen and (min-width: 1200px) {
+
+	.event-bl:hover .event-bl__inner h3 a {color: #026;}
+	.top-navig__item:hover .top-navig__item-inner span {color: #026;}
+
+}
+
+/* Events-view
+-------------------------------*/
+.mapper__desrc-pl {color: #900;}
+.event-organizers__item-lst li a {color: #026;}
+.event-organizers__subscribe-wrap .project-news__subscribe {background-color: #026;}
+
+/* Main
+-------------------------------*/
+.slider__title span {background-color: rgba(153,0,0,.8);}
+.slider__container .label-time .label-default__arr-left path {fill: #e9e8dc;}
+.slider__container .btn-read-primary__inverse {background-color: #000;}
+
+.news-item-big__title-color {color: #026;}
+.news-item-big .news-item-big__header h3 {color: #026;}
+.blue-chart {color: #026;}
+.sm-diagramm .diagramm-number {color: #026;}
+.red-chart {color: #900;}
+.big-diagramm .diagramm-number {color: #900;}
+.work-item .label-time .label-default__arr-left path {fill: #e9e8dc;}
+.tw-item p a {color: #026;}
+.tablist__all-arr path {fill: #026;}
+.event-bl .btn-read-primary {background-color: #000;}
+ul.nav.nav-tabs>li.tablist__all>a {background-color: #026;}
+.soc-arr__arr {background-color: #026;}
+.soc-arr__arr-flag path {background-color: #026;}
+.soc-arr__arr .soc-arr__arr-flag path {fill: #026;}
+.soc-arr__arr .soc-arr__arr-tail path {fill: #026;}
+
+@media screen and (min-width: 1200px) {
+
+	.slider__container .btn-read-primary__inverse:hover {background-color:#026;}
+	.news .fullW-news-item__text h3 a:hover {color: #026;}
+	section.video h3 a:hover {color: #026;} 
+	.tw-item p a:hover {color: #026;}
+	.event-bl:hover .btn-read-primary {background-color: #026;}
+	ul.nav.nav-tabs>li>a:hover>.tablist__descr, ul.nav.nav-tabs>li>a:hover>.tablist__title {color: #026;}
+
+}
+
+
+/* News
+-------------------------------*/
+
+@media screen and (min-width: 1200px) {
+
+	.news-item h3 a:hover {color: #026;}
+	.fw-news__inner .line-abt:hover .label-default .label-default__arr path {fill:#000;}
+	.fw-news__inner .line-abt:hover .label-time .label-default__arr-left path {fill:#000;}
+
+}
+
+/* News-view
+-------------------------------*/
+.quote p {color: #900;}
+.publisher-anchor-color a, a.publisher-anchor-color {color: #900 !important;}
+#disqus_thread a {color: #900 !important;}
+
+@media screen and (min-width: 1200px) {
+
+	.aside__news .news-item .news-item__title:focus, .aside__news .news-item .news-item__title:hover {color: #026;}
+
+}
+
+/* Projects
+-------------------------------*/
+.red-chart-diagramm .sm-diagramm .diagramm-number {color: #900;}
+.project-item-ln-wrap {border-color: #900;}
+
+@media screen and (min-width: 1200px) {
+
+	.project-item-ln h2 a:hover {color: #026;}
+	.project-item h2 a:hover {color: #026;}
+
+}
+
+/* Projects-view
+-------------------------------*/
+.project-news__subscribe {background-color: #900;}
+.events__docs-item-ttl {color: #026;}
+.bar-chart {color: #334e85;}
+.project-stuff__quote-link {color: #026;}
+
+@media screen and (min-width: 1200px) {
+
+	.project-stuff__quote-link:hover {color: #026;}
+	.events__docs-item-right a:hover {color: #026;}
+
+}
+
+
+/* Stuff
+-------------------------------*/
+
+@media screen and (min-width: 1200px) {
+
+	.stuff__item-act:hover .stuff__item-ttl {color: #026;}
+	.project-stuff__quote-link:hover {color: #026;}
+
+}

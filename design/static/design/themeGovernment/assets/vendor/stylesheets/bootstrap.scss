@@ -1,0 +1,114 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Fonts
+2. Normalize / #normalize
+3. Print / #print
+4. Glyphicons / #glyphicons
+5. Bootstrap core components / #Bootstrap-core-components
+6. Javascript components / #javascript-component
+7. Utility classes / #utility-classes
+8. Font awesome / #font-awesome
+9. Custom controls / #custom-controls
+10. Custom styles / #custom-styles
+
+
+Some Bootstrap .scss files are muted, beacuse this functions (modals, jumbotron etc.) are not used in the themeGovernment.
+
+-------------------------------------------------------------------*/
+
+
+// Custom variables
+@import "bootstrap/custom-variables";
+
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+
+/*
+ * Normalize / #normalize
+****************************/
+@import "bootstrap/normalize";
+
+/*
+ * Print / #print
+****************************/
+@import "bootstrap/print";
+
+/*
+ * Glyphicons / #glyphicons
+****************************/
+@import "bootstrap/glyphicons";
+
+/*
+ * Glyphicons / #glyphicons
+****************************/
+@import "bootstrap/scaffolding";
+@import "bootstrap/type";
+@import "bootstrap/code";
+@import "bootstrap/grid";
+@import "bootstrap/tables";
+@import "bootstrap/forms";
+@import "bootstrap/buttons";
+
+/*
+ * Bootstrap core components / #Bootstrap-core-components
+****************************/
+@import "bootstrap/component-animations";
+@import "bootstrap/dropdowns";
+@import "bootstrap/button-groups";
+@import "bootstrap/input-groups";
+@import "bootstrap/navs";
+@import "bootstrap/navbar";
+//@import "bootstrap/breadcrumbs";
+@import "bootstrap/pagination";
+@import "bootstrap/pager";
+@import "bootstrap/labels";
+//@import "bootstrap/badges";
+//@import "bootstrap/jumbotron";
+//@import "bootstrap/thumbnails";
+//@import "bootstrap/alerts";
+//@import "bootstrap/progress-bars";
+//@import "bootstrap/media";
+@import "bootstrap/list-group";
+//@import "bootstrap/panels";
+@import "bootstrap/responsive-embed";
+@import "bootstrap/wells";
+@import "bootstrap/close";
+
+
+/*
+ * Javascript components / #javascript-component
+****************************/
+//@import "bootstrap/modals";
+@import "bootstrap/tooltip";
+@import "bootstrap/popovers";
+//@import "bootstrap/carousel";
+
+
+/*
+ * Utility classes / #utility-classes
+****************************/
+@import "bootstrap/utilities";
+@import "bootstrap/responsive-utilities";
+
+
+
+
+//Custom theme styles
+
+/*
+ * Font awesome / #font-awesome
+****************************/
+@import "bootstrap/font-awesome.scss";
+
+/*
+ * Custom controls / #custom-controls
+****************************/
+@import "bootstrap/custom-controls.scss";
+
+/*
+ * Custom styles / #custom-styles
+****************************/
+@import "bootstrap/custom.scss";
