@@ -1,0 +1,13 @@
+services:
+  db:
+    environment: {PGDATA: /var/lib/postgresql/data/pgdata, POSTGRES_DB: db}
+    image: postgres:9.6-alpine
+    volumes: ['./data/db:/var/lib/postgresql/data:rw', '.:/app:rw']
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:80
+    env_file: .env-local
+    links: ['db:postgres']
+    ports: ['8000:80']
+    volumes: ['.:/app:rw', './data:/data:rw']
+version: '2'
